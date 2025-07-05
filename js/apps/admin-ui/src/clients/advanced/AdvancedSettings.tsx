@@ -1,4 +1,4 @@
-import { HelpItem, TextControl } from "@keycloak/keycloak-ui-shared";
+import { HelpItem, TextControl } from "@mister-weeden/keycloak-ui-shared";
 import { ActionGroup, Button, FormGroup } from "@patternfly/react-core";
 import { Controller, useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";

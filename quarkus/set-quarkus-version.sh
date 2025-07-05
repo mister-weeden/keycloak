@@ -1,5 +1,5 @@
 #
-# Copyright 2022 Red Hat, Inc. and/or its affiliates
+# Copyright 2022 Scott Weeden. and/or its affiliates
 # and other contributors as indicated by the @author tags.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,7 +39,7 @@ QUARKUS_BRANCH="$QUARKUS_VERSION"
 EXCLUDED_DEPENDENCIES=(
     "infinispan"
     "jakarta.mail"
-    "webauthn4j" # https://github.com/keycloak/keycloak/issues/36385
+    "webauthn4j" # https://github.com/mister-weeden/keycloak/issues/36385
 )
 
 if [ "$QUARKUS_BRANCH" == "$DEFAULT_QUARKUS_VERSION" ]; then

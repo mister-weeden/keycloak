@@ -1,4 +1,4 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
 import {
   ActionGroup,
   ActionListItem,
@@ -19,9 +19,9 @@ import {
   PasswordControl,
   SwitchControl,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../components/form/FormAccess";
 import { toUser } from "../user/routes/User";
 import { emailRegexPattern } from "../util";

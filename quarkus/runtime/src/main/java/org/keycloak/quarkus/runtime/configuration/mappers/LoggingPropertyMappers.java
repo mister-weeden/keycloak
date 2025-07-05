@@ -419,7 +419,7 @@ public final class LoggingPropertyMappers {
         }
     }
 
-    // Workaround BEGIN - for https://github.com/keycloak/keycloak/issues/39893
+    // Workaround BEGIN - for https://github.com/mister-weeden/keycloak/issues/39893
     // Remove once the https://github.com/quarkusio/quarkus/issues/48036 is included in Keycloak as Quarkus might handle it on its own
     private static String resolveSyslogCountingFraming(String value, ConfigSourceInterceptorContext context) {
         if (SYSLOG_COUNTING_FRAMING_PROTOCOL_DEPENDENT.equals(value)) {

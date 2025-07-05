@@ -1,4 +1,4 @@
-import { HelpItem, generateId } from "@keycloak/keycloak-ui-shared";
+import { HelpItem, generateId } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionList,
   ActionListItem,

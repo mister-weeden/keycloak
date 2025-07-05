@@ -1,4 +1,4 @@
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { FileUpload } from "@patternfly/react-core";
 import { useEffect, useState } from "react";
 import { Controller, useFormContext } from "react-hook-form";

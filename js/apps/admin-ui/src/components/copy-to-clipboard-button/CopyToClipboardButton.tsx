@@ -1,4 +1,4 @@
-import { useSetTimeout } from "@keycloak/keycloak-ui-shared";
+import { useSetTimeout } from "@mister-weeden/keycloak-ui-shared";
 import {
   ClipboardCopyButton,
   ClipboardCopyButtonProps,

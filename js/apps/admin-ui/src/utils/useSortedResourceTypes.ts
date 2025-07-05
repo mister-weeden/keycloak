@@ -1,7 +1,7 @@
-import ResourceServerRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import ResourceServerRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
 import { useMemo, useState } from "react";
 import { useAdminClient } from "../admin-client";
-import { useFetch } from "@keycloak/keycloak-ui-shared";
+import { useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { sortBy } from "lodash-es";
 
 type UseSortedResourceTypesProps = {

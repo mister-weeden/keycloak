@@ -55,7 +55,7 @@ public class EmbeddedInfinispanSplitBrainTest extends KeycloakModelTest {
     * A Test to ensure that when Infinispan recovers from a split-brain event, all Keycloak local caches are cleared
     * and subsequent user requests read from the DB.
     * <p>
-    * <a href="https://github.com/keycloak/keycloak/issues/25837" />
+    * <a href="https://github.com/mister-weeden/keycloak/issues/25837" />
     */
    @Test
    public void testLocalCacheClearedOnMergeEvent() throws InterruptedException {

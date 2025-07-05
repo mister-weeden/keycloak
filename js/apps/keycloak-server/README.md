@@ -23,7 +23,7 @@ pnpm start --admin-dev
 pnpm start --account-dev
 ```
 
-The above commands will download the [Nightly version](https://github.com/keycloak/keycloak/releases/tag/nightly) of the Keycloak server and run it locally on port `8080`. If a previously downloaded version was found in the `server/` directory then that one will be used instead. If you want to download the latest Nightly version you can remove the server directory before running the command to start the server:
+The above commands will download the [Nightly version](https://github.com/mister-weeden/keycloak/releases/tag/nightly) of the Keycloak server and run it locally on port `8080`. If a previously downloaded version was found in the `server/` directory then that one will be used instead. If you want to download the latest Nightly version you can remove the server directory before running the command to start the server:
 
 ```sh
 pnpm delete-server

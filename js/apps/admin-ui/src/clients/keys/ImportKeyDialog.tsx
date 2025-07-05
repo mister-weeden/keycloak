@@ -1,4 +1,4 @@
-import { SelectControl, FileUploadControl } from "@keycloak/keycloak-ui-shared";
+import { SelectControl, FileUploadControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

@@ -1,5 +1,5 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -33,8 +33,8 @@ import {
   removeClientScope,
 } from "../../components/client-scope/ClientScopeTypes";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useAccess } from "../../context/access/Access";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { translationFormatter } from "../../utils/translationFormatter";

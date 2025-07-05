@@ -17,7 +17,7 @@ jobs:
   analysis:
     name: Analysis of Quarkus and Operator
     runs-on: ubuntu-latest
-    if: github.repository == 'keycloak/keycloak'
+    if: github.repository == 'mister-weeden/keycloak'
     permissions:
       security-events: write # Required for SARIF uploads
     steps:

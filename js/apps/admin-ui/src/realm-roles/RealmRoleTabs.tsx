@@ -1,9 +1,9 @@
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import {
   KeycloakSpinner,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   ButtonVariant,

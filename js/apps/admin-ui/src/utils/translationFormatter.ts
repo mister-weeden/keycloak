@@ -1,4 +1,4 @@
-import { label } from "@keycloak/keycloak-ui-shared";
+import { label } from "@mister-weeden/keycloak-ui-shared";
 import { IFormatter, IFormatterValueType } from "@patternfly/react-table";
 import { TFunction } from "i18next";
 

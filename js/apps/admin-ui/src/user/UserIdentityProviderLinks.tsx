@@ -1,5 +1,5 @@
-import type FederatedIdentityRepresentation from "@keycloak/keycloak-admin-client/lib/defs/federatedIdentityRepresentation";
-import type IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import type FederatedIdentityRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/federatedIdentityRepresentation";
+import type IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
 import {
   AlertVariant,
   Button,
@@ -14,11 +14,11 @@ import { capitalize } from "lodash-es";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { FormPanel } from "@keycloak/keycloak-ui-shared";
+import { FormPanel } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { useServerInfo } from "../context/server-info/ServerInfoProvider";
 import { toIdentityProvider } from "../identity-providers/routes/IdentityProvider";

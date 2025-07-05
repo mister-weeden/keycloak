@@ -1,14 +1,14 @@
-import type ClientInitialAccessPresentation from "@keycloak/keycloak-admin-client/lib/defs/clientInitialAccessPresentation";
+import type ClientInitialAccessPresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientInitialAccessPresentation";
 import { AlertVariant, Button, ButtonVariant } from "@patternfly/react-core";
 import { wrappable } from "@patternfly/react-table";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import useFormatDate, { FORMAT_DATE_AND_TIME } from "../../utils/useFormatDate";
 import { toCreateInitialAccessToken } from "../routes/CreateInitialAccessToken";

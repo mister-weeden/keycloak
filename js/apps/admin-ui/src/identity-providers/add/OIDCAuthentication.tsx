@@ -1,4 +1,4 @@
-import { SelectControl } from "@keycloak/keycloak-ui-shared";
+import { SelectControl } from "@mister-weeden/keycloak-ui-shared";
 import { useFormContext, useWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useServerInfo } from "../../context/server-info/ServerInfoProvider";

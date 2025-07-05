@@ -1,13 +1,13 @@
-import { NetworkError } from "@keycloak/keycloak-admin-client";
-import type { ServerInfoRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/serverInfoRepesentation";
+import { NetworkError } from "@mister-weeden/keycloak-admin-client";
+import type { ServerInfoRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/serverInfoRepesentation";
 import {
   createNamedContext,
   useFetch,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { PropsWithChildren, useCallback, useState } from "react";
 import { useAdminClient } from "../../admin-client";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { sortProviders } from "../../util";
 
 export const ServerInfoContext = createNamedContext<

@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Red Hat, Inc. and/or its affiliates
+ * Copyright 2021 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@ public class MetricsDistTest {
     @Test
     @Launch({ "start-dev", "--metrics-enabled=true" })
     void testMetricsEndpoint(CLIResult cliResult) {
-        // See https://github.com/keycloak/keycloak/issues/36927
+        // See https://github.com/mister-weeden/keycloak/issues/36927
         cliResult.assertNoMessage("A MeterFilter is being configured after a Meter has been registered to this registry.");
 
         // Send one request to populate some of the HTTP metrics that are not available on an instance on startup

@@ -1,6 +1,6 @@
-import type CertificateRepresentation from "@keycloak/keycloak-admin-client/lib/defs/certificateRepresentation";
-import type KeyStoreConfig from "@keycloak/keycloak-admin-client/lib/defs/keystoreConfig";
-import { TextControl, useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type CertificateRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/certificateRepresentation";
+import type KeyStoreConfig from "@mister-weeden/keycloak-admin-client/lib/defs/keystoreConfig";
+import { TextControl, useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

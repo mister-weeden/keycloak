@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -136,7 +136,7 @@ public class Profile {
         ROLLING_UPDATES_V2("Rolling Updates for patch releases", Type.PREVIEW, 2),
 
         /**
-         * @see <a href="https://github.com/keycloak/keycloak/issues/37967">Deprecate for removal the Instagram social broker</a>.
+         * @see <a href="https://github.com/mister-weeden/keycloak/issues/37967">Deprecate for removal the Instagram social broker</a>.
          */
         @Deprecated
         INSTAGRAM_BROKER("Instagram Identity Broker", Type.DEPRECATED, 1);

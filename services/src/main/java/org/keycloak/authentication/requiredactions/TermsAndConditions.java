@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -76,7 +76,7 @@ public class TermsAndConditions implements RequiredActionProvider, RequiredActio
         // Keycloak 21.0.0 changed the user attribute name from lowercase to uppercase
         // this change was reverted, but it is still possible some attributes created
         // in Keycloak 21.0.0 will be present in the database, we need to remove it too.
-        // See https://github.com/keycloak/keycloak/issues/17277 for more details
+        // See https://github.com/mister-weeden/keycloak/issues/17277 for more details
         context.getUser().removeAttribute(USER_ATTRIBUTE.toUpperCase());
 
         if (context.getHttpRequest().getDecodedFormParameters().containsKey("cancel")) {

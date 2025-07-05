@@ -1,4 +1,4 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
 import {
   ActionGroup,
   AlertVariant,
@@ -20,8 +20,8 @@ import {
   SwitchControl,
   TextControl,
   useHelp,
-} from "@keycloak/keycloak-ui-shared";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../../components/form/FormAccess";
 import { MultiLineInput } from "../../components/multi-line-input/MultiLineInput";
 import { TimeSelectorControl } from "../../components/time-selector/TimeSelectorControl";

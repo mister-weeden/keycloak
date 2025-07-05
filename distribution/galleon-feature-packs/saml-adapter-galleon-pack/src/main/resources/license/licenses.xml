@@ -7,7 +7,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -17,7 +17,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -27,7 +27,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -37,7 +37,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -47,7 +47,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -57,7 +57,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -67,7 +67,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -77,7 +77,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -87,7 +87,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -97,7 +97,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>
@@ -107,7 +107,7 @@
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
-                    <url>https://raw.githubusercontent.com/keycloak/keycloak/999-SNAPSHOT/LICENSE.txt</url>
+                    <url>https://raw.githubusercontent.com/mister-weeden/keycloak/999-SNAPSHOT/LICENSE.txt</url>
                 </license>
             </licenses>
         </dependency>

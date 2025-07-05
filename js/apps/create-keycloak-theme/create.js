@@ -63,7 +63,7 @@ function cloneQuickstart(type) {
     mkdtemp(join(tmpdir(), "template-"), async (err, dir) => {
       if (err) return reject(err);
       simpleGit()
-        .clone("https://github.com/keycloak/keycloak-quickstarts", dir, {
+        .clone("https://github.com/mister-weeden/keycloak-quickstarts", dir, {
           "--single-branch": undefined,
           "--branch": "main",
         })

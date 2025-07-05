@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-~ Copyright 2016 Red Hat, Inc. and/or its affiliates
+~ Copyright 2016 Scott Weeden. and/or its affiliates
 ~ and other contributors as indicated by the @author tags.
 ~
 ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -215,7 +215,7 @@
         </profile>
 
         <!-- Build app-server-wildfly on Windows by default -->
-        <!-- See https://github.com/keycloak/keycloak/issues/21284 -->
+        <!-- See https://github.com/mister-weeden/keycloak/issues/21284 -->
         <profile>
             <id>app-server-wildfly-windows</id>
             <activation>

@@ -8,7 +8,7 @@ import {
   DropdownList,
   MenuToggle,
 } from "@patternfly/react-core";
-import type CredentialRepresentation from "@keycloak/keycloak-admin-client/lib/defs/credentialRepresentation";
+import type CredentialRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/credentialRepresentation";
 import useToggle from "../../utils/useToggle";
 import useLocaleSort from "../../utils/useLocaleSort";
 import { CredentialDataDialog } from "./CredentialDataDialog";

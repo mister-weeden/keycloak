@@ -1,4 +1,4 @@
-import { useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   Badge,
   Button,

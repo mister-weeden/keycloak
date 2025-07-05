@@ -1,10 +1,10 @@
-import RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
+import RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
 import {
   createNamedContext,
   useEnvironment,
   useFetch,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { PropsWithChildren, useEffect, useState } from "react";
 import { useAdminClient } from "../../admin-client";
 import { i18n } from "../../i18n/i18n";

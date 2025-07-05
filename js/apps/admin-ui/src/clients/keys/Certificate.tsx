@@ -1,8 +1,8 @@
-import type CertificateRepresentation from "@keycloak/keycloak-admin-client/lib/defs/certificateRepresentation";
+import type CertificateRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/certificateRepresentation";
 import { FormGroup, TextArea } from "@patternfly/react-core";
 import { useId } from "react";
 import { useTranslation } from "react-i18next";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 
 type CertificateProps = Omit<CertificateDisplayProps, "id"> & {
   plain?: boolean;

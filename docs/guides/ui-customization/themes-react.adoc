@@ -11,8 +11,8 @@ A final approach to customization is to just take pieces of the Admin Console or
 To fully customize these consoles, you can use the aformentioned React based npm packages.
 Two packages exist:
 
-* `@keycloak/keycloak-admin-ui`: This is the base theme for the Admin Console.
-* `@keycloak/keycloak-account-ui`: This is the base theme for the Account Console.
+* `@mister-weeden/keycloak-admin-ui`: This is the base theme for the Admin Console.
+* `@mister-weeden/keycloak-account-ui`: This is the base theme for the Account Console.
 Both packages are available in the public npm repository.
 
 == Installing the packages
@@ -21,7 +21,7 @@ To install the packages, run the following command:
 
 [source,bash]
 ----
-pnpm install @keycloak/keycloak-account-ui
+pnpm install @mister-weeden/keycloak-account-ui
 ----
 
 == Using the packages
@@ -30,7 +30,7 @@ To use these pages, you add KeycloakProvider in your component hierarchy to choo
 
 [source,javascript]
 ----
-import { KeycloakProvider } from "@keycloak/keycloak-ui-shared";
+import { KeycloakProvider } from "@mister-weeden/keycloak-ui-shared";
 
 //...
 

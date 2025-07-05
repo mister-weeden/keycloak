@@ -1,9 +1,9 @@
-import type ScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/scopeRepresentation";
+import type ScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/scopeRepresentation";
 import {
   KeycloakSelect,
   SelectVariant,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { SelectOption } from "@patternfly/react-core";
 import { useRef, useState } from "react";
 import { Controller, useFormContext } from "react-hook-form";

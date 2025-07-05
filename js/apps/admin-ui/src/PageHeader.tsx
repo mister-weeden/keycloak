@@ -2,7 +2,7 @@ import {
   KeycloakMasthead,
   useEnvironment,
   useHelp,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { DropdownItem, ToolbarItem } from "@patternfly/react-core";
 import { HelpIcon } from "@patternfly/react-icons";
 import { useTranslation } from "react-i18next";

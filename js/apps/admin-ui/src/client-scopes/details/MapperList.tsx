@@ -3,15 +3,15 @@ import { useTranslation } from "react-i18next";
 import type { Path } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import type ProtocolMapperRepresentation from "@keycloak/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
-import type { ProtocolMapperTypeRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/serverInfoRepesentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import type ProtocolMapperRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
+import type { ProtocolMapperTypeRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/serverInfoRepesentation";
 import { useServerInfo } from "../../context/server-info/ServerInfoProvider";
 
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import { AddMapperDialog } from "../add/MapperDialog";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import {
   Dropdown,
   DropdownItem,

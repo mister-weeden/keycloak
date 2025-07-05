@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -102,7 +102,7 @@ public class FederatedUserAttributeEntity {
             this.longValue = null;
             this.longValueHash = null;
             this.longValueHashLowerCase = null;
-        } else if (value.length() > 2024) { // https://github.com/keycloak/keycloak/blob/2785bbd29bcc1b39d9abe90724333dd42af34b10/model/jpa/src/main/resources/META-INF/jpa-changelog-2.1.0.xml#L58
+        } else if (value.length() > 2024) { // https://github.com/mister-weeden/keycloak/blob/2785bbd29bcc1b39d9abe90724333dd42af34b10/model/jpa/src/main/resources/META-INF/jpa-changelog-2.1.0.xml#L58
             this.value = null;
             this.longValue = value;
             this.longValueHash = JpaHashUtils.hashForAttributeValue(value);

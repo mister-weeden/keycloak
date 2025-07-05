@@ -1,9 +1,9 @@
-import GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 import {
   FormErrorText,
   HelpItem,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Button, FormGroup } from "@patternfly/react-core";
 import { MinusCircleIcon } from "@patternfly/react-icons";
 import { Table, Tbody, Td, Th, Thead, Tr } from "@patternfly/react-table";

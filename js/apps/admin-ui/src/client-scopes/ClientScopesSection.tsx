@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
 import type { Row } from "../clients/scopes/ClientScopes";
 import { getProtocolName } from "../clients/utils";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   AllClientScopeType,
   AllClientScopes,
@@ -28,7 +28,7 @@ import {
   removeScope,
 } from "../components/client-scope/ClientScopeTypes";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../components/view-header/ViewHeader";
 import { useRealm } from "../context/realm-context/RealmContext";
 import helpUrls from "../help-urls";

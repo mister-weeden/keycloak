@@ -1,6 +1,6 @@
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
-import RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { FormErrorText } from "@keycloak/keycloak-ui-shared";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
+import RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { FormErrorText } from "@mister-weeden/keycloak-ui-shared";
 import {
   Alert,
   Button,

@@ -2,7 +2,7 @@ import {
   HelpItem,
   KeycloakSelect,
   SelectVariant,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormGroup, SelectOption } from "@patternfly/react-core";
 import { useState } from "react";
 import { Controller, useFormContext } from "react-hook-form";

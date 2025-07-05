@@ -1,4 +1,4 @@
-import { TextControl } from "@keycloak/keycloak-ui-shared";
+import { TextControl } from "@mister-weeden/keycloak-ui-shared";
 import { useTranslation } from "react-i18next";
 import type { ComponentProps } from "./components";
 

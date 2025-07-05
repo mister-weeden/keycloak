@@ -1,5 +1,5 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

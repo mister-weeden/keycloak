@@ -1,10 +1,10 @@
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import { AlertVariant } from "@patternfly/react-core";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { AttributeForm } from "../../components/key-value-form/AttributeForm";
 import { RoleForm } from "../../components/role-form/RoleForm";
 import { useRealm } from "../../context/realm-context/RealmContext";

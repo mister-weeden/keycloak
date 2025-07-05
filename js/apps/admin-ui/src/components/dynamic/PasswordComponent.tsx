@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { PasswordControl } from "@keycloak/keycloak-ui-shared";
+import { PasswordControl } from "@mister-weeden/keycloak-ui-shared";
 import type { ComponentProps } from "./components";
 
 export const PasswordComponent = ({

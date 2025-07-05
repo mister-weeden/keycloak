@@ -15,12 +15,12 @@ import {
   TextVariants,
 } from "@patternfly/react-core";
 
-import type ProtocolMapperRepresentation from "@keycloak/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
-import type { ProtocolMapperTypeRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/serverInfoRepesentation";
+import type ProtocolMapperRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
+import type { ProtocolMapperTypeRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/serverInfoRepesentation";
 
 import { useServerInfo } from "../../context/server-info/ServerInfoProvider";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import useLocaleSort, { mapByKey } from "../../utils/useLocaleSort";
 
 type Row = {

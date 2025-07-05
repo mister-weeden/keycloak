@@ -1,4 +1,4 @@
-import { IconMapper, useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { IconMapper, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   DataListAction,

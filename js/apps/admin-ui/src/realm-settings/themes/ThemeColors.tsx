@@ -1,5 +1,5 @@
-import RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { TextControl } from "@keycloak/keycloak-ui-shared";
+import RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { TextControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   Alert,
   Flex,

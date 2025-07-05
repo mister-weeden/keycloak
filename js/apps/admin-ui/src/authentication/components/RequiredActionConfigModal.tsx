@@ -1,7 +1,7 @@
-import RequiredActionConfigInfoRepresentation from "@keycloak/keycloak-admin-client/lib/defs/requiredActionConfigInfoRepresentation";
-import RequiredActionConfigRepresentation from "@keycloak/keycloak-admin-client/lib/defs/requiredActionConfigRepresentation";
-import type RequiredActionProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import RequiredActionConfigInfoRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/requiredActionConfigInfoRepresentation";
+import RequiredActionConfigRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/requiredActionConfigRepresentation";
+import type RequiredActionProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

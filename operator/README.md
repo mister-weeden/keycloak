@@ -133,6 +133,6 @@ you want to use by setting `quarkus.container-image.image=<your-image>:<your-tag
 ```bash
  mvn clean verify \
       -Dquarkus.container-image.build=false \
-      -Dquarkus.container-image.image=quay.io/keycloak/keycloak-operator:nightly \
+      -Dquarkus.container-image.image=quay.io/mister-weeden/keycloak-operator:nightly \
       -Dtest.operator.deployment=remote
 ```

@@ -12,7 +12,7 @@ That doesn't mean we don't plan to provide documentation for configuring Keycloa
 
 We are rapidly moving towards making the Quarkus distribution our default distribution, and will soon deprecate the WildFly distribution. With this in mind it is important that as many people as possible give it a test-run and provide us with feedback if you find any usability issues, are not able to configure something with it, or if you discover any bugs.
 
-We'd love to hear your thoughts and get your feedback in https://github.com/keycloak/keycloak/discussions/8654[GitHub Discussions]!
+We'd love to hear your thoughts and get your feedback in https://github.com/mister-weeden/keycloak/discussions/8654[GitHub Discussions]!
 
 == New Admin Console preview
 

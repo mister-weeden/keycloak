@@ -1,4 +1,4 @@
-import { KeycloakSelect, SelectVariant } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSelect, SelectVariant } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,
@@ -21,8 +21,8 @@ import { Controller, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
 import DropdownPanel from "../../components/dropdown-panel/DropdownPanel";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { useServerInfo } from "../../context/server-info/ServerInfoProvider";
 import { useWhoAmI } from "../../context/whoami/WhoAmI";

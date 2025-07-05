@@ -1,4 +1,4 @@
-import ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
+import ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
 import { Page } from "@playwright/test";
 
 export async function createClient(

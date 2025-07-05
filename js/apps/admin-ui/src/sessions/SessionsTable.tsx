@@ -1,5 +1,5 @@
-import type UserSessionRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userSessionRepresentation";
-import { useEnvironment } from "@keycloak/keycloak-ui-shared";
+import type UserSessionRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userSessionRepresentation";
+import { useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Label,
@@ -16,15 +16,15 @@ import { useTranslation } from "react-i18next";
 import { Link, useMatch, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
 import { toClient } from "../clients/routes/Client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import {
   Action,
   Field,
   KeycloakDataTable,
   LoaderFunction,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { useWhoAmI } from "../context/whoami/WhoAmI";
 import { UserRoute, toUser } from "../user/routes/User";

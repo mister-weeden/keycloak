@@ -130,14 +130,14 @@ When the KeyStore is created, you can start the server using the following param
 In most cases, the available configuration options should suffice to configure the server.
 However, for a specific behavior or capability that is missing in the {project_name} configuration, you can use properties from the underlying Quarkus framework.
 
-If possible, avoid using properties directly from Quarkus, because they are unsupported by {project_name}. If your need is essential, consider opening an https://github.com/keycloak/keycloak/issues/new?assignees=&labels=kind%2Fenhancement%2Cstatus%2Ftriage&template=enhancement.yml[enhancement request] first. This approach helps us improve the configuration of {project_name} to fit your needs.
+If possible, avoid using properties directly from Quarkus, because they are unsupported by {project_name}. If your need is essential, consider opening an https://github.com/mister-weeden/keycloak/issues/new?assignees=&labels=kind%2Fenhancement%2Cstatus%2Ftriage&template=enhancement.yml[enhancement request] first. This approach helps us improve the configuration of {project_name} to fit your needs.
 
 If an enhancement request is not possible, you can configure the server using raw Quarkus properties:
 
 . Create a `quarkus.properties` file in the `conf` directory.
 . Define the required properties in that file.
 +
-You can use only a https://github.com/keycloak/keycloak/blob/main/quarkus/runtime/pom.xml#L17[subset] of the Quarkus extensions that are defined in the https://quarkus.io/guides/all-config[Quarkus documentation]. Also, note these differences for Quarkus properties:
+You can use only a https://github.com/mister-weeden/keycloak/blob/main/quarkus/runtime/pom.xml#L17[subset] of the Quarkus extensions that are defined in the https://quarkus.io/guides/all-config[Quarkus documentation]. Also, note these differences for Quarkus properties:
 
 * A lock icon for a Quarkus property in the https://quarkus.io/guides/all-config[Quarkus documentation] indicates a build time property. You run the `build` command to apply this property. For details about the build command, see the subsequent sections on optimizing {project_name}.
 * No lock icon for a property in the Quarkus guide indicates a runtime property for Quarkus and {project_name}.

@@ -1,7 +1,7 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type ProtocolMapperRepresentation from "@keycloak/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
-import type { ProtocolMapperTypeRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/serverInfoRepesentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type ProtocolMapperRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
+import type { ProtocolMapperTypeRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/serverInfoRepesentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   PageSection,
@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { MapperList } from "../../client-scopes/details/MapperList";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import {
   RoutableTabs,
   useRoutableTab,

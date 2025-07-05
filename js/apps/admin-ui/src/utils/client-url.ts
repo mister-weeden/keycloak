@@ -1,4 +1,4 @@
-import ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
+import ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
 import type { Environment } from "../environment";
 import { joinPath } from "./joinPath";
 

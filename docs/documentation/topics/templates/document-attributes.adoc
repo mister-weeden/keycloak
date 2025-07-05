@@ -8,7 +8,7 @@
 :project_versionDoc: DEV
 
 :archivebasename: keycloak
-:archivedownloadurl: https://github.com/keycloak/keycloak/releases/download/{project_version}/keycloak-{project_version}.zip
+:archivedownloadurl: https://github.com/mister-weeden/keycloak/releases/download/{project_version}/keycloak-{project_version}.zip
 
 :standalone:
 :api-management!:
@@ -21,7 +21,7 @@
 :project_openshift_product_name: Keycloak for OpenShift
 
 :project_operator: Keycloak Operator
-:operatorRepo_link: https://github.com/keycloak/keycloak-operator
+:operatorRepo_link: https://github.com/mister-weeden/keycloak-operator
 :application_monitoring_operator: Application Monitoring Operator
 :application_monitoring_operator_installation_link: https://github.com/integr8ly/application-monitoring-operator#installation
 :create_cmd: kubectl apply
@@ -32,7 +32,7 @@
 :kc_js_path: /js
 :kc_base_path:
 
-:quickstartRepo_link: https://github.com/keycloak/keycloak-quickstarts
+:quickstartRepo_link: https://github.com/mister-weeden/keycloak-quickstarts
 :quickstartRepo_name: Keycloak Quickstarts Repository
 :quickstartRepo_dir: keycloak-quickstarts
 

@@ -1,5 +1,5 @@
-import { fetchWithError } from "@keycloak/keycloak-admin-client";
-import { HelpItem, useFetch, useHelp } from "@keycloak/keycloak-ui-shared";
+import { fetchWithError } from "@mister-weeden/keycloak-admin-client";
+import { HelpItem, useFetch, useHelp } from "@mister-weeden/keycloak-ui-shared";
 import {
   Form,
   FormGroup,

@@ -2,14 +2,14 @@
 
 In the past Keycloak was maintained across multiple GitHub repositories:
 
-* https://github.com/keycloak/keycloak-documentation[Documentation repository]
-* https://github.com/keycloak/keycloak-ui[UI repository]
-* https://github.com/keycloak/keycloak-nodejs-admin-client[Node.js admin client repository]
+* https://github.com/mister-weeden/keycloak-documentation[Documentation repository]
+* https://github.com/mister-weeden/keycloak-ui[UI repository]
+* https://github.com/mister-weeden/keycloak-nodejs-admin-client[Node.js admin client repository]
 
 Having multiple repositories introduced a lot of complexity and toil. For example frequently multiple pull requests had to be sent
 to different repositories for a single change.
 
-To simplify things we have now migrated everything into the https://github.com/keycloak/keycloak[main repository].
+To simplify things we have now migrated everything into the https://github.com/mister-weeden/keycloak[main repository].
 
 = FIPS 140-2 support
 

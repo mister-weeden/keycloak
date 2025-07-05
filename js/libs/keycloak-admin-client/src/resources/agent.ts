@@ -30,7 +30,7 @@ export interface RequestArgs {
   // Whether the response header have a location field with newly created resource id
   // if this value is set, we return the field with format: {[field]: resourceId}
   // to represent the newly created resource
-  // detail: keycloak/keycloak-nodejs-admin-client issue #11
+  // detail: mister-weeden/keycloak-nodejs-admin-client issue #11
   returnResourceIdInLocationHeader?: { field: string };
   /**
    * Keys to be ignored, meaning that they will not be filtered out of the request payload even if they are a part of `urlParamKeys` or `queryParamKeys`,

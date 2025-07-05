@@ -69,7 +69,7 @@ jobs:
     if: needs.conditional.outputs.js-ci == 'true'
     runs-on: ubuntu-latest
     env:
-      WORKSPACE: "@keycloak/keycloak-admin-client"
+      WORKSPACE: "@mister-weeden/keycloak-admin-client"
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
@@ -87,7 +87,7 @@ jobs:
     if: needs.conditional.outputs.js-ci == 'true'
     runs-on: ubuntu-latest
     env:
-      WORKSPACE: "@keycloak/keycloak-ui-shared"
+      WORKSPACE: "@mister-weeden/keycloak-ui-shared"
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
@@ -105,7 +105,7 @@ jobs:
     if: needs.conditional.outputs.js-ci == 'true'
     runs-on: ubuntu-latest
     env:
-      WORKSPACE: "@keycloak/keycloak-account-ui"
+      WORKSPACE: "@mister-weeden/keycloak-account-ui"
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
@@ -146,7 +146,7 @@ jobs:
     if: needs.conditional.outputs.js-ci == 'true'
     runs-on: ubuntu-latest
     env:
-      WORKSPACE: "@keycloak/keycloak-account-ui"
+      WORKSPACE: "@mister-weeden/keycloak-account-ui"
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
@@ -230,7 +230,7 @@ jobs:
       - uses: ./.github/actions/pnpm-setup
 
       - name: Compile Admin Client
-        run: pnpm --fail-if-no-match --filter @keycloak/keycloak-admin-client build
+        run: pnpm --fail-if-no-match --filter @mister-weeden/keycloak-admin-client build
         working-directory: js
 
       - name: Download Keycloak server

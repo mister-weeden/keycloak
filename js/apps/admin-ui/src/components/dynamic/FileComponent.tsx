@@ -1,4 +1,4 @@
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { FileUpload, FormGroup } from "@patternfly/react-core";
 import { useState } from "react";
 import { Controller, useFormContext } from "react-hook-form";

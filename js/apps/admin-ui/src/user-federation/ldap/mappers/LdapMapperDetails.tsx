@@ -1,6 +1,6 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import type ComponentTypeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentTypeRepresentation";
-import { DirectionType } from "@keycloak/keycloak-admin-client/lib/resources/userStorageProvider";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import type ComponentTypeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentTypeRepresentation";
+import { DirectionType } from "@mister-weeden/keycloak-admin-client/lib/resources/userStorageProvider";
 import {
   HelpItem,
   KeycloakSelect,
@@ -9,7 +9,7 @@ import {
   TextControl,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

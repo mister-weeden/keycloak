@@ -1,9 +1,9 @@
-import { AuthenticationProviderRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import { AuthenticationProviderRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
 import {
   createNamedContext,
   useFetch,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { PropsWithChildren, useState } from "react";
 import { useAdminClient } from "../../admin-client";
 

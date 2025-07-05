@@ -1,4 +1,4 @@
-import type ClientProfileRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientProfileRepresentation";
+import type ClientProfileRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientProfileRepresentation";
 import {
   Action,
   KeycloakDataTable,
@@ -6,7 +6,7 @@ import {
   ListEmptyState,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

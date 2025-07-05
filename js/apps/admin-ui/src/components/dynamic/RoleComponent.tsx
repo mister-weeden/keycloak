@@ -1,4 +1,4 @@
-import { FormErrorText, HelpItem } from "@keycloak/keycloak-ui-shared";
+import { FormErrorText, HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { Chip, FormGroup, Split, SplitItem } from "@patternfly/react-core";
 import { useState } from "react";
 import { Controller, useFormContext } from "react-hook-form";

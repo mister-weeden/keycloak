@@ -1,10 +1,10 @@
-import type KeyStoreConfig from "@keycloak/keycloak-admin-client/lib/defs/keystoreConfig";
+import type KeyStoreConfig from "@mister-weeden/keycloak-admin-client/lib/defs/keystoreConfig";
 import {
   HelpItem,
   NumberControl,
   SelectControl,
   FileUploadControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

@@ -1,5 +1,5 @@
-import type { UserProfileAttribute } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import { KeycloakSelect, SelectVariant } from "@keycloak/keycloak-ui-shared";
+import type { UserProfileAttribute } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import { KeycloakSelect, SelectVariant } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,
@@ -17,7 +17,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { DraggableTable } from "../../authentication/components/DraggableTable";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import useLocale from "../../utils/useLocale";
 import useToggle from "../../utils/useToggle";

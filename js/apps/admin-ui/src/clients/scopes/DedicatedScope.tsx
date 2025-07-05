@@ -1,5 +1,5 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type { RoleMappingPayload } from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type { RoleMappingPayload } from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import {
   AlertVariant,
   Divider,
@@ -9,9 +9,9 @@ import {
 } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../../components/form/FormAccess";
 import { RoleMapping, Row } from "../../components/role-mapping/RoleMapping";
 import { useAccess } from "../../context/access/Access";

@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Red Hat, Inc. and/or its affiliates
+ * Copyright 2025 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,7 +46,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * @author rmartinc
  */
 @EnableFeature(value = Profile.Feature.PASSKEYS, skipRestart = true)
-@IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+@IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
 public class PasskeysConditionalUITest extends AbstractWebAuthnVirtualTest {
 
     @Override

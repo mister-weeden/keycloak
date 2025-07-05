@@ -1,10 +1,10 @@
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   createNamedContext,
   useAlerts,
   useFetch,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { AlertVariant } from "@patternfly/react-core";
 import { PropsWithChildren, useState } from "react";
 import { useTranslation } from "react-i18next";

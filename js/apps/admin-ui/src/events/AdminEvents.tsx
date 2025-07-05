@@ -1,4 +1,4 @@
-import type AdminEventRepresentation from "@keycloak/keycloak-admin-client/lib/defs/adminEventRepresentation";
+import type AdminEventRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/adminEventRepresentation";
 import {
   Action,
   KeycloakDataTable,
@@ -7,7 +7,7 @@ import {
   SelectVariant,
   TextControl,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

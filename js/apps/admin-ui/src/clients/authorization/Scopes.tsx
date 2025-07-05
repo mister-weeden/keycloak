@@ -1,10 +1,10 @@
-import type PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import type ScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/scopeRepresentation";
+import type PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import type ScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/scopeRepresentation";
 import {
   ListEmptyState,
   PaginatingTableToolbar,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   DescriptionList,
@@ -24,7 +24,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import useToggle from "../../utils/useToggle";
 import { toNewPermission } from "../routes/NewPermission";

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { TextControl } from "@keycloak/keycloak-ui-shared";
+import { TextControl } from "@mister-weeden/keycloak-ui-shared";
 import { Form, Title } from "@patternfly/react-core";
 
 export const UserProfileClaimsSettings = () => {

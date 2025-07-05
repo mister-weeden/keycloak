@@ -1,6 +1,6 @@
-import PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { SelectControl, TextControl } from "@keycloak/keycloak-ui-shared";
+import PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { SelectControl, TextControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

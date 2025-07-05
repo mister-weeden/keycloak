@@ -1,9 +1,9 @@
-import type ResourceServerRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import type ResourceServerRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
 import {
   KeycloakSpinner,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

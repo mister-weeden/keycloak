@@ -1,10 +1,10 @@
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   KeycloakSelect,
   label,
   SelectVariant,
   useAlerts,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Alert,

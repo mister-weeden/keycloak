@@ -1,6 +1,6 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import type ComponentTypeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentTypeRepresentation";
-import type { KeyMetadataRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/keyMetadataRepresentation";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import type ComponentTypeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentTypeRepresentation";
+import type { KeyMetadataRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/keyMetadataRepresentation";
 import {
   AlertVariant,
   Button,
@@ -19,7 +19,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { DraggableTable } from "../../authentication/components/DraggableTable";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { useServerInfo } from "../../context/server-info/ServerInfoProvider";

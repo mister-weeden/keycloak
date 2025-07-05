@@ -1,4 +1,4 @@
-import type TestLdapConnectionRepresentation from "@keycloak/keycloak-admin-client/lib/defs/testLdapConnection";
+import type TestLdapConnectionRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/testLdapConnection";
 import {
   HelpItem,
   KeycloakSelect,
@@ -6,7 +6,7 @@ import {
   SelectControl,
   SelectVariant,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -24,7 +24,7 @@ import {
 } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../../components/form/FormAccess";
 import { WizardSectionHeader } from "../../components/wizard-section-header/WizardSectionHeader";
 import { useRealm } from "../../context/realm-context/RealmContext";

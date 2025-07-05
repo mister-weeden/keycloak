@@ -1,4 +1,4 @@
-import { KeycloakProvider } from "@keycloak/keycloak-ui-shared";
+import { KeycloakProvider } from "@mister-weeden/keycloak-ui-shared";
 
 import { App } from "./App";
 import { environment } from "./environment";

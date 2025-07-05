@@ -1,5 +1,5 @@
-import { fetchWithError } from "@keycloak/keycloak-admin-client";
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
+import { fetchWithError } from "@mister-weeden/keycloak-admin-client";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
 import {
   ActionGroup,
   AlertVariant,
@@ -10,9 +10,9 @@ import { useState } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
-import { FormSubmitButton, TextControl } from "@keycloak/keycloak-ui-shared";
+import { FormSubmitButton, TextControl } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../../components/form/FormAccess";
 import { FileUploadForm } from "../../components/json-file-upload/FileUploadForm";
 import { ViewHeader } from "../../components/view-header/ViewHeader";

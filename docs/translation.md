@@ -131,9 +131,9 @@ All language maintainers are set up in Weblate as reviewers for their language a
 
 We rely on volunteers like you to take the initiative in steering the translation efforts for additional translations.
 If you're interested in contributing translations for a language not listed above, join
-the [localization platform discussion](https://github.com/keycloak/keycloak/discussions/9270):
+the [localization platform discussion](https://github.com/mister-weeden/keycloak/discussions/9270):
 
-- Check the discussion, if your language is already proposed [discussion thread](https://github.com/keycloak/keycloak/discussions/9270).
+- Check the discussion, if your language is already proposed [discussion thread](https://github.com/mister-weeden/keycloak/discussions/9270).
 - Each language requires **two volunteers**
 - Volunteers should comment on the discussion thread to confirm their participation.
 - The Keycloak-Team will then

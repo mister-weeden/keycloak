@@ -1,9 +1,9 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
 import { Button, Form } from "@patternfly/react-core";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import { ScrollForm } from "@keycloak/keycloak-ui-shared";
+import { ScrollForm } from "@mister-weeden/keycloak-ui-shared";
 
 import { FixedButtonsGroup } from "../components/form/FixedButtonGroup";
 import { useRealm } from "../context/realm-context/RealmContext";

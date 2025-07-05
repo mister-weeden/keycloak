@@ -1,11 +1,11 @@
-import type ResourceRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation";
-import type ResourceServerRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import type ResourceRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceRepresentation";
+import type ResourceServerRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
 import {
   ListEmptyState,
   PaginatingTableToolbar,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Alert,
   AlertVariant,
@@ -28,7 +28,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { toNewPermission } from "../routes/NewPermission";
 import { toCreateResource } from "../routes/NewResource";

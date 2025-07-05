@@ -2,7 +2,7 @@ import {
   ContinueCancelModal,
   useEnvironment,
   label,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   DataList,

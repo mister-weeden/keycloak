@@ -1,4 +1,4 @@
-import PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
+import PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
 import {
   Action,
   FormErrorText,
@@ -6,7 +6,7 @@ import {
   KeycloakDataTable,
   ListEmptyState,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Dropdown,
@@ -20,7 +20,7 @@ import { Controller, useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
 import { NewPermissionPolicyDialog } from "./NewPermissionPolicyDialog";
-import PolicyProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyProviderRepresentation";
+import PolicyProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyProviderRepresentation";
 import { ExistingPoliciesDialog } from "./ExistingPoliciesDialog";
 import { CaretDownIcon, FilterIcon } from "@patternfly/react-icons";
 import { capitalize, sortBy } from "lodash-es";

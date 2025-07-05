@@ -1,12 +1,12 @@
-import type { AuthenticationProviderRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type CredentialRepresentation from "@keycloak/keycloak-admin-client/lib/defs/credentialRepresentation";
+import type { AuthenticationProviderRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type CredentialRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/credentialRepresentation";
 import {
   HelpItem,
   SelectControl,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Alert,

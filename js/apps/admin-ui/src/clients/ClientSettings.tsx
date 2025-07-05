@@ -1,8 +1,8 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
 import { Form } from "@patternfly/react-core";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { ScrollForm } from "@keycloak/keycloak-ui-shared";
+import { ScrollForm } from "@mister-weeden/keycloak-ui-shared";
 import { ClientDescription } from "./ClientDescription";
 import { FormFields } from "./ClientDetails";
 import { AccessSettings } from "./add/AccessSettings";

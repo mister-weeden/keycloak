@@ -184,7 +184,7 @@ See https://www.keycloak.org/server/reverseproxy[Using a reverse proxy] for deta
 
 This change only may affect you when you are using realm localization messages.
 
-Up to this version, the resolving of fallback messages was inconsistent across themes, when realm localization messages were used. More information can be found in the following https://github.com/keycloak/keycloak/issues/15845[issue].
+Up to this version, the resolving of fallback messages was inconsistent across themes, when realm localization messages were used. More information can be found in the following https://github.com/mister-weeden/keycloak/issues/15845[issue].
 
 The implementation has now been unified for all themes. In general, the message for the most specific matching language tag has the highest priority. If there are both a realm localization message and a Theme 18n message, the realm localization message has the higher priority. Summarized, the priority of the messages is as follows  (RL = realm localization, T = Theme i18n files): `RL <variant> > T <variant> > RL <region> > T <region> > RL <language> > T <language> > RL en > T en`.
 
@@ -214,7 +214,7 @@ Starting with this release, we no longer will invest our time on the following K
 This move is already reflected in our documentation and in our quickstart repository. Please, consider looking at the following
 references for more information:
 
-* link:https://github.com/keycloak/keycloak-quickstarts[Keycloak Quickstart GitHub Repository]
+* link:https://github.com/mister-weeden/keycloak-quickstarts[Keycloak Quickstart GitHub Repository]
 * link:{securing_apps_link}[Keycloak Securing Applications Documentation]
 
 We recommend starting to look into moving your applications to the alternatives from the references above. Those adapters should not be available anymore in future releases.
@@ -227,7 +227,7 @@ The official adapter is now based on Jakarta and should be used as soon as you s
 
 This change is already in our documentation and in our quickstart repository. For more information, please consider looking at the following references:
 
-* link:https://github.com/keycloak/keycloak-quickstarts[Keycloak Quickstart GitHub Repository]
+* link:https://github.com/mister-weeden/keycloak-quickstarts[Keycloak Quickstart GitHub Repository]
 * link:{securing_apps_link}[Keycloak Securing Applications Documentation]
 
 If you cannot migrate your applications to Jakarta, you can still use the "legacy" SAML JEE adapter and still

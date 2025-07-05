@@ -8,7 +8,7 @@ import {
 } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import { getGroups } from "../api/methods";
 import { Group } from "../api/representations";
 import { Page } from "../components/page/Page";

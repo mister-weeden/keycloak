@@ -1,4 +1,4 @@
-import OrganizationRepresentation from "@keycloak/keycloak-admin-client/lib/defs/organizationRepresentation";
+import OrganizationRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/organizationRepresentation";
 import { Badge, Chip, ChipGroup } from "@patternfly/react-core";
 import { TableText } from "@patternfly/react-table";
 import { FunctionComponent, PropsWithChildren, ReactNode } from "react";

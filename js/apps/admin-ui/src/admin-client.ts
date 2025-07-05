@@ -1,8 +1,8 @@
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
 import {
   createNamedContext,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import type Keycloak from "keycloak-js";
 import type { Environment } from "./environment";
 

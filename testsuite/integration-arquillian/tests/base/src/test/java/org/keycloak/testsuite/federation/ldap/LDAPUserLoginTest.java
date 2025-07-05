@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 Red Hat, Inc. and/or its affiliates
+ * Copyright 2020 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -326,7 +326,7 @@ public class LDAPUserLoginTest extends AbstractLDAPTest {
     }
 
     // Check that login fails as expected when an LDAP user that has already authenticated is removed from LDAP and attempts to authenticate again.
-    // See https://github.com/keycloak/keycloak/issues/28523
+    // See https://github.com/mister-weeden/keycloak/issues/28523
     @Test
     @LDAPConnectionParameters(bindType=LDAPConnectionParameters.BindType.SIMPLE, encryption=LDAPConnectionParameters.Encryption.NONE)
     public void loginLDAPUserAuthenticationSimpleDeleteLDAPUser() {

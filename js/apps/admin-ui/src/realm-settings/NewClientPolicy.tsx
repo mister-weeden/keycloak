@@ -1,12 +1,12 @@
-import type ClientPolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientPolicyRepresentation";
-import type ClientProfileRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientProfileRepresentation";
+import type ClientPolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientPolicyRepresentation";
+import type ClientProfileRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientProfileRepresentation";
 import {
   HelpItem,
   KeycloakTextArea,
   TextControl,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,
@@ -35,7 +35,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
 import { FormAccess } from "../components/form/FormAccess";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../components/view-header/ViewHeader";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { useServerInfo } from "../context/server-info/ServerInfoProvider";

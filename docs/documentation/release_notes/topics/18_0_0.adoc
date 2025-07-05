@@ -19,7 +19,7 @@ reaches EOL.
 
 The new Admin Console is now graduated to preview, with the plan for it to become the default admin console in Keycloak 19.
 
-If you find any issues with the new console, or have some suggestions for improvements, please let us know through https://github.com/keycloak/keycloak/discussions/categories/new-admin-console[GitHub Discussions].
+If you find any issues with the new console, or have some suggestions for improvements, please let us know through https://github.com/mister-weeden/keycloak/discussions/categories/new-admin-console[GitHub Discussions].
 
 = Step-up authentication
 

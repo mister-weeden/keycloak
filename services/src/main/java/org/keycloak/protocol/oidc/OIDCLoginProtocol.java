@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -330,7 +330,7 @@ public class OIDCLoginProtocol implements LoginProtocol {
      * this method can be used in extension-implementations to the {@link OIDCLoginProtocol} to add additional
      * parameters to the redirectUri after successful authentication and to store these e.g. in the clientSession
      *
-     * @see https://github.com/keycloak/keycloak/issues/31086
+     * @see https://github.com/mister-weeden/keycloak/issues/31086
      */
     public Response buildRedirectUri(OIDCRedirectUriBuilder redirectUriBuilder,
                                      AuthenticationSessionModel authSession,
@@ -343,7 +343,7 @@ public class OIDCLoginProtocol implements LoginProtocol {
      * this method can be used in extension-implementations to the {@link OIDCLoginProtocol} to add additional
      * parameters to the redirectUri after failed authentication
      *
-     * @see https://github.com/keycloak/keycloak/issues/31086
+     * @see https://github.com/mister-weeden/keycloak/issues/31086
      */
     public Response buildRedirectUri(OIDCRedirectUriBuilder redirectUriBuilder,
                                      AuthenticationSessionModel authSession,

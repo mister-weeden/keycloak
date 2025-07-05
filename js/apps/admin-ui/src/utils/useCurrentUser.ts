@@ -1,5 +1,5 @@
-import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { useFetch } from "@keycloak/keycloak-ui-shared";
+import UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { useState } from "react";
 import { useAdminClient } from "../admin-client";
 import { useWhoAmI } from "../context/whoami/WhoAmI";

@@ -11,7 +11,7 @@ import liquibase.util.StringUtil;
 import java.util.Locale;
 
 /**
- * Workaround for <a href="https://github.com/keycloak/keycloak/issues/39917">keycloak#39917</a>
+ * Workaround for <a href="https://github.com/mister-weeden/keycloak/issues/39917">keycloak#39917</a>
  * Remove it once Liquibase 4.32.0 is used
  */
 public class UpdatedPostgresDatabase extends PostgresDatabase {

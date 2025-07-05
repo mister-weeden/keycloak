@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -59,7 +59,7 @@ public class LocaleBean {
 
     protected static boolean isLeftToRight(String current) {
         // Some languages that are RTL have an English name in Java locales, like 'dv' aka Divehi as stated in
-        // https://github.com/keycloak/keycloak/issues/33833#issuecomment-2446965307.
+        // https://github.com/mister-weeden/keycloak/issues/33833#issuecomment-2446965307.
         // Still, this solution seems to be good enough for now. Any exceptions would be added when those translations arise,
         // as each localization file can contain a `locale_xx' property with the wanted translation.
         //

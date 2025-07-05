@@ -1,13 +1,13 @@
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 import { Button, Modal, ModalVariant, Label } from "@patternfly/react-core";
 import { InfoCircleIcon } from "@patternfly/react-icons";
 import { differenceBy } from "lodash-es";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { emptyFormatter } from "../util";
 
 type MemberModalProps = {

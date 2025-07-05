@@ -1,12 +1,12 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type ResourceRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation";
-import type ResourceServerRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type ResourceRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceRepresentation";
+import type ResourceServerRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
 import {
   HelpItem,
   TextControl,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Alert,
@@ -27,7 +27,7 @@ import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog"
 import { FormAccess } from "../../components/form/FormAccess";
 import { KeyValueInput } from "../../components/key-value-form/KeyValueInput";
 import type { KeyValueType } from "../../components/key-value-form/key-value-convert";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { MultiLineInput } from "../../components/multi-line-input/MultiLineInput";
 import { ViewHeader } from "../../components/view-header/ViewHeader";
 import { useAccess } from "../../context/access/Access";

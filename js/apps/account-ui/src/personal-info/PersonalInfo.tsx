@@ -4,7 +4,7 @@ import {
   debeerify,
   setUserProfileServerError,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Alert,

@@ -50,7 +50,7 @@ LABEL name=${KEYCLOAK_OPERATOR_IMAGE_NAME} \
       io.k8s.description=${KEYCLOAK_OPERATOR_DESCRIPTION}
 
 # oci
-ARG KEYCLOAK_SOURCE="https://github.com/keycloak/keycloak"
+ARG KEYCLOAK_SOURCE="https://github.com/mister-weeden/keycloak"
 ARG KEYCLOAK_DOCS=${KEYCLOAK_URL}documentation
 
 LABEL org.opencontainers.image.title=${KEYCLOAK_OPERATOR_DISPLAY_NAME} \

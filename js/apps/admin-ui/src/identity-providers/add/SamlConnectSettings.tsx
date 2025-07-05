@@ -1,11 +1,11 @@
-import { fetchWithError } from "@keycloak/keycloak-admin-client";
-import type IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import { fetchWithError } from "@mister-weeden/keycloak-admin-client";
+import type IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
 import {
   FormErrorText,
   HelpItem,
   TextControl,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormGroup, Title } from "@patternfly/react-core";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";

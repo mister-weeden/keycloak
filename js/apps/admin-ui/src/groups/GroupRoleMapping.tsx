@@ -1,8 +1,8 @@
-import type { RoleMappingPayload } from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import type { RoleMappingPayload } from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import { AlertVariant } from "@patternfly/react-core";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { RoleMapping, Row } from "../components/role-mapping/RoleMapping";
 
 type GroupRoleMappingProps = {

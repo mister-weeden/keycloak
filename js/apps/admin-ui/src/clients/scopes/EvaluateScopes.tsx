@@ -1,7 +1,7 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import type ProtocolMapperRepresentation from "@keycloak/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import type { ProtocolMapperTypeRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/serverInfoRepesentation";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import type ProtocolMapperRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import type { ProtocolMapperTypeRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/serverInfoRepesentation";
 import {
   HelpItem,
   KeycloakDataTable,
@@ -9,7 +9,7 @@ import {
   SelectVariant,
   useFetch,
   useHelp,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ClipboardCopy,
   Form,

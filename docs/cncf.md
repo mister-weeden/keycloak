@@ -18,7 +18,7 @@ Keycloak is currently a CNCF incubating project. This document provides useful i
 
 Maintainers should be listed in the following places:
 
-* [Keycloak Maintainers List](https://github.com/keycloak/keycloak/blob/main/MAINTAINERS.md)
+* [Keycloak Maintainers List](https://github.com/mister-weeden/keycloak/blob/main/MAINTAINERS.md)
 * [CNCF Maintainers List](https://maintainers.cncf.io/)
 
 For new maintainers send email address of maintainer to cncf-maintainer-changes(at)cncf.io for access to maintainers

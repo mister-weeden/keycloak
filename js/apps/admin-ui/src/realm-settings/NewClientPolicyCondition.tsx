@@ -1,14 +1,14 @@
-import type { ConfigPropertyRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigInfoRepresentation";
-import type ClientPolicyConditionRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientPolicyConditionRepresentation";
-import type ClientPolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientPolicyRepresentation";
-import type ComponentTypeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentTypeRepresentation";
+import type { ConfigPropertyRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigInfoRepresentation";
+import type ClientPolicyConditionRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientPolicyConditionRepresentation";
+import type ClientPolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientPolicyRepresentation";
+import type ComponentTypeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentTypeRepresentation";
 import {
   HelpItem,
   KeycloakSelect,
   SelectVariant,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

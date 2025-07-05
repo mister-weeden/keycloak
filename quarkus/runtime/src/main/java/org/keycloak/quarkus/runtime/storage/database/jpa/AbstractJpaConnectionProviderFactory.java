@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Red Hat, Inc. and/or its affiliates
+ * Copyright 2021 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -62,7 +62,7 @@ public abstract class AbstractJpaConnectionProviderFactory implements JpaConnect
         String schema = Configuration.getRawValue("kc.db-schema");
         if (schema != null && schema.contains("-") && ! Boolean.parseBoolean(System.getProperty(GlobalConfiguration.PRESERVE_SCHEMA_CASE.getKey()))) {
             System.setProperty(GlobalConfiguration.PRESERVE_SCHEMA_CASE.getKey(), "true");
-            logger.warnf("The passed schema '%s' contains a dash. Setting liquibase config option PRESERVE_SCHEMA_CASE to true. See https://github.com/keycloak/keycloak/issues/20870 for more information.", schema);
+            logger.warnf("The passed schema '%s' contains a dash. Setting liquibase config option PRESERVE_SCHEMA_CASE to true. See https://github.com/mister-weeden/keycloak/issues/20870 for more information.", schema);
         }
         return schema;
     }

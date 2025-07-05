@@ -1,13 +1,13 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 import {
   GroupQuery,
   SubGroupQuery,
-} from "@keycloak/keycloak-admin-client/lib/resources/groups";
+} from "@mister-weeden/keycloak-admin-client/lib/resources/groups";
 import {
   ListEmptyState,
   PaginatingTableToolbar,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Breadcrumb,
   BreadcrumbItem,

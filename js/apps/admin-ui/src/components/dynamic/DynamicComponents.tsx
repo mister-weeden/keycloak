@@ -1,4 +1,4 @@
-import type { ConfigPropertyRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigInfoRepresentation";
+import type { ConfigPropertyRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigInfoRepresentation";
 
 import { COMPONENTS, isValidComponentType } from "./components";
 import { convertAttributeNameToForm } from "../../util";

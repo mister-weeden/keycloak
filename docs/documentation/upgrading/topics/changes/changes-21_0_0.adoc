@@ -65,4 +65,4 @@ such themes deployed.
 
 = Curl has been removed from the container
 
-The https://quay.io/repository/keycloak/keycloak?tab=info[Keycloak Container Image] has been modified to enhance security. As a result, `+curl+` and other CLI tools have been removed, which you may have been using in your customized image. See the updated https://www.keycloak.org/server/containers[container guide] for information on how to handle this change.
+The https://quay.io/repository/mister-weeden/keycloak?tab=info[Keycloak Container Image] has been modified to enhance security. As a result, `+curl+` and other CLI tools have been removed, which you may have been using in your customized image. See the updated https://www.keycloak.org/server/containers[container guide] for information on how to handle this change.

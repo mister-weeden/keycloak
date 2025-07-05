@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Red Hat, Inc. and/or its affiliates
+ * Copyright 2019 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -97,7 +97,7 @@ public class WebAuthnRegisterAndLoginTest extends AbstractWebAuthnVirtualTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void registerUserSuccess() throws IOException {
         String username = "registerUserSuccess";
         String email = "registerUserSuccess@email";
@@ -202,7 +202,7 @@ public class WebAuthnRegisterAndLoginTest extends AbstractWebAuthnVirtualTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void webAuthnPasswordlessAlternativeWithWebAuthnAndPassword() throws IOException {
         String userId = null;
 
@@ -328,7 +328,7 @@ public class WebAuthnRegisterAndLoginTest extends AbstractWebAuthnVirtualTest {
         }
     }
 
-    // See: https://github.com/keycloak/keycloak/issues/29586
+    // See: https://github.com/mister-weeden/keycloak/issues/29586
     @Test
     @IgnoreBrowserDriver(FirefoxDriver.class)
     public void webAuthnPasswordlessShouldFailIfUserIsDeletedInBetween() throws IOException {

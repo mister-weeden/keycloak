@@ -1,6 +1,6 @@
 import KeycloakAdminClient, {
   fetchWithError,
-} from "@keycloak/keycloak-admin-client";
+} from "@mister-weeden/keycloak-admin-client";
 import { getAuthorizationHeaders } from "../../utils/getAuthorizationHeaders";
 import { joinPath } from "../../utils/joinPath";
 import { UiRealmInfo } from "./uiRealmInfo";

@@ -15,7 +15,7 @@
     "osVersion": "5.16.9-200.fc35.x86_64",
     "fileEncoding": "UTF-8",
     "userName": "edewit",
-    "userDir": "/home/edewit/workspace/keycloak/keycloak/distribution/server-dist/target/keycloak-18.0.0-SNAPSHOT",
+    "userDir": "/home/edewit/workspace/mister-weeden/keycloak/distribution/server-dist/target/keycloak-18.0.0-SNAPSHOT",
     "userTimezone": "Europe/Zurich",
     "userLocale": "gb_EN"
   },
@@ -567,7 +567,7 @@
         "default": {
           "order": 0,
           "operationalInfo": {
-            "databaseUrl": "jdbc:h2:/home/edewit/workspace/keycloak/keycloak/distribution/server-dist/target/keycloak-18.0.0-SNAPSHOT/standalone/data/keycloak",
+            "databaseUrl": "jdbc:h2:/home/edewit/workspace/mister-weeden/keycloak/distribution/server-dist/target/keycloak-18.0.0-SNAPSHOT/standalone/data/keycloak",
             "databaseUser": "SA",
             "databaseProduct": "H2 1.4.197 (2018-03-18)",
             "databaseDriver": "H2 JDBC Driver 1.4.197 (2018-03-18)"

@@ -1,5 +1,5 @@
-import type AuthenticationFlowRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
-import type IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import type AuthenticationFlowRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
+import type IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
 import {
   FormErrorText,
   HelpItem,
@@ -7,7 +7,7 @@ import {
   SelectControl,
   SelectVariant,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   FormGroup,
   SelectOption,

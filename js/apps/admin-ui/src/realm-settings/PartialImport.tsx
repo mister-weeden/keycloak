@@ -1,11 +1,11 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
 import type {
   PartialImportRealmRepresentation,
   PartialImportResponse,
   PartialImportResult,
-} from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import { KeycloakSelect } from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import { KeycloakSelect } from "@mister-weeden/keycloak-ui-shared";
 import {
   Alert,
   Button,
@@ -29,9 +29,9 @@ import {
 import { FormEvent, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { JsonFileUpload } from "../components/json-file-upload/JsonFileUpload";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../context/realm-context/RealmContext";
 
 export type PartialImportProps = {

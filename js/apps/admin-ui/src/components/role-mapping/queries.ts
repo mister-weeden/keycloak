@@ -1,11 +1,11 @@
-import type KeycloakAdminClient from "@keycloak/keycloak-admin-client";
-import type MappingsRepresentation from "@keycloak/keycloak-admin-client/lib/defs/mappingsRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import type { ClientScopes } from "@keycloak/keycloak-admin-client/lib/resources/clientScopes";
-import type { Clients } from "@keycloak/keycloak-admin-client/lib/resources/clients";
-import type { Groups } from "@keycloak/keycloak-admin-client/lib/resources/groups";
-import type { Roles } from "@keycloak/keycloak-admin-client/lib/resources/roles";
-import type { Users } from "@keycloak/keycloak-admin-client/lib/resources/users";
+import type KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
+import type MappingsRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/mappingsRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import type { ClientScopes } from "@mister-weeden/keycloak-admin-client/lib/resources/clientScopes";
+import type { Clients } from "@mister-weeden/keycloak-admin-client/lib/resources/clients";
+import type { Groups } from "@mister-weeden/keycloak-admin-client/lib/resources/groups";
+import type { Roles } from "@mister-weeden/keycloak-admin-client/lib/resources/roles";
+import type { Users } from "@mister-weeden/keycloak-admin-client/lib/resources/users";
 import { Row } from "./RoleMapping";
 
 export type ResourcesKey = keyof KeycloakAdminClient;

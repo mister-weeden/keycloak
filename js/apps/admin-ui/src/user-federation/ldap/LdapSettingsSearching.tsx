@@ -2,7 +2,7 @@ import {
   HelpItem,
   SelectControl,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormGroup, Switch } from "@patternfly/react-core";
 import { Controller, FormProvider, UseFormReturn } from "react-hook-form";
 import { useTranslation } from "react-i18next";

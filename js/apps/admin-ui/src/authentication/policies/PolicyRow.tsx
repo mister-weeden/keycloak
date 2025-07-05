@@ -1,4 +1,4 @@
-import type PasswordPolicyTypeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/passwordPolicyTypeRepresentation";
+import type PasswordPolicyTypeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/passwordPolicyTypeRepresentation";
 import {
   Button,
   FormGroup,
@@ -12,7 +12,7 @@ import {
 import { MinusCircleIcon } from "@patternfly/react-icons";
 import { Controller, useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { FormErrorText, HelpItem } from "@keycloak/keycloak-ui-shared";
+import { FormErrorText, HelpItem } from "@mister-weeden/keycloak-ui-shared";
 
 import "./policy-row.css";
 

@@ -1,7 +1,7 @@
 import {
   KeycloakContext,
   type BaseEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 
 import { CallOptions } from "./api/methods";
 import { Links, parseLinks } from "./api/parse-links";

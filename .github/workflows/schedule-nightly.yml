@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   setup:
-    if: github.event_name != 'schedule' || github.repository == 'keycloak/keycloak'
+    if: github.event_name != 'schedule' || github.repository == 'mister-weeden/keycloak'
     runs-on: ubuntu-latest
     permissions:
       actions: write # Required to trigger workflows using gh
@@ -19,7 +19,7 @@ jobs:
     steps:
       - id: latest-release
         run: |
-          branch="release/$(gh api repos/keycloak/keycloak/branches | jq -r '.[].name' | sort -r | awk -F'/' '/[0-9.]+$/ {print $NF; exit}')"
+          branch="release/$(gh api repos/mister-weeden/keycloak/branches | jq -r '.[].name' | sort -r | awk -F'/' '/[0-9.]+$/ {print $NF; exit}')"
           echo "branch=$branch"
           echo "branch=$branch" >> "$GITHUB_OUTPUT"
         env:

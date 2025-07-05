@@ -1,4 +1,4 @@
-import { TextControl } from "@keycloak/keycloak-ui-shared";
+import { TextControl } from "@mister-weeden/keycloak-ui-shared";
 import { Form } from "@patternfly/react-core";
 import { ConfirmDialogModal } from "../../components/confirm-dialog/ConfirmDialog";
 import { useTranslation } from "react-i18next";

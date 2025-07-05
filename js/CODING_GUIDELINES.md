@@ -59,7 +59,7 @@ Deviations from, or additions to these rules should be documented by comments in
 
 The [non-null assertion operator](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator) (`!`) is sometimes used to tell the TypeScript compiler that it is guaranteed that a value is not `null` or `undefined`. Because this might possibly introduce errors at run-time it should be used sparingly.
 
-The only place where it is valid to use the non-null assertion operator is on the types that are provided by the [Admin API client](https://github.com/keycloak/keycloak-nodejs-admin-client). The reason for this is that the types are generated from Java code, which does not explicitly provide information about the nullability of fields (more on that [here](https://github.com/keycloak/keycloak-nodejs-admin-client/issues/187)).
+The only place where it is valid to use the non-null assertion operator is on the types that are provided by the [Admin API client](https://github.com/mister-weeden/keycloak-nodejs-admin-client). The reason for this is that the types are generated from Java code, which does not explicitly provide information about the nullability of fields (more on that [here](https://github.com/mister-weeden/keycloak-nodejs-admin-client/issues/187)).
 
 ## State management
 

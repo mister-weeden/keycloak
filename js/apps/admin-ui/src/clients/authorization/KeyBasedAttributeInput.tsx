@@ -1,5 +1,5 @@
-import type ResourceRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation";
-import { KeycloakSelect, SelectVariant } from "@keycloak/keycloak-ui-shared";
+import type ResourceRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceRepresentation";
+import { KeycloakSelect, SelectVariant } from "@mister-weeden/keycloak-ui-shared";
 import { Button, SelectOption, TextInput } from "@patternfly/react-core";
 import { MinusCircleIcon, PlusCircleIcon } from "@patternfly/react-icons";
 import { Table, Tbody, Td, Th, Thead, Tr } from "@patternfly/react-table";

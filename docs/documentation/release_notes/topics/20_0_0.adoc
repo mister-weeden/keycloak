@@ -14,7 +14,7 @@ feature. We added new functionality as well as a number of improvements, some wh
 == Realm Operator
 
 As the new Operator currently lacks some of the CRs (e.g. Client and User), we're introducing a temporary workaround in
-the form of a Realm Operator. Please see its https://github.com/keycloak/keycloak-realm-operator[GitHub Repository] for
+the form of a Realm Operator. Please see its https://github.com/mister-weeden/keycloak-realm-operator[GitHub Repository] for
 more details. See also https://www.keycloak.org/2022/09/operator-crs["The future of Keycloak Operator CRs" blogpost].
 
 = Supported OpenJDK versions

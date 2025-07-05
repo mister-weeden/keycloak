@@ -1,7 +1,7 @@
 import "@patternfly/patternfly/patternfly-addons.css";
 import "@patternfly/react-core/dist/styles/base.css";
 
-import { KeycloakProvider } from "@keycloak/keycloak-ui-shared";
+import { KeycloakProvider } from "@mister-weeden/keycloak-ui-shared";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { environment } from "./environment";

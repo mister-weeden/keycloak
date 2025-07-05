@@ -1,4 +1,4 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
 import { ActionGroup, Button } from "@patternfly/react-core";
 import { useEffect } from "react";
 import { FormProvider, useForm, useWatch } from "react-hook-form";
@@ -9,7 +9,7 @@ import {
   SelectControl,
   TextAreaControl,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 
 import { getProtocolName } from "../../clients/utils";
 import { DefaultSwitchControl } from "../../components/SwitchControl";

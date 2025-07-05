@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Red Hat, Inc. and/or its affiliates
+ * Copyright 2021 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -73,7 +73,7 @@ import io.quarkiverse.operatorsdk.annotations.SharedCSVMetadata;
     },
     annotations = @CSVMetadata.Annotations(
         containerImage = "KCOP_IMAGE_PULL_URL:KCOP_NEXT",
-        repository = "https://github.com/keycloak/keycloak",
+        repository = "https://github.com/mister-weeden/keycloak",
         capabilities = "Deep Insights",
         categories = "Security",
         certified = false,

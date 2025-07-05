@@ -1,9 +1,9 @@
-import OrganizationRepresentation from "@keycloak/keycloak-admin-client/lib/defs/organizationRepresentation";
+import OrganizationRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/organizationRepresentation";
 import {
   ListEmptyState,
   OrganizationTable,
   useAlerts,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

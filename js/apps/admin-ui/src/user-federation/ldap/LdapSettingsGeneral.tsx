@@ -1,10 +1,10 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
 import {
   HelpItem,
   KeycloakSelect,
   SelectVariant,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormGroup, SelectOption } from "@patternfly/react-core";
 import { useEffect, useState } from "react";
 import { Controller, FormProvider, UseFormReturn } from "react-hook-form";

@@ -1,7 +1,7 @@
 import { FormGroup } from "@patternfly/react-core";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { KeycloakTextArea, HelpItem } from "@keycloak/keycloak-ui-shared";
+import { KeycloakTextArea, HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import type { ComponentProps } from "./components";
 
 export const TextComponent = ({

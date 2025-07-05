@@ -1,5 +1,5 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { SelectControl } from "@keycloak/keycloak-ui-shared";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { SelectControl } from "@mister-weeden/keycloak-ui-shared";
 import { ActionGroup, Button, PageSection } from "@patternfly/react-core";
 import { useEffect } from "react";
 import { FormProvider, useForm } from "react-hook-form";

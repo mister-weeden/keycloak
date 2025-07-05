@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Red Hat, Inc. and/or its affiliates
+ * Copyright 2021 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -79,19 +79,19 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void twoFactorWebAuthnTest() {
         testWebAuthn(false);
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void passwordlessWebAuthnTest() {
         testWebAuthn(true);
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void createWebAuthnSameUserLabel() {
         final String SAME_LABEL = "key123";
 
@@ -116,7 +116,7 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void multipleSecurityKeys() {
         final String LABEL = "SecurityKey#";
 
@@ -167,13 +167,13 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void avoidSameAuthenticatorRegister() throws IOException {
         avoidSameAuthenticatorRegister(new WebAuthnRealmAttributeUpdater(testRealmResource()), webAuthnCredentialType);
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void avoidSameAuthenticatorRegisterPasswordless() throws IOException {
         avoidSameAuthenticatorRegister(new PasswordLessRealmAttributeUpdater(testRealmResource()), webAuthnPwdlessCredentialType);
     }
@@ -185,7 +185,7 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void displayAvailableAuthenticators() {
         addWebAuthnCredential("authenticator#1");
         addWebAuthnCredential("authenticator#2");
@@ -210,7 +210,7 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void notDisplayAvailableAuthenticatorsPasswordless() {
         addWebAuthnCredential("authenticator#1", true);
         addWebAuthnCredential("authenticator#2", true);
@@ -232,7 +232,7 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void availableAuthenticatorsAfterRemove(){
         addWebAuthnCredential("authenticator#1");
         addWebAuthnCredential("authenticator#2");
@@ -274,7 +274,7 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void checkAuthenticatorTimeLocale() throws ParseException, IOException {
         addWebAuthnCredential("authenticator#1");
 
@@ -353,7 +353,7 @@ public class WebAuthnSigningInTest extends AbstractWebAuthnAccountTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void userAuthenticatorTimeLocale() throws IOException {
         Consumer<String> checkCreatedAtLabels = (requiredLabel) ->
                 webAuthnLoginPage.getAuthenticators()

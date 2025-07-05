@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { FormGroup, Radio } from "@patternfly/react-core";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { useFormContext } from "react-hook-form";
 import { useState, type JSX } from "react";
 import { GroupSelect } from "./GroupSelect";

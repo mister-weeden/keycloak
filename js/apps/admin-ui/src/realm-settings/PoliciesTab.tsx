@@ -1,4 +1,4 @@
-import type ClientPolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientPolicyRepresentation";
+import type ClientPolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientPolicyRepresentation";
 import {
   Action,
   KeycloakDataTable,
@@ -6,7 +6,7 @@ import {
   ListEmptyState,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

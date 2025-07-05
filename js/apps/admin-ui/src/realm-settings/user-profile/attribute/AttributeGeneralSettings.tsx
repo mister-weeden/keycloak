@@ -1,5 +1,5 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   HelpItem,
   KeycloakSelect,
@@ -8,7 +8,7 @@ import {
   SelectVariant,
   TextControl,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Divider,
   FormGroup,

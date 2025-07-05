@@ -1,5 +1,5 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import { HelpItem, SelectControl } from "@keycloak/keycloak-ui-shared";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import { HelpItem, SelectControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   Checkbox,
   FormGroup,

@@ -1,5 +1,5 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import ComponentTypeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentTypeRepresentation";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import ComponentTypeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentTypeRepresentation";
 import { Button, Form, Modal, ModalVariant } from "@patternfly/react-core";
 import { useState } from "react";
 import { FormProvider, useForm } from "react-hook-form";

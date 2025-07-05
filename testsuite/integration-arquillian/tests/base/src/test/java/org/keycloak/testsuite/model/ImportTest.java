@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -142,7 +142,7 @@ public class ImportTest extends AbstractTestRealmKeycloakTest {
         });
     }
 
-    // https://github.com/keycloak/keycloak/issues/32799
+    // https://github.com/mister-weeden/keycloak/issues/32799
     @Test
     public void importAcrToLoaMappingWithDefaultAcrValues() {
         RealmRepresentation testRealm = loadJson(getClass().getResourceAsStream("/model/acr-values-import-bug.json"), RealmRepresentation.class);
@@ -157,7 +157,7 @@ public class ImportTest extends AbstractTestRealmKeycloakTest {
         });
     }
 
-    // https://github.com/keycloak/keycloak/issues/10730
+    // https://github.com/mister-weeden/keycloak/issues/10730
     @Test
     public void importLdapWithReferenceToGroupBeingImported() {
         RealmRepresentation testRealm = loadJson(getClass().getResourceAsStream("/model/testrealm-ldap-group.json"), RealmRepresentation.class);

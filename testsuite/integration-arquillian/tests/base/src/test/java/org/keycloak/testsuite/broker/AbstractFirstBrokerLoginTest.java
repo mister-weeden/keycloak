@@ -463,7 +463,7 @@ public abstract class AbstractFirstBrokerLoginTest extends AbstractInitializedBa
      * or {@link org.keycloak.authentication.authenticators.broker.IdpDetectExistingBrokerUserAuthenticator}. However,
      * the reset password feature should work without them.
      *
-     * For more info see https://github.com/keycloak/keycloak/issues/26323 .
+     * For more info see https://github.com/mister-weeden/keycloak/issues/26323 .
      */
     @Test
     public void testResetPasswordDuringFirstBrokerFlowWithoutExistingUserAuthenticator() throws InterruptedException {

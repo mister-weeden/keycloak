@@ -1,4 +1,4 @@
-import { TableToolbar } from "@keycloak/keycloak-ui-shared";
+import { TableToolbar } from "@mister-weeden/keycloak-ui-shared";
 import { ExpandableSection, PageSection } from "@patternfly/react-core";
 import { Table, Tbody, Td, Th, Thead, Tr } from "@patternfly/react-table";
 import { useMemo, useState } from "react";

@@ -10,13 +10,13 @@ import {
 } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
 import { FormAccess } from "../../components/form/FormAccess";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { TimeSelectorForm } from "../../components/time-selector/TimeSelectorForm";
 import useFormatDate, { FORMAT_DATE_AND_TIME } from "../../utils/useFormatDate";
 import { AddHostDialog } from ".././advanced/AddHostDialog";

@@ -1,12 +1,12 @@
-![Keycloak](https://github.com/keycloak/keycloak-misc/blob/main/logo/logo.svg)
+![Keycloak](https://github.com/mister-weeden/keycloak-misc/blob/main/logo/logo.svg)
 
-![GitHub Release](https://img.shields.io/github/v/release/keycloak/keycloak?label=latest%20release)
+![GitHub Release](https://img.shields.io/github/v/release/mister-weeden/keycloak?label=latest%20release)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/6818/badge)](https://bestpractices.coreinfrastructure.org/projects/6818)
 [![CLOMonitor](https://img.shields.io/endpoint?url=https://clomonitor.io/api/projects/cncf/keycloak/badge)](https://clomonitor.io/projects/cncf/keycloak)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/keycloak/keycloak/badge)](https://securityscorecards.dev/viewer/?uri=github.com/keycloak/keycloak)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/mister-weeden/keycloak/badge)](https://securityscorecards.dev/viewer/?uri=github.com/mister-weeden/keycloak)
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/keycloak-operator)](https://artifacthub.io/packages/olm/community-operators/keycloak-operator)
-![GitHub Repo stars](https://img.shields.io/github/stars/keycloak/keycloak?style=flat)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/keycloak/keycloak)
+![GitHub Repo stars](https://img.shields.io/github/stars/mister-weeden/keycloak?style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mister-weeden/keycloak)
 [![Translation status](https://hosted.weblate.org/widget/keycloak/svg-badge.svg)](docs/translation.md)
 
 # Open Source Identity and Access Management
@@ -25,12 +25,12 @@ Keycloak provides user federation, strong authentication, user management, fine-
 
 ## Reporting Security Vulnerabilities
 
-If you have found a security vulnerability, please look at the [instructions on how to properly report it](https://github.com/keycloak/keycloak/security/policy).
+If you have found a security vulnerability, please look at the [instructions on how to properly report it](https://github.com/mister-weeden/keycloak/security/policy).
 
 
 ## Reporting an issue
 
-If you believe you have discovered a defect in Keycloak, please open [an issue](https://github.com/keycloak/keycloak/issues).
+If you believe you have discovered a defect in Keycloak, please open [an issue](https://github.com/mister-weeden/keycloak/issues).
 Please remember to provide a good summary, description as well as steps to reproduce the issue.
 
 
@@ -42,7 +42,7 @@ To run Keycloak, download the distribution from our [website](https://www.keyclo
 
 Alternatively, you can use the Docker image by running:
 
-    docker run quay.io/keycloak/keycloak start-dev
+    docker run quay.io/mister-weeden/keycloak start-dev
     
 For more details refer to the [Keycloak Documentation](https://www.keycloak.org/documentation.html).
 
@@ -70,9 +70,9 @@ Joining a [community meeting](https://www.keycloak.org/community) is a great way
 
 ## Other Keycloak Projects
 
-* [Keycloak](https://github.com/keycloak/keycloak) - Keycloak Server and Java adapters
-* [Keycloak QuickStarts](https://github.com/keycloak/keycloak-quickstarts) - QuickStarts for getting started with Keycloak
-* [Keycloak Node.js Connect](https://github.com/keycloak/keycloak-nodejs-connect) - Node.js adapter for Keycloak
+* [Keycloak](https://github.com/mister-weeden/keycloak) - Keycloak Server and Java adapters
+* [Keycloak QuickStarts](https://github.com/mister-weeden/keycloak-quickstarts) - QuickStarts for getting started with Keycloak
+* [Keycloak Node.js Connect](https://github.com/mister-weeden/keycloak-nodejs-connect) - Node.js adapter for Keycloak
 
 
 ## License

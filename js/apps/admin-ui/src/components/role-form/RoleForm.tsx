@@ -11,7 +11,7 @@ import {
   FormSubmitButton,
   TextAreaControl,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 
 import { FormAccess } from "../form/FormAccess";
 import { AttributeForm } from "../key-value-form/AttributeForm";

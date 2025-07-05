@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Red Hat, Inc. and/or its affiliates
+ * Copyright 2018 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -83,7 +83,7 @@ public abstract class AbstractAdapterClusteredTest extends AbstractServletsAdapt
 
     @BeforeClass
     public static void checkPropertiesSet() {
-        // Remove once https://github.com/keycloak/keycloak/issues/19834 is resolved
+        // Remove once https://github.com/mister-weeden/keycloak/issues/19834 is resolved
         ContainerAssume.assumeNotAuthServerQuarkusCluster();
 
         Assume.assumeThat(PORT_OFFSET_NODE_1, not(is(-1)));

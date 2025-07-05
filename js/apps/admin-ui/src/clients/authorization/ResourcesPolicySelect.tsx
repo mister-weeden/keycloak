@@ -1,16 +1,16 @@
-import PolicyProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyProviderRepresentation";
-import type PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import type ResourceRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation";
+import PolicyProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyProviderRepresentation";
+import type PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import type ResourceRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceRepresentation";
 import type {
   Clients,
   PolicyQuery,
-} from "@keycloak/keycloak-admin-client/lib/resources/clients";
+} from "@mister-weeden/keycloak-admin-client/lib/resources/clients";
 import {
   KeycloakSelect,
   SelectVariant,
   useFetch,
   Variant,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

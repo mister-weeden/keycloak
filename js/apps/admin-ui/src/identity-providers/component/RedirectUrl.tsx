@@ -1,6 +1,6 @@
 import { ClipboardCopy, FormGroup } from "@patternfly/react-core";
 import { useTranslation } from "react-i18next";
-import { HelpItem, useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { HelpItem, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { addTrailingSlash } from "../../util";
 

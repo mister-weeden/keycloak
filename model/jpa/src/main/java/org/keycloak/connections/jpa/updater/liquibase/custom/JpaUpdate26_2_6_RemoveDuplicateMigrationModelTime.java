@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 /**
  * Cleanup script for removing duplicated migration model update time in the MIGRATION_MODEL table
- * See: <a href="https://github.com/keycloak/keycloak/issues/40088">keycloak#40088</a>
+ * See: <a href="https://github.com/mister-weeden/keycloak/issues/40088">keycloak#40088</a>
  */
 public class JpaUpdate26_2_6_RemoveDuplicateMigrationModelTime extends CustomKeycloakTask {
     private final static String MIGRATION_MODEL_TABLE = "MIGRATION_MODEL";

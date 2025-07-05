@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Tooltip } from "@patternfly/react-core";
 import type { TableTextProps } from "@patternfly/react-table";
 
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 
 type GroupPathProps = TableTextProps & {
   group: GroupRepresentation;

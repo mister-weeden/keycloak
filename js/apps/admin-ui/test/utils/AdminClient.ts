@@ -1,16 +1,16 @@
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import OrganizationRepresentation from "@keycloak/keycloak-admin-client/lib/defs/organizationRepresentation";
-import PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import ProtocolMapperRepresentation from "@keycloak/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import type { RoleMappingPayload } from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { Credentials } from "@keycloak/keycloak-admin-client/lib/utils/auth";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import OrganizationRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/organizationRepresentation";
+import PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import ProtocolMapperRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/protocolMapperRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import type { RoleMappingPayload } from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { Credentials } from "@mister-weeden/keycloak-admin-client/lib/utils/auth";
 import { merge } from "lodash-es";
 
 class AdminClient {

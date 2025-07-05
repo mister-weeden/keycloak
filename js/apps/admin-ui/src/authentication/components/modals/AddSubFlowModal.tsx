@@ -1,9 +1,9 @@
-import type { AuthenticationProviderRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import type { AuthenticationProviderRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
 import {
   SelectControl,
   TextControl,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

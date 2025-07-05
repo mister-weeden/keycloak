@@ -1,4 +1,4 @@
-import { NumberControl, SelectControl } from "@keycloak/keycloak-ui-shared";
+import { NumberControl, SelectControl } from "@mister-weeden/keycloak-ui-shared";
 import { ExpandableSection, Form } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";

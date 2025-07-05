@@ -1,6 +1,6 @@
-import type CredentialRepresentation from "@keycloak/keycloak-admin-client/lib/defs/credentialRepresentation";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { HelpItem, useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type CredentialRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/credentialRepresentation";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { HelpItem, useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -21,8 +21,8 @@ import {
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import { toUpperCase } from "../util";
 import { FederatedUserLink } from "./FederatedUserLink";
 import { CredentialRow } from "./user-credentials/CredentialRow";

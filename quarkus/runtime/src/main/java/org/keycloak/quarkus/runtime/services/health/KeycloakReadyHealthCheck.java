@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 Red Hat, Inc. and/or its affiliates
+ * Copyright 2020 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,7 +41,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * <p>
  * While the check for healthy connections is non-blocking, the standard check is blocking, so it needs to be wrapped.
  *
- * @see <a href="https://github.com/keycloak/keycloak-community/pull/55">Healthcheck API Design</a>
+ * @see <a href="https://github.com/mister-weeden/keycloak-community/pull/55">Healthcheck API Design</a>
  */
 @Readiness
 @ApplicationScoped

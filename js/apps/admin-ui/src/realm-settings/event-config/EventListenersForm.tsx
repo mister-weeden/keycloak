@@ -6,7 +6,7 @@ import {
   useFetch,
   SelectControl,
   SelectVariant,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { useState } from "react";
 import { fetchAdminUI } from "../../context/auth/admin-ui-endpoint";
 import { useAdminClient } from "../../admin-client";

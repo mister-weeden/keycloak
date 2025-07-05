@@ -1,5 +1,5 @@
-import type IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
-import type { IdentityProvidersQuery } from "@keycloak/keycloak-admin-client/lib/resources/identityProviders";
+import type IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import type { IdentityProvidersQuery } from "@mister-weeden/keycloak-admin-client/lib/resources/identityProviders";
 import {
   Action,
   IconMapper,
@@ -7,7 +7,7 @@ import {
   ListEmptyState,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Badge,

@@ -1,13 +1,13 @@
 import type {
   UserProfileConfig,
   UserProfileMetadata,
-} from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+} from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   isUserProfileError,
   setUserProfileServerError,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   ButtonVariant,
@@ -28,7 +28,7 @@ import { useNavigate } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
 import { KeyValueType } from "../components/key-value-form/key-value-convert";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import {
   RoutableTabs,
   useRoutableTab,

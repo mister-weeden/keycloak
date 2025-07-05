@@ -2,7 +2,7 @@ import {
   KeycloakMasthead,
   label,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Button } from "@patternfly/react-core";
 import { ExternalLinkSquareAltIcon } from "@patternfly/react-icons";
 import { useTranslation } from "react-i18next";

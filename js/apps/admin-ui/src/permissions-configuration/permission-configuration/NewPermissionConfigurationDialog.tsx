@@ -1,4 +1,4 @@
-import { ResourceTypesRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import { ResourceTypesRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
 import { useTranslation } from "react-i18next";
 import {
   Modal,

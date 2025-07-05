@@ -1,4 +1,4 @@
-import IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
 import { Page } from "@playwright/test";
 
 export async function clickAddProvider(page: Page, provider: string) {

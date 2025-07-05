@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Red Hat, Inc. and/or its affiliates
+ * Copyright 2024 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -258,10 +258,10 @@ public class UserResourceTypeEvaluationTest extends AbstractPermissionTest {
             realmAdminClient.realm(realm.getName()).users().get(userAlice.getId()).roles().realmLevel().add(List.of(testRole));
             fail("Expected Exception wasn't thrown.");
         } catch (Exception ex) {
-            // succsessfully checked the requireMapRoles https://github.com/keycloak/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L235
-            // expecting here NotFoundException: https://github.com/keycloak/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L243
+            // succsessfully checked the requireMapRoles https://github.com/mister-weeden/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L235
+            // expecting here NotFoundException: https://github.com/mister-weeden/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L243
             assertThat(ex, instanceOf(NotFoundException.class));
-            // successful role mapping would require permission to map individual role https://github.com/keycloak/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L245
+            // successful role mapping would require permission to map individual role https://github.com/mister-weeden/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L245
             // and it's not implemented yet for V2
         }
 
@@ -285,7 +285,7 @@ public class UserResourceTypeEvaluationTest extends AbstractPermissionTest {
             realmAdminClient.realm(realm.getName()).users().get(userAlice.getId()).roles().realmLevel().add(List.of(testRole));
             fail("Expected Exception wasn't thrown.");
         } catch (Exception ex) {
-            // expecting here NotFoundException: https://github.com/keycloak/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L243
+            // expecting here NotFoundException: https://github.com/mister-weeden/keycloak/blob/792b673f49d5faeed8b3bb2c61fb4a3b404df695/services/src/main/java/org/keycloak/services/resources/admin/RoleMapperResource.java#L243
             assertThat(ex, instanceOf(NotFoundException.class));
         }
     }
@@ -309,7 +309,7 @@ public class UserResourceTypeEvaluationTest extends AbstractPermissionTest {
             realmAdminClient.realm(realm.getName()).users().get(userAlice.getId()).joinGroup("no-such");
             fail("Expected Exception wasn't thrown.");
         } catch (Exception ex) {
-            // expecting here NotFoundException: https://github.com/keycloak/keycloak/blob/b5c95e9f1c58bc500316dd5c0f2d3bb5e197ca99/services/src/main/java/org/keycloak/services/resources/admin/UserResource.java#L1060
+            // expecting here NotFoundException: https://github.com/mister-weeden/keycloak/blob/b5c95e9f1c58bc500316dd5c0f2d3bb5e197ca99/services/src/main/java/org/keycloak/services/resources/admin/UserResource.java#L1060
             assertThat(ex, instanceOf(NotFoundException.class));
         }
 
@@ -333,7 +333,7 @@ public class UserResourceTypeEvaluationTest extends AbstractPermissionTest {
             realmAdminClient.realm(realm.getName()).users().get(userAlice.getId()).joinGroup("no-such");
             fail("Expected Exception wasn't thrown.");
         } catch (Exception ex) {
-            // expecting here NotFoundException: https://github.com/keycloak/keycloak/blob/b5c95e9f1c58bc500316dd5c0f2d3bb5e197ca99/services/src/main/java/org/keycloak/services/resources/admin/UserResource.java#L1060
+            // expecting here NotFoundException: https://github.com/mister-weeden/keycloak/blob/b5c95e9f1c58bc500316dd5c0f2d3bb5e197ca99/services/src/main/java/org/keycloak/services/resources/admin/UserResource.java#L1060
             assertThat(ex, instanceOf(NotFoundException.class));
         }
     }

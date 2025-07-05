@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Red Hat, Inc. and/or its affiliates
+ * Copyright 2022 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -214,7 +214,7 @@ public class RealmImportTest extends BaseOperatorTest {
 
         keycloak.getSpec().setImage(customImage);
         // Removing the Database so that a subsequent build will by default act on h2
-        // TODO: uncomment the following line after resolution of: https://github.com/keycloak/keycloak/issues/11767
+        // TODO: uncomment the following line after resolution of: https://github.com/mister-weeden/keycloak/issues/11767
         // keycloak.getSpec().getAdditionalOptions().removeIf(sc -> sc.getName().equals("db"));
         deployKeycloak(k8sclient, keycloak, false);
 

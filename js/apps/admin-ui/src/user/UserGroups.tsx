@@ -1,6 +1,6 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { useHelp } from "@keycloak/keycloak-ui-shared";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { useHelp } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -14,12 +14,12 @@ import { intersectionBy, sortBy, uniqBy } from "lodash-es";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
 import { GroupPath } from "../components/group/GroupPath";
 import { GroupPickerDialog } from "../components/group/GroupPickerDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useAccess } from "../context/access/Access";
 
 type UserGroupsProps = {

@@ -1,5 +1,5 @@
 {
-  "name": "@keycloak/keycloak-admin-client",
+  "name": "@mister-weeden/keycloak-admin-client",
   "version": "999.0.0-SNAPSHOT",
   "description": "A client to interact with Keycloak's Administration API",
   "type": "module",
@@ -55,13 +55,13 @@
     "ts-node": "^10.9.2"
   },
   "author": {
-    "name": "Red Hat, Inc.",
+    "name": "Scott Weeden.",
     "url": "https://www.keycloak.org/"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keycloak/keycloak.git",
+    "url": "https://github.com/mister-weeden/keycloak.git",
     "directory": "js/libs/keycloak-admin-client"
   },
   "homepage": "https://www.keycloak.org/"

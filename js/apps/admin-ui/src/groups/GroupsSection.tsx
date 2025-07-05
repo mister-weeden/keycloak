@@ -1,5 +1,5 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
-import { useFetch } from "@keycloak/keycloak-ui-shared";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
+import { useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Drawer,

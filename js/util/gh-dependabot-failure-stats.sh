@@ -11,15 +11,15 @@
 
 # --- Failure Details for PR #12345 ---
 # Title: Bump typescript-eslint from 7.17.0 to 7.18.0
-# URL: https://github.com/keycloak/keycloak/pull/12345
+# URL: https://github.com/mister-weeden/keycloak/pull/12345
 # Branch: dependabot/npm_and_yarn/typescript-eslint-7.18.0
 # More Info:
 #   - Admin UI E2E Check: Admin UI E2E (2, chrome)
-#     Details URL: https://github.com/keycloak/keycloak/actions/runs/56789/job/98765
+#     Details URL: https://github.com/mister-weeden/keycloak/actions/runs/56789/job/98765
 #     Run ID: 56789
 #     Run Status: completed
 #     Run Conclusion: failure
-#     Run HTML URL: https://github.com/keycloak/keycloak/actions/runs/56789
+#     Run HTML URL: https://github.com/mister-weeden/keycloak/actions/runs/56789
 #     Run Attempt: 1
 
 REPO_OWNER="keycloak"

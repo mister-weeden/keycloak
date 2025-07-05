@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Red Hat, Inc. and/or its affiliates
+ * Copyright 2022 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -203,7 +203,7 @@ public abstract class AbstractQuarkusDeployableContainer implements DeployableCo
 
         if ("local".equals(cacheMode)) {
             commands.add("--cache=local");
-            // Save ~2s for each Quarkus startup, when we know ISPN cluster is empty. See https://github.com/keycloak/keycloak/issues/21033
+            // Save ~2s for each Quarkus startup, when we know ISPN cluster is empty. See https://github.com/mister-weeden/keycloak/issues/21033
             commands.add("-Djgroups.join_timeout=10");
         } else {
             commands.add("--cache=ispn");

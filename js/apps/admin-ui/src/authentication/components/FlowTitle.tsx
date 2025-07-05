@@ -1,4 +1,4 @@
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { Label } from "@patternfly/react-core";
 import {
   CodeBranchIcon,

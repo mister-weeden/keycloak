@@ -1,5 +1,5 @@
-import { RequiredActionAlias } from "@keycloak/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import { RequiredActionAlias } from "@mister-weeden/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 import {
   AlertVariant,
   ButtonVariant,
@@ -8,10 +8,10 @@ import {
 } from "@patternfly/react-core";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { FormErrorText, PasswordInput } from "@keycloak/keycloak-ui-shared";
+import { FormErrorText, PasswordInput } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
 import { DefaultSwitchControl } from "../../components/SwitchControl";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   ConfirmDialogModal,
   useConfirmDialog,

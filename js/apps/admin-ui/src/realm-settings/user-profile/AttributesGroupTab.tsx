@@ -1,4 +1,4 @@
-import type { UserProfileGroup } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type { UserProfileGroup } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   Button,
   ButtonVariant,
@@ -9,8 +9,8 @@ import { useEffect, useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { toEditAttributesGroup } from "../routes/EditAttributesGroup";
 import { toNewAttributesGroup } from "../routes/NewAttributesGroup";

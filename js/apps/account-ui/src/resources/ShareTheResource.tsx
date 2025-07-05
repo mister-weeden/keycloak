@@ -2,7 +2,7 @@ import {
   FormErrorText,
   SelectControl,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Chip,

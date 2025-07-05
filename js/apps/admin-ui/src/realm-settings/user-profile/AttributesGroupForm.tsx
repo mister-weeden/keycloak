@@ -1,5 +1,5 @@
-import type { UserProfileGroup } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import { HelpItem, TextControl, useAlerts } from "@keycloak/keycloak-ui-shared";
+import type { UserProfileGroup } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import { HelpItem, TextControl, useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

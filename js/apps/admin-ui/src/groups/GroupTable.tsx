@@ -1,15 +1,15 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 import {
   GroupQuery,
   SubGroupQuery,
-} from "@keycloak/keycloak-admin-client/lib/resources/groups";
+} from "@mister-weeden/keycloak-admin-client/lib/resources/groups";
 import { SearchInput, ToolbarItem } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { useAccess } from "../context/access/Access";
 import useToggle from "../utils/useToggle";
 import { GroupsModal } from "./GroupsModal";

@@ -1,5 +1,5 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { SelectControl, SwitchControl } from "@keycloak/keycloak-ui-shared";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { SelectControl, SwitchControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

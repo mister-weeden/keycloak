@@ -1,10 +1,10 @@
-import KeyStoreConfig from "@keycloak/keycloak-admin-client/lib/defs/keystoreConfig";
+import KeyStoreConfig from "@mister-weeden/keycloak-admin-client/lib/defs/keystoreConfig";
 import { Button, Form, Modal } from "@patternfly/react-core";
 import { saveAs } from "file-saver";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { KeyForm, getFileExtension } from "./GenerateKeyDialog";
 import { KeyTypes } from "./SamlKeys";

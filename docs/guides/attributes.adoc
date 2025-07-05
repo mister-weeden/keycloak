@@ -12,7 +12,7 @@
 :developerguide_link: {project_doc_base_url}/server_development/
 :section: guide
 :sections: guides
-:archivedownloadurl: https://github.com/keycloak/keycloak/releases/download/{version}/keycloak-{version}.zip
+:archivedownloadurl: https://github.com/mister-weeden/keycloak/releases/download/{version}/keycloak-{version}.zip
 :jdgserver_name: Infinispan
 :infinispan-operator-docs: https://infinispan.org/docs/infinispan-operator/main/operator.html
 :infinispan-xsite-docs: https://infinispan.org/docs/stable/titles/xsite/xsite.html
@@ -25,7 +25,7 @@
 :adminguide_name: Server Administration Guide
 :adminguide_name_short: Server Administration
 :adminguide_link: {project_doc_base_url}/server_admin/
-:quickstartRepo_link: https://github.com/keycloak/keycloak-quickstarts
+:quickstartRepo_link: https://github.com/mister-weeden/keycloak-quickstarts
 :quickstartRepo_name: Keycloak Quickstarts Repository
 :quickstartRepo_dir: keycloak-quickstarts
 :securing_apps_link: https://www.keycloak.org/guides#securing-apps

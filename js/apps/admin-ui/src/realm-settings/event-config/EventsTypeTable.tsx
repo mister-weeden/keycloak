@@ -2,7 +2,7 @@ import {
   Action,
   KeycloakDataTable,
   ListEmptyState,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Button, ToolbarItem } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";

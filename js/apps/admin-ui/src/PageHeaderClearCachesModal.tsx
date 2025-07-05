@@ -11,7 +11,7 @@ import {
 import { useRealm } from "./context/realm-context/RealmContext";
 import { useAdminClient } from "./admin-client";
 import { useTranslation } from "react-i18next";
-import { HelpItem, useAlerts } from "@keycloak/keycloak-ui-shared";
+import { HelpItem, useAlerts } from "@mister-weeden/keycloak-ui-shared";
 
 export type ClearCachesModalProps = {
   onClose: () => void;

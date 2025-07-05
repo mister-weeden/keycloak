@@ -1,6 +1,6 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import ComponentTypeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentTypeRepresentation";
-import { TextControl, useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import ComponentTypeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentTypeRepresentation";
+import { TextControl, useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,
@@ -16,7 +16,7 @@ import { useAdminClient } from "../../admin-client";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
 import { DynamicComponents } from "../../components/dynamic/DynamicComponents";
 import { FormAccess } from "../../components/form/FormAccess";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../../components/view-header/ViewHeader";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { useParams } from "../../utils/useParams";

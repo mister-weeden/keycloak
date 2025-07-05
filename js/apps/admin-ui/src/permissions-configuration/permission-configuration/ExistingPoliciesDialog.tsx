@@ -1,10 +1,10 @@
-import PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import { PolicyQuery } from "@keycloak/keycloak-admin-client/lib/resources/clients";
+import PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import { PolicyQuery } from "@mister-weeden/keycloak-admin-client/lib/resources/clients";
 import {
   KeycloakDataTable,
   ListEmptyState,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

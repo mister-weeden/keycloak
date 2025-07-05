@@ -1,9 +1,9 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 import { PropsWithChildren, useState } from "react";
 import {
   createNamedContext,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 
 type SubGroupsProps = {
   subGroups: GroupRepresentation[];

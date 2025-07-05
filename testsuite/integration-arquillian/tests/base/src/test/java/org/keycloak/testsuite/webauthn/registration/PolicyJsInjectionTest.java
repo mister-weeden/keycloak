@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Red Hat, Inc. and/or its affiliates
+ * Copyright 2022 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -54,7 +54,7 @@ public class PolicyJsInjectionTest extends AbstractWebAuthnVirtualTest {
     protected final String REDIRECT_SCRIPT = "required\"; window.location.href = \"http://www.keycloak.org\";\"";
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void relyingPartyEntityName() {
         verifyInjection((updater) -> updater.setWebAuthnPolicyRpEntityName(REDIRECT_SCRIPT),
                 WebAuthnRealmData::getRpEntityName,
@@ -109,7 +109,7 @@ public class PolicyJsInjectionTest extends AbstractWebAuthnVirtualTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void requireResidentKey() {
         // requireResidentKey is set to 'false' and the value is ignored -> success
         verifyInjection((updater) -> updater.setWebAuthnPolicyRequireResidentKey(PROMPT_SCRIPT),
@@ -131,7 +131,7 @@ public class PolicyJsInjectionTest extends AbstractWebAuthnVirtualTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void injectUserLabel() {
         final String originalLabel = "label'`;window.prompt(\"another\");'";
 

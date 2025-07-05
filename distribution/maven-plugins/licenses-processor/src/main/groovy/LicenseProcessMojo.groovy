@@ -29,7 +29,7 @@ class LicenseProcessMojo extends AbstractMojo {
         def outputDirectoryRaw = project.properties['outputDirectory'] ?: "${project.build.directory}/licenses"
         def xmlFileSource = project.properties['xmlFileSource'] ?: "${project.basedir}/src/main/resources/licenses/keycloak/licenses.xml"
         def licenseName = project.properties['licenseName'] ?: "Apache Software License 2.0"
-        def licenseUrl = project.properties['licenseUrl'] ?: "https://raw.githubusercontent.com/keycloak/keycloak/${project.version}/LICENSE.txt"
+        def licenseUrl = project.properties['licenseUrl'] ?: "https://raw.githubusercontent.com/mister-weeden/keycloak/${project.version}/LICENSE.txt"
         def groupId = project.properties['groupId'] ?: "org.keycloak"
 
         Path outputDirectory = fs.getPath(outputDirectoryRaw)

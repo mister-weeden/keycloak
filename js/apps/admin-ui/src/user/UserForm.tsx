@@ -1,14 +1,14 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { UserProfileMetadata } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { UserProfileMetadata } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 import {
   FormErrorText,
   HelpItem,
   SwitchControl,
   TextControl,
   UserProfileFields,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -26,7 +26,7 @@ import { Controller, FormProvider, UseFormReturn } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
 import { DefaultSwitchControl } from "../components/SwitchControl";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../components/form/FormAccess";
 import { GroupPickerDialog } from "../components/group/GroupPickerDialog";
 import { useAccess } from "../context/access/Access";

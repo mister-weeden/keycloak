@@ -1,4 +1,4 @@
-# Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/keycloak/keycloak
+# Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/mister-weeden/keycloak
 
 # guava is a test dependency coming from htmlunit3-driver, not shipped with the server distribution. 
 # There are no plans to upgrading it considering the effort and breaking changes.

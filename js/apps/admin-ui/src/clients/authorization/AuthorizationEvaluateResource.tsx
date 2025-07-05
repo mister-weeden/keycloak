@@ -11,8 +11,8 @@ import {
 import { DescriptionList } from "@patternfly/react-core/dist/esm/components";
 import { useTranslation } from "react-i18next";
 import { AuthorizationEvaluateResourcePolicies } from "./AuthorizationEvaluateResourcePolicies";
-import type EvaluationResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
-import type PolicyResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyResultRepresentation";
+import type EvaluationResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
+import type PolicyResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyResultRepresentation";
 
 type Props = {
   rowIndex: number;

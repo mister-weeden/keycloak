@@ -1,7 +1,7 @@
 import {
   getInjectedEnvironment,
   type BaseEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 
 export type Environment = BaseEnvironment & {
   /** The URL to the root of the account console. */

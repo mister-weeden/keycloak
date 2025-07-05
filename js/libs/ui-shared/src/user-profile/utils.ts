@@ -1,5 +1,5 @@
-import { UserProfileAttributeMetadata } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import { UserProfileAttributeMetadata } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 import { TFunction } from "i18next";
 import { FieldPath } from "react-hook-form";
 

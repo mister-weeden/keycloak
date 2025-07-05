@@ -1,5 +1,5 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
-import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
+import UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 import { Modal, ModalVariant } from "@patternfly/react-core";
 import {
   Button,
@@ -9,9 +9,9 @@ import {
 } from "@patternfly/react-core";
 import { QuestionCircleIcon } from "@patternfly/react-icons";
 import { cellWidth } from "@patternfly/react-table";
-import { useHelp } from "@keycloak/keycloak-ui-shared";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { useHelp } from "@mister-weeden/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { sortBy, uniqBy } from "lodash-es";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";

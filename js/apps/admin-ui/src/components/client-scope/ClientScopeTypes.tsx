@@ -1,6 +1,6 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
 
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
 import type { TFunction } from "i18next";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";

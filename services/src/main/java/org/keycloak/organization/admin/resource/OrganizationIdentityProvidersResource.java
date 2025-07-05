@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Red Hat, Inc. and/or its affiliates
+ * Copyright 2024 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -84,7 +84,7 @@ public class OrganizationIdentityProvidersResource {
         @APIResponse(responseCode = "409", description = "Conflict")
     })
     public Response addIdentityProvider(String id) {
-        id = id.trim().replaceAll("^\"|\"$", ""); // fixes https://github.com/keycloak/keycloak/issues/34401
+        id = id.trim().replaceAll("^\"|\"$", ""); // fixes https://github.com/mister-weeden/keycloak/issues/34401
         
         try {
             IdentityProviderModel identityProvider = session.identityProviders().getByIdOrAlias(id);

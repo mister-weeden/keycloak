@@ -1,5 +1,5 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type UserSessionRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userSessionRepresentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type UserSessionRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userSessionRepresentation";
 import { PageSection } from "@patternfly/react-core";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";

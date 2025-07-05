@@ -1,9 +1,9 @@
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   FormErrorText,
   HelpItem,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormGroup } from "@patternfly/react-core";
 import { useState } from "react";
 import { useFormContext } from "react-hook-form";

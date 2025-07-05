@@ -1,4 +1,4 @@
-import type AuthenticationFlowRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
+import type AuthenticationFlowRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
 import {
   ActionGroup,
   AlertVariant,
@@ -8,9 +8,9 @@ import {
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
-import { FormSubmitButton, SelectControl } from "@keycloak/keycloak-ui-shared";
+import { FormSubmitButton, SelectControl } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../../components/form/FormAccess";
 import { ViewHeader } from "../../components/view-header/ViewHeader";
 import { useRealm } from "../../context/realm-context/RealmContext";

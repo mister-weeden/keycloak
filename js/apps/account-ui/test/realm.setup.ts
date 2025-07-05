@@ -1,4 +1,4 @@
-import RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
+import RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
 import { test as setup } from "@playwright/test";
 
 import { importRealm } from "./admin-client";

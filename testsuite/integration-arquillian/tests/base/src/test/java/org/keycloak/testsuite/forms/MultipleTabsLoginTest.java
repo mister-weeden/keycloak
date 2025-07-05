@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -180,7 +180,7 @@ public class MultipleTabsLoginTest extends AbstractChangeImportedUserPasswordsTe
         }
     }
 
-    // Simulating scenario described in https://github.com/keycloak/keycloak/issues/24112
+    // Simulating scenario described in https://github.com/mister-weeden/keycloak/issues/24112
     @Test
     public void multipleTabsParallelLoginTestWithAuthSessionExpiredInTheMiddle() {
         try (BrowserTabUtil tabUtil = BrowserTabUtil.getInstanceAndSetEnv(driver)) {

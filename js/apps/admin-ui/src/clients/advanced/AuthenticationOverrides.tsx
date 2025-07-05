@@ -1,5 +1,5 @@
-import AuthenticationFlowRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
-import { SelectControl, useFetch } from "@keycloak/keycloak-ui-shared";
+import AuthenticationFlowRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
+import { SelectControl, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { ActionGroup, Button } from "@patternfly/react-core";
 import { sortBy } from "lodash-es";
 import { useState } from "react";

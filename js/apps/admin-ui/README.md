@@ -9,7 +9,7 @@ Contains all the "pages" from the admin-ui as re-usable components, all the func
 ## Install
 
 ```bash
-npm i @keycloak/keycloak-admin-ui
+npm i @mister-weeden/keycloak-admin-ui
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i @keycloak/keycloak-admin-ui
 To use these pages you'll need to add `KeycloakProvider` in your component hierarchy to setup what client, realm and url to use.
 
 ```jsx
-import { KeycloakProvider } from "@keycloak/keycloak-ui-shared";
+import { KeycloakProvider } from "@mister-weeden/keycloak-ui-shared";
 
 //...
 

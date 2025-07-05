@@ -1,4 +1,4 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
 import { Page } from "@playwright/test";
 import { pickRoleType, confirmModalAssign, pickRole } from "../utils/roles";
 

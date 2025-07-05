@@ -1,9 +1,9 @@
-import ResourceRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation";
-import ScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/scopeRepresentation";
+import ResourceRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceRepresentation";
+import ScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/scopeRepresentation";
 import { Page, expect } from "@playwright/test";
 import { clickRowKebabItem, getRowByCellText } from "../utils/table";
 import { confirmModal } from "../utils/modal";
-import PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
+import PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
 
 export async function goToAuthorizationTab(page: Page) {
   await page.getByTestId("authorizationTab").click();

@@ -1,10 +1,10 @@
-import { fetchWithError } from "@keycloak/keycloak-admin-client";
+import { fetchWithError } from "@mister-weeden/keycloak-admin-client";
 import {
   KeycloakDataTable,
   KeycloakSpinner,
   ListEmptyState,
   useAlerts,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

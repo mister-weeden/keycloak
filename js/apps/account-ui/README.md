@@ -9,7 +9,7 @@ Contains all the "pages" from the account-ui as re-usable components, all the fu
 ## Install
 
 ```bash
-npm i @keycloak/keycloak-account-ui
+npm i @mister-weeden/keycloak-account-ui
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i @keycloak/keycloak-account-ui
 To use these pages you'll need to add `KeycloakProvider` in your component hierarchy to setup what client, realm and url to use.
 
 ```jsx
-import { KeycloakProvider } from "@keycloak/keycloak-ui-shared";
+import { KeycloakProvider } from "@mister-weeden/keycloak-ui-shared";
 
 //...
 
@@ -70,7 +70,7 @@ If you want to build your own "pages" you can still reuse the save functions:
 
 Example:
 ```ts
-import { savePersonalInfo, useEnvironment } from "@keycloak/keycloak-account-ui";
+import { savePersonalInfo, useEnvironment } from "@mister-weeden/keycloak-account-ui";
 
 //...
 function App() {

@@ -1,11 +1,11 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
 import {
   Action,
   KeycloakDataTable,
   ListEmptyState,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

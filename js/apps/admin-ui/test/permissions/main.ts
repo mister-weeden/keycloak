@@ -1,4 +1,4 @@
-import PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
+import PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
 import { Page } from "@playwright/test";
 import { selectItem } from "../utils/form";
 import { confirmModal } from "../utils/modal";

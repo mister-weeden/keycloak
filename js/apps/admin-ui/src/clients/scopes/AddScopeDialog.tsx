@@ -1,5 +1,5 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import { KeycloakSelect } from "@keycloak/keycloak-ui-shared";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import { KeycloakSelect } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,
@@ -22,8 +22,8 @@ import {
   ClientScopeType,
   clientScopeTypesDropdown,
 } from "../../components/client-scope/ClientScopeTypes";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import useToggle from "../../utils/useToggle";
 import { getProtocolName } from "../utils";
 

@@ -1,6 +1,6 @@
 import { FormGroup } from "@patternfly/react-core";
 import { useTranslation } from "react-i18next";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { useParams } from "../../../utils/useParams";
 import type { PolicyDetailsParams } from "../../routes/PolicyDetails";
 import { DecisionStrategySelect } from "../DecisionStrategySelect";

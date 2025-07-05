@@ -1,6 +1,6 @@
-import type { RealmEventsConfigRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/realmEventsConfigRepresentation";
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type { RealmEventsConfigRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/realmEventsConfigRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   ButtonVariant,

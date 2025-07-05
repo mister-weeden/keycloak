@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Red Hat, Inc. and/or its affiliates
+ * Copyright 2019 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -138,7 +138,7 @@ public class MultiFactorAuthenticationTest extends AbstractChangeImportedUserPas
         }
     }
 
-    // Issue https://github.com/keycloak/keycloak/issues/30520
+    // Issue https://github.com/mister-weeden/keycloak/issues/30520
     @Test
     public void testChangingLocaleOnAuthenticationSelectorScreen() {
         try {

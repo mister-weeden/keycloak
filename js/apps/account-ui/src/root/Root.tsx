@@ -2,7 +2,7 @@ import {
   ErrorPage,
   useEnvironment,
   KeycloakContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Page, Spinner } from "@patternfly/react-core";
 import { Suspense, useState } from "react";
 import {

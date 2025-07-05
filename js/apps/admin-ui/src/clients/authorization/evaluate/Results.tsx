@@ -20,10 +20,10 @@ import { Table, Th, Thead, Tr } from "@patternfly/react-table";
 import { KeyboardEvent, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import type EvaluationResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
-import type PolicyEvaluationResponse from "@keycloak/keycloak-admin-client/lib/defs/policyEvaluationResponse";
+import type EvaluationResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
+import type PolicyEvaluationResponse from "@mister-weeden/keycloak-admin-client/lib/defs/policyEvaluationResponse";
 import { FixedButtonsGroup } from "../../../components/form/FixedButtonGroup";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import useToggle from "../../../utils/useToggle";
 import { AuthorizationDataModal } from "../AuthorizationDataModal";
 import { AuthorizationEvaluateResource } from "../AuthorizationEvaluateResource";

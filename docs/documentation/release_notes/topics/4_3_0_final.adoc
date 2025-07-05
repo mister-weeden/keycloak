@@ -36,7 +36,7 @@ Indicating that a response should contain every single permission granted by the
 
 = NodeJS Policy Enforcer
 
-The https://github.com/keycloak/keycloak-nodejs-connect[keycloak-nodejs-connect], an adapter for NodeJS, now supports constructs to protect
+The https://github.com/mister-weeden/keycloak-nodejs-connect[keycloak-nodejs-connect], an adapter for NodeJS, now supports constructs to protect
 resources based on decisions taken from the server. The new construct allows users to protect their resources using fine-grained permissions as follows:
 
 ```js

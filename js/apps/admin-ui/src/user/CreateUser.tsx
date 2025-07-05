@@ -1,11 +1,11 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
-import type { UserProfileMetadata } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
+import type { UserProfileMetadata } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   isUserProfileError,
   setUserProfileServerError,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { AlertVariant, PageSection } from "@patternfly/react-core";
 import { TFunction } from "i18next";
 import { useState } from "react";
@@ -13,7 +13,7 @@ import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../components/view-header/ViewHeader";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { UserForm } from "./UserForm";

@@ -1,7 +1,7 @@
-import { fetchWithError } from "@keycloak/keycloak-admin-client";
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import { useAlerts, useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { fetchWithError } from "@mister-weeden/keycloak-admin-client";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import { useAlerts, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   ButtonVariant,

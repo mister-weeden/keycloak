@@ -10,13 +10,13 @@
 ## Install
 
 ```sh
-npm install @keycloak/keycloak-admin-client
+npm install @mister-weeden/keycloak-admin-client
 ```
 
 ## Usage
 
 ```js
-import KcAdminClient from '@keycloak/keycloak-admin-client';
+import KcAdminClient from '@mister-weeden/keycloak-admin-client';
 
 // To configure the client, pass an object to override any of these  options:
 // {
@@ -127,7 +127,7 @@ pnpm test
 
 ### [Realm admin](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_realms_admin_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/realms.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/realms.spec.ts
 
 - Import a realm from a full representation of that realm (`POST /`)
 - Get the top-level representation of the realm (`GET /{realm}`)
@@ -147,7 +147,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 - Get a group by path (`GET /{realm}/group-by-path/{path}`)
 ### [Role](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_roles_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/roles.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/roles.spec.ts
 
 - Create a new role for the realm (`POST /{realm}/roles`)
 - Get all roles for the realm (`GET /{realm}/roles`)
@@ -169,7 +169,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [User](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_users_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts
 
 - Create a new user (`POST /{realm}/users`)
 - Get users Returns a list of users, filtered according to query parameters (`GET /{realm}/users`)
@@ -190,7 +190,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### User group-mapping
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts#L178
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts#L178
 
 - Add user to group (`PUT /{id}/groups/{groupId}`)
 - List all user groups (`GET /{id}/groups`)
@@ -199,7 +199,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### User role-mapping
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts#L352
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts#L352
 
 - Get user role-mappings (`GET /{realm}/users/{id}/role-mappings`)
 - Add realm-level role mappings to the user (`POST /{realm}/users/{id}/role-mappings/realm`)
@@ -210,7 +210,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Group](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_groups_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/groups.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/groups.spec.ts
 
 - Create (`POST /{realm}/groups`)
 - List (`GET /{realm}/groups`)
@@ -224,7 +224,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### Group role-mapping
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/groups.spec.ts#L103
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/groups.spec.ts#L103
 
 - Get group role-mappings (`GET /{realm}/groups/{id}/role-mappings`)
 - Add realm-level role mappings to the group (`POST /{realm}/groups/{id}/role-mappings/realm`)
@@ -235,7 +235,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_clients_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
 
 - Create a new client (`POST /{realm}/clients`)
 - Get clients belonging to the realm (`GET /{realm}/clients`)
@@ -245,7 +245,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client roles](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_roles_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
 
 - Create a new role for the client (`POST /{realm}/clients/{id}/roles`)
 - Get all roles for the client (`GET /{realm}/clients/{id}/roles`)
@@ -255,7 +255,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client role-mapping for group](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_client_role_mappings_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/groups.spec.ts#L192
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/groups.spec.ts#L192
 
 - Add client-level roles to the group role mapping (`POST /{realm}/groups/{id}/role-mappings/clients/{client}`)
 - Get client-level role mappings for the group (`GET /{realm}/groups/{id}/role-mappings/clients/{client}`)
@@ -265,7 +265,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client role-mapping for user](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_client_role_mappings_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts#L352
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/users.spec.ts#L352
 
 - Add client-level roles to the user role mapping (`POST /{realm}/users/{id}/role-mappings/clients/{client}`)
 - Get client-level role mappings for the user (`GET /{realm}/users/{id}/role-mappings/clients/{client}`)
@@ -284,7 +284,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Identity Providers](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_identity_providers_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/idp.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/idp.spec.ts
 
 - Create a new identity provider (`POST /{realm}/identity-provider/instances`)
 - Get identity providers (`GET /{realm}/identity-provider/instances`)
@@ -301,7 +301,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client Scopes](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_client_scopes_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
 
 - Create a new client scope (`POST /{realm}/client-scopes`)
 - Get client scopes belonging to the realm (`GET /{realm}/client-scopes`)
@@ -311,7 +311,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client Scopes for realm](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_client_scopes_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
 
 - Get realm default client scopes (`GET /{realm}/default-default-client-scopes`)
 - Add realm default client scope (`PUT /{realm}/default-default-client-scopes/{id}`)
@@ -322,7 +322,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Client Scopes for client](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_client_scopes_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
 
 - Get default client scopes (`GET /{realm}/clients/{id}/default-client-scopes`)
 - Add default client scope (`PUT /{realm}/clients/{id}/default-client-scopes/{clientScopeId}`)
@@ -333,7 +333,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Scope Mappings for client scopes](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_scope_mappings_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
 
 - Get all scope mappings for the client (`GET /{realm}/client-scopes/{id}/scope-mappings`)
 - Add client-level roles to the client’s scope (`POST /{realm}/client-scopes/{id}/scope-mappings/clients/{client}`)
@@ -349,7 +349,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Scope Mappings for clients](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_scope_mappings_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
 
 - Get all scope mappings for the client (`GET /{realm}/clients/{id}/scope-mappings`)
 - Add client-level roles to the client’s scope (`POST /{realm}/clients/{id}/scope-mappings/clients/{client}`)
@@ -365,7 +365,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Protocol Mappers for client scopes](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_protocol_mappers_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clientScopes.spec.ts
 
 - Create multiple mappers (`POST /{realm}/client-scopes/{id}/protocol-mappers/add-models`)
 - Create a mapper (`POST /{realm}/client-scopes/{id}/protocol-mappers/models`)
@@ -377,7 +377,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Protocol Mappers for clients](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_protocol_mappers_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
 
 - Create multiple mappers (`POST /{realm}/clients/{id}/protocol-mappers/add-models`)
 - Create a mapper (`POST /{realm}/clients/{id}/protocol-mappers/models`)
@@ -389,7 +389,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Component]()
 
-Supported for [user federation](https://www.keycloak.org/docs/latest/server_admin/index.html#_user-storage-federation). Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/components.spec.ts
+Supported for [user federation](https://www.keycloak.org/docs/latest/server_admin/index.html#_user-storage-federation). Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/components.spec.ts
 
 - Create (`POST /{realm}/components`)
 - List (`GET /{realm}/components`)
@@ -399,7 +399,7 @@ Supported for [user federation](https://www.keycloak.org/docs/latest/server_admi
 
 ### [Sessions for clients]()
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
 
 - List user sessions for a specific client (`GET /{realm}/clients/{id}/user-sessions`)
 - List offline sessions for a specific client (`GET /{realm}/clients/{id}/offline-sessions`)
@@ -408,7 +408,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Authentication Management: Required actions](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_authentication_management_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/authenticationManagement.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/authenticationManagement.spec.ts
 
 - Register a new required action (`POST /{realm}/authentication/register-required-action`)
 - Get required actions. Returns a list of required actions. (`GET /{realm}/authentication/required-actions`)
@@ -421,7 +421,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Authorization: Permission](https://www.keycloak.org/docs/8.0/authorization_services/#_overview)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
 
 - Create permission (`POST /{realm}/clients/{id}/authz/resource-server/permission/{type}`)
 - Get permission (`GET /{realm}/clients/{id}/authz/resource-server/permission/{type}/{permissionId}`)
@@ -430,7 +430,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Authorization: Policy](https://www.keycloak.org/docs/8.0/authorization_services/#_overview)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/clients.spec.ts
 
 - Create policy (`POST /{realm}/clients/{id}/authz/resource-server/policy/{type}`)
 - Get policy (`GET /{realm}/clients/{id}/authz/resource-server/policy/{type}/{policyId}`)
@@ -440,7 +440,7 @@ Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin
 
 ### [Attack Detection](https://www.keycloak.org/docs-api/20.0.2/rest-api/index.html#_attack_detection_resource)
 
-Demo code: https://github.com/keycloak/keycloak/blob/main/js/libs/keycloak-admin-client/test/attackDetection.spec.ts
+Demo code: https://github.com/mister-weeden/keycloak/blob/main/js/libs/keycloak-admin-client/test/attackDetection.spec.ts
 
 - Clear any user login failures for all users This can release temporary disabled users (`DELETE /{realm}/attack-detection/brute-force/users`)
 - Get status of a username in brute force detection (`GET /{realm}/attack-detection/brute-force/users/{userId}`)

@@ -1,4 +1,4 @@
-import PolicyEvaluationResponse from "@keycloak/keycloak-admin-client/lib/defs/policyEvaluationResponse";
+import PolicyEvaluationResponse from "@mister-weeden/keycloak-admin-client/lib/defs/policyEvaluationResponse";
 import { useMemo } from "react";
 import { Alert, List, ListItem, Text } from "@patternfly/react-core";
 import { useTranslation } from "react-i18next";

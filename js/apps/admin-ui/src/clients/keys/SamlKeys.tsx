@@ -1,10 +1,10 @@
-import type CertificateRepresentation from "@keycloak/keycloak-admin-client/lib/defs/certificateRepresentation";
+import type CertificateRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/certificateRepresentation";
 import {
   FormPanel,
   HelpItem,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,

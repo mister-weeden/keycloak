@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -251,7 +251,7 @@ public abstract class AbstractMigrationTest extends AbstractKeycloakTest {
      */
     protected void testMigrationTo2_5_0() {
         testLdapKerberosMigration_2_5_0();
-        //https://github.com/keycloak/keycloak/pull/3630
+        //https://github.com/mister-weeden/keycloak/pull/3630
         testDuplicateEmailSupport(masterRealm, migrationRealm);
     }
 

@@ -1,4 +1,4 @@
-import { FormSubmitButton, TextControl } from "@keycloak/keycloak-ui-shared";
+import { FormSubmitButton, TextControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,
@@ -9,7 +9,7 @@ import {
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 
 type InviteMemberModalProps = {
   orgId: string;

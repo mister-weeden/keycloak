@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Red Hat, Inc. and/or its affiliates
+ * Copyright 2021 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -65,7 +65,7 @@ public class WebAuthnOtherSettingsTest extends AbstractWebAuthnVirtualTest {
     protected AppPage appPage;
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void defaultValues() {
         registerDefaultUser("webauthn");
 
@@ -122,7 +122,7 @@ public class WebAuthnOtherSettingsTest extends AbstractWebAuthnVirtualTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void timeout() throws IOException {
         final Integer TIMEOUT = 3; //seconds
 
@@ -165,7 +165,7 @@ public class WebAuthnOtherSettingsTest extends AbstractWebAuthnVirtualTest {
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void excludeCredentials() throws IOException {
         List<String> acceptableAaguids = Collections.singletonList(ALL_ONE_AAGUID);
 

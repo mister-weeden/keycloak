@@ -1,4 +1,4 @@
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import { FormProvider, UseFormReturn } from "react-hook-form";
 
 import { FormAccess } from "../form/FormAccess";

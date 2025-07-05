@@ -1,4 +1,4 @@
-import { useHelp } from "@keycloak/keycloak-ui-shared";
+import { useHelp } from "@mister-weeden/keycloak-ui-shared";
 import {
   Divider,
   Dropdown,

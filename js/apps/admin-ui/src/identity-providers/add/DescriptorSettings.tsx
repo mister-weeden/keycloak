@@ -1,4 +1,4 @@
-import IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
 import { ExpandableSection } from "@patternfly/react-core";
 import { useState } from "react";
 import { FormProvider, useFormContext, useWatch } from "react-hook-form";
@@ -8,7 +8,7 @@ import {
   SelectControl,
   TextAreaControl,
   TextControl,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { DefaultSwitchControl } from "../../components/SwitchControl";
 
 import "./discovery-settings.css";

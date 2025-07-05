@@ -1,7 +1,7 @@
-import type IdentityProviderMapperRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderMapperRepresentation";
-import type { IdentityProviderMapperTypeRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/identityProviderMapperTypeRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import { TextControl, useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type IdentityProviderMapperRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderMapperRepresentation";
+import type { IdentityProviderMapperTypeRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderMapperTypeRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import { TextControl, useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,
@@ -19,7 +19,7 @@ import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog"
 import { DynamicComponents } from "../../components/dynamic/DynamicComponents";
 import { FormAccess } from "../../components/form/FormAccess";
 import type { AttributeForm } from "../../components/key-value-form/AttributeForm";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../../components/view-header/ViewHeader";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { convertFormValuesToObject, convertToFormValues } from "../../util";

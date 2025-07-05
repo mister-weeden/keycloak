@@ -1,11 +1,11 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type { ClientQuery } from "@keycloak/keycloak-admin-client/lib/resources/clients";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type { ClientQuery } from "@mister-weeden/keycloak-admin-client/lib/resources/clients";
 import {
   SelectControl,
   SelectControlOption,
   SelectVariant,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";

@@ -200,7 +200,7 @@ look at the this [guide](../docs/building.md) about how to update and build the 
 
 ## Before contributing the changes
 
-Before contributing changes, make to read the main [Keycloak Contributing Guide](https://github.com/keycloak/keycloak/blob/main/CONTRIBUTING.md).
+Before contributing changes, make to read the main [Keycloak Contributing Guide](https://github.com/mister-weeden/keycloak/blob/main/CONTRIBUTING.md).
 
 Please, make sure:
 

@@ -1,5 +1,5 @@
-import type ResourceServerRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
-import { HelpItem, useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type ResourceServerRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import { HelpItem, useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
 import { FixedButtonsGroup } from "../../components/form/FixedButtonGroup";
 import { FormAccess } from "../../components/form/FormAccess";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { DefaultSwitchControl } from "../../components/SwitchControl";
 import { useAccess } from "../../context/access/Access";
 import useToggle from "../../utils/useToggle";

@@ -1,4 +1,4 @@
-import { UserProfileAttributeMetadata } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+import { UserProfileAttributeMetadata } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 
 export function isRequiredAttribute({
   required,

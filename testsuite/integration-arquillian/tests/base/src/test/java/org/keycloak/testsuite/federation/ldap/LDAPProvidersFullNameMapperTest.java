@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Red Hat, Inc. and/or its affiliates
+ * Copyright 2017 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -179,7 +179,7 @@ public class LDAPProvidersFullNameMapperTest extends AbstractLDAPTest {
         });
     }
 
-    // Test for bug https://github.com/keycloak/keycloak/issues/22091
+    // Test for bug https://github.com/mister-weeden/keycloak/issues/22091
     @Test
     public void testMultiValuedAttributes() {
 

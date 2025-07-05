@@ -1,5 +1,5 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { SelectControl, useAlerts } from "@keycloak/keycloak-ui-shared";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { SelectControl, useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

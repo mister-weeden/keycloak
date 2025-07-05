@@ -1,17 +1,17 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type EvaluationResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
-import type PolicyEvaluationResponse from "@keycloak/keycloak-admin-client/lib/defs/policyEvaluationResponse";
-import type ResourceEvaluation from "@keycloak/keycloak-admin-client/lib/defs/resourceEvaluation";
-import type ResourceRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import type ScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/scopeRepresentation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type EvaluationResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
+import type PolicyEvaluationResponse from "@mister-weeden/keycloak-admin-client/lib/defs/policyEvaluationResponse";
+import type ResourceEvaluation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceEvaluation";
+import type ResourceRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import type ScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/scopeRepresentation";
 import {
   HelpItem,
   SelectControl,
   TextControl,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

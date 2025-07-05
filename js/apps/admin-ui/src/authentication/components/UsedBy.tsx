@@ -1,4 +1,4 @@
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Modal,

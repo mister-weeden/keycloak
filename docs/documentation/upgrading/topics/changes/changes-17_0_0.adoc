@@ -7,13 +7,13 @@ The WildFly distribution of Keycloak is now deprecated, with support ending June
 * Container images for the legacy distribution tags have changed. To use the legacy distribution use the tags `legacy` or `17.0.0-legacy`.
 * Download on the website for the legacy distribution has changed to `keycloak-legacy-17.0.0.[zip|tar.gz]`.
 
-If you encounter problems migrating to the Quarkus distribution, missing ability to configure something, or have general ideas and feedback, please open a discussion in https://github.com/keycloak/keycloak/discussions/categories/keycloak-x-quarkus-distribution[GitHub Discussions].
+If you encounter problems migrating to the Quarkus distribution, missing ability to configure something, or have general ideas and feedback, please open a discussion in https://github.com/mister-weeden/keycloak/discussions/categories/keycloak-x-quarkus-distribution[GitHub Discussions].
 
 = Migrating from the preview Quarkus distribution
 
 A number of things have changed since the preview Quarkus distribution was released in Keycloak 15.1.0. The ideal way to learn about what's changed is to check out the new https://www.keycloak.org/guides#server[Server guides]. In summary, the changes include:
 
-* Container now published to `quay.io/keycloak/keycloak:latest` and `quay.io/keycloak/keycloak:17.0.0`
+* Container now published to `quay.io/mister-weeden/keycloak:latest` and `quay.io/mister-weeden/keycloak:17.0.0`
 * Download on website renamed to `keycloak-17.0.0.[zip|tar.gz]`.
 * `conf/keycloak.properties` changed to `conf/keycloak.conf`, which unifies configuration keys between the config file and CLI arguments.
 * Clearer separation between `build options` and `runtime configuration`.

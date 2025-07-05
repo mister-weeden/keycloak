@@ -2,7 +2,7 @@ import {
   HelpItem,
   TextControl,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormGroup } from "@patternfly/react-core";
 import { useFormContext, useWatch } from "react-hook-form";
 import { useTranslation } from "react-i18next";

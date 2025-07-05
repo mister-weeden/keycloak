@@ -141,7 +141,7 @@ public final class DockerKeycloakDistribution implements KeycloakDistribution {
             if (failIfDockerFileMissing) {
                 throw new RuntimeException("Docker file %s not found".formatted(dockerFile.getAbsolutePath()));
             }
-            return new RemoteDockerImage(DockerImageName.parse("quay.io/keycloak/keycloak"));
+            return new RemoteDockerImage(DockerImageName.parse("quay.io/mister-weeden/keycloak"));
         }
     }
 

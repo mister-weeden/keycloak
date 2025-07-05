@@ -103,7 +103,7 @@ the following.
 
 * Streamification - interfaces now contain only Stream-based methods.
 +
-For example in https://github.com/keycloak/keycloak/blob/19.0.3/server-spi/src/main/java/org/keycloak/models/GroupProvider.java[`GroupProvider`] interface
+For example in https://github.com/mister-weeden/keycloak/blob/19.0.3/server-spi/src/main/java/org/keycloak/models/GroupProvider.java[`GroupProvider`] interface
 +
 [source,java]
 ----
@@ -123,7 +123,7 @@ https://issues.redhat.com/browse/KEYCLOAK-14011[KEYCLOAK-14011].
 * Consistent parameter ordering - methods now have strict parameter
 ordering where `RealmModel` is always the first parameter.
 +
-For example in https://github.com/keycloak/keycloak/blob/19.0.3/server-spi/src/main/java/org/keycloak/storage/user/UserLookupProvider.java[`UserLookupProvider`] interface
+For example in https://github.com/mister-weeden/keycloak/blob/19.0.3/server-spi/src/main/java/org/keycloak/storage/user/UserLookupProvider.java[`UserLookupProvider`] interface
 +
 [source,java]
 ----
@@ -173,5 +173,5 @@ UserModel getUserById(RealmModel realm, String id)
 ** `o.k.events.admin.AdminEventQuery`
 ** `o.k.keys.KeyProvider`
 
-All changes are linked to the following https://github.com/keycloak/keycloak/issues/14720[issue].
+All changes are linked to the following https://github.com/mister-weeden/keycloak/issues/14720[issue].
 

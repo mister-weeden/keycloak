@@ -3,7 +3,7 @@
 
 This guide will help new contributors use `git` and GitHub for Keycloak documentation submissions and suggestions.
 
-Before you start,  check out our writing templates, which are contained in the link:https://github.com/keycloak/keycloak/tree/main/docs/documentation/internal_resources[internal resources directory], This directory also describes each template file and when to use that template. We are working to update our documentation to put procedural content, conceptual content, and reference content into separate .adoc files, and we request that new contributions use these templates.
+Before you start,  check out our writing templates, which are contained in the link:https://github.com/mister-weeden/keycloak/tree/main/docs/documentation/internal_resources[internal resources directory], This directory also describes each template file and when to use that template. We are working to update our documentation to put procedural content, conceptual content, and reference content into separate .adoc files, and we request that new contributions use these templates.
 
 There are two ways to start. The first is the easiest, but it is less flexible. The second is more powerful, but requires setting up. For either method, you must already have a GitHub account, as described in link:https://github.com/join[Join GitHub].
 
@@ -30,7 +30,7 @@ This method is useful for any type of contribution, but necessary for larger and
 
 You only need to perform these tasks once, when preparing to contribute.
 
-. Fork the link:https://github.com/keycloak/keycloak[Keycloak repository]. This will create your own version of the repository which you can find at `https://github.com/{yourusername}/keycloak` where `{yourusername}` is the username you created in GitHub.
+. Fork the link:https://github.com/mister-weeden/keycloak[Keycloak repository]. This will create your own version of the repository which you can find at `https://github.com/{yourusername}/keycloak` where `{yourusername}` is the username you created in GitHub.
 . Install `git` on your local machine. The procedure differs by operating system as described in link:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Installing Git]. Follow up with initial Git setup tasks, as described in link:https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup[First Time Git Setup].
 . Clone from your fork to create a copy on your local machine and then navigate to the new directory by entering the following from the command line on your local machine:
 +
@@ -44,7 +44,7 @@ $ cd keycloak/docs/documentation
 +
 [source,bash]
 ----
-$ git remote add upstream https://github.com/keycloak/keycloak
+$ git remote add upstream https://github.com/mister-weeden/keycloak
 ----
 +
 . Check your settings.
@@ -54,8 +54,8 @@ $ git remote add upstream https://github.com/keycloak/keycloak
 $ git remote -v
 origin	https://github.com/{yourusername}/keycloak.git (fetch)
 origin	https://github.com/{yourusername}/keycloak.git (push)
-upstream	https://github.com/keycloak/keycloak (fetch)
-upstream	https://github.com/keycloak/keycloak (push)
+upstream	https://github.com/mister-weeden/keycloak (fetch)
+upstream	https://github.com/mister-weeden/keycloak (push)
 ----
 +
 
@@ -76,8 +76,8 @@ When contributing, follow this procedure. Enter commands from the command line o
 . (Optional) Enter `git status` now or at any time to see what branch you are on, what files you have changed, and whether those files are staged to be committed.
 . Enter `git add -A` to stage your changes to the commit you are about to make.
 .. Make sure your changes only affect docs/documentation directory, or you are sure about the changes outside of that package
-. Enter `git commit --signoff --message '<message>'` where message is build as described in link:https://github.com/keycloak/keycloak/blob/main/CONTRIBUTING.md#commit-messages-and-issue-linking[general contribution guide]
-. Follow the steps in the documentation link:https://github.com/keycloak/keycloak/blob/main/docs/documentation/README.md[README] to create a test build locally and confirm that your changes look correct. Make more changes and repeat steps to here, as needed.
+. Enter `git commit --signoff --message '<message>'` where message is build as described in link:https://github.com/mister-weeden/keycloak/blob/main/CONTRIBUTING.md#commit-messages-and-issue-linking[general contribution guide]
+. Follow the steps in the documentation link:https://github.com/mister-weeden/keycloak/blob/main/docs/documentation/README.md[README] to create a test build locally and confirm that your changes look correct. Make more changes and repeat steps to here, as needed.
 . Enter `git push origin {branchname}` to push your changes to your fork in GitHub.
 . Use the GitHub web interface to create a pull request. First, navigate to your branch in the web UI and click *Compare*. This will show you a diff of the changes. Examine them one more time. If necessary, make more changes locally and repeat the steps to here. When you are ready, click *Create a pull request*. Enter a title and a description with enough detail for reviewers to know what you have changed and why. Click *Submit*.
 . Wait. The documentation team will usually review pull requests within a few days. Often suggestions and changes are requested of you to help the contribution better fit within the style guidelines for the project or to fill in information that may have been missed. If this happens, repeat the steps from making your changes to `git push origin {branchname}`. No need to create another PR as the existing one will be updated automatically.

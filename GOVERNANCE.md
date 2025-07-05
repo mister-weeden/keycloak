@@ -20,11 +20,11 @@ enabling the less common use cases through custom extensions.
 
 Keycloak consists of several projects:
 
-* [Keycloak](https://github.com/keycloak/keycloak) - Keycloak Server and Java adapters
-* [Keycloak QuickStarts](https://github.com/keycloak/keycloak-quickstarts) - QuickStarts for getting started with Keycloak
-* [Keycloak Benchmark](https://github.com/keycloak/keycloak-benchmark) - Load tests for benchmarking Keycloak
-* [Keycloak Community](https://github.com/keycloak/keycloak-community) - Keycloak design documents
-* [Keycloak Web](https://github.com/keycloak/keycloak-web) - Website keycloak.org
+* [Keycloak](https://github.com/mister-weeden/keycloak) - Keycloak Server and Java adapters
+* [Keycloak QuickStarts](https://github.com/mister-weeden/keycloak-quickstarts) - QuickStarts for getting started with Keycloak
+* [Keycloak Benchmark](https://github.com/mister-weeden/keycloak-benchmark) - Load tests for benchmarking Keycloak
+* [Keycloak Community](https://github.com/mister-weeden/keycloak-community) - Keycloak design documents
+* [Keycloak Web](https://github.com/mister-weeden/keycloak-web) - Website keycloak.org
 
 The same governance model applies to all projects. However, the list of maintainers may vary per project. 
 
@@ -90,7 +90,7 @@ The process of reviewing proposed changes differs depending of the size and impa
 
 A minor change is a bug fix, a smaller enhancement or a smaller addition to existing features.
 
-To propose a minor change, simply create an issue in our [issue tracker](https://github.com/keycloak/keycloak/issues) and
+To propose a minor change, simply create an issue in our [issue tracker](https://github.com/mister-weeden/keycloak/issues) and
 send a pull request.
 
 A maintainer will be responsible for ultimately approving the pull request. The maintainer may do a deep review of the
@@ -100,13 +100,13 @@ If the change has a bigger impact it has to follow the process for larger change
 
 ### Larger Changes
 
-For larger changes all maintainers and contributors should have a chance of reviewing the change. This is done through [GitHub Discussions](https://github.com/keycloak/keycloak/discussions/categories/ideas).
+For larger changes all maintainers and contributors should have a chance of reviewing the change. This is done through [GitHub Discussions](https://github.com/mister-weeden/keycloak/discussions/categories/ideas).
 
 For new features we highly recommend always opening a discussion in GitHub Discussions early.
 
-For very large proposals it can be inefficient to capture all the information in the GitHub Discussion. In this cases a separate design proposal can be sent to the [Keycloak Community repository](https://github.com/keycloak/keycloak-community/tree/main/design), and linked to from the GitHub Discussion.
+For very large proposals it can be inefficient to capture all the information in the GitHub Discussion. In this cases a separate design proposal can be sent to the [Keycloak Community repository](https://github.com/mister-weeden/keycloak-community/tree/main/design), and linked to from the GitHub Discussion.
 
-The contributor can decide to send a pull request prior to discussions. However, the change will not be accepted until it has been discussed through [GitHub Discussions](https://github.com/keycloak/keycloak/discussions/categories/ideas).
+The contributor can decide to send a pull request prior to discussions. However, the change will not be accepted until it has been discussed through [GitHub Discussions](https://github.com/mister-weeden/keycloak/discussions/categories/ideas).
 
-If there are any objections to the change they can in most cases be resolved through discussions in [GitHub Discussions](https://github.com/keycloak/keycloak/discussions/categories/ideas), or
+If there are any objections to the change they can in most cases be resolved through discussions in [GitHub Discussions](https://github.com/mister-weeden/keycloak/discussions/categories/ideas), or
 in the pull request. If a resolution can not be made it can be accepted if at least 2/3 of maintainers approve the change.

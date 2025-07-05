@@ -1,4 +1,4 @@
-# Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/keycloak/keycloak
+# Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/mister-weeden/keycloak
 
 # Reason
 [[IgnoredVulns]]

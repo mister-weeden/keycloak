@@ -1,11 +1,11 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import type { KeyMetadataRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/keyMetadataRepresentation";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import type { KeyMetadataRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/keyMetadataRepresentation";
 import {
   KeycloakDataTable,
   KeycloakSelect,
   SelectVariant,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,
@@ -19,8 +19,8 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { emptyFormatter } from "../../util";
 import useFormatDate from "../../utils/useFormatDate";

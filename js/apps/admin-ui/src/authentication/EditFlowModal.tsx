@@ -1,5 +1,5 @@
-import type AuthenticationFlowRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import type AuthenticationFlowRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

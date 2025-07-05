@@ -1,4 +1,4 @@
-import type CredentialRepresentation from "@keycloak/keycloak-admin-client/lib/defs/credentialRepresentation";
+import type CredentialRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/credentialRepresentation";
 import {
   AlertVariant,
   Button,
@@ -10,7 +10,7 @@ import { CheckIcon, PencilAltIcon, TimesIcon } from "@patternfly/react-icons";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 
 type UserLabelForm = {
   userLabel: string;

@@ -1,8 +1,8 @@
 import type {
   UserProfileAttribute,
   UserProfileConfig,
-} from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import { ScrollForm, useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import { ScrollForm, useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

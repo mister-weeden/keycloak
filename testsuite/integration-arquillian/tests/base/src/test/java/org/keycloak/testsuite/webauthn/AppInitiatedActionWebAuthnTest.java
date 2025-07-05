@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Red Hat, Inc. and/or its affiliates
+ * Copyright 2019 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -169,13 +169,13 @@ public class AppInitiatedActionWebAuthnTest extends AbstractAppInitiatedActionTe
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void proceedSetupWebAuthnLogoutOtherSessionsChecked() throws IOException {
         testWebAuthnLogoutOtherSessions(true);
     }
 
     @Test
-    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/keycloak/keycloak/issues/10368
+    @IgnoreBrowserDriver(FirefoxDriver.class) // See https://github.com/mister-weeden/keycloak/issues/10368
     public void proceedSetupWebAuthnLogoutOtherSessionsNotChecked() throws IOException {
         testWebAuthnLogoutOtherSessions(false);
     }

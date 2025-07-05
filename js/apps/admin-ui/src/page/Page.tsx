@@ -1,5 +1,5 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { ButtonVariant, DropdownItem } from "@patternfly/react-core";
 import { get } from "lodash-es";
 import { useState } from "react";

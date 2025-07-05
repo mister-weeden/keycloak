@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -1796,7 +1796,7 @@ public class RefreshTokenTest extends AbstractKeycloakTest {
     }
 
     /**
-     * This is a very esoteric test specific to bug <a href="https://github.com/keycloak/keycloak/issues/38591">#38591</a>.
+     * This is a very esoteric test specific to bug <a href="https://github.com/mister-weeden/keycloak/issues/38591">#38591</a>.
      * Consider removing or rewriting the test if the loading of sessions from the database has changed and no longer
      * updates the client session timestamp. It is also specific to the case when the idle timeout of a client is reduced
      * while some client sessions already exist.

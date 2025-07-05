@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { PageSection } from "@patternfly/react-core";
 
-import type { AccessType } from "@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation";
+import type { AccessType } from "@mister-weeden/keycloak-admin-client/lib/defs/whoAmIRepresentation";
 
 type ForbiddenSectionProps = {
   permissionNeeded: AccessType | AccessType[];

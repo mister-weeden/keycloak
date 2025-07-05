@@ -1,4 +1,4 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
 import { Page, expect } from "@playwright/test";
 import { selectItem } from "../utils/form";
 

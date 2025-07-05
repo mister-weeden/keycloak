@@ -1,7 +1,7 @@
-import AuthenticationFlowRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
-import type { AuthenticationProviderRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
-import AuthenticatorConfigRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import AuthenticationFlowRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
+import type { AuthenticationProviderRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import AuthenticatorConfigRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,

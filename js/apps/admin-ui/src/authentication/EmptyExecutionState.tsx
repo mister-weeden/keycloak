@@ -8,9 +8,9 @@ import {
   TitleSizes,
 } from "@patternfly/react-core";
 
-import type AuthenticationFlowRepresentation from "@keycloak/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
-import type { AuthenticationProviderRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import type AuthenticationFlowRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/authenticationFlowRepresentation";
+import type { AuthenticationProviderRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import { AddStepModal } from "./components/modals/AddStepModal";
 import { AddSubFlowModal, Flow } from "./components/modals/AddSubFlowModal";
 

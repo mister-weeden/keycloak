@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Red Hat, Inc. and/or its affiliates
+ * Copyright 2025 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,7 +48,7 @@ public final class KeycloakLogFilter implements Filter {
 
         if (MultiSiteUtils.isPersistentSessionsEnabled()) {
             // Suppress messages for ISPN000312 as there shouldn't be a warning as this is expected as user and client sessions have only a single owner.
-            // https://github.com/keycloak/keycloak/issues/39816
+            // https://github.com/mister-weeden/keycloak/issues/39816
             if (Objects.equals(record.getLevel(), Level.WARNING) && record.getLoggerName().equals("org.infinispan.CLUSTER") && ISPN000312_PATTERN.matcher(record.getMessage()).matches()) {
                 return false;
             }

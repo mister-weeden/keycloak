@@ -1,7 +1,7 @@
 import {
   KeycloakContext,
   type BaseEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import Keycloak from "keycloak-js";
 
 import { joinPath } from "../utils/joinPath";

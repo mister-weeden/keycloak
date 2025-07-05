@@ -1,4 +1,4 @@
-import { NetworkError } from "@keycloak/keycloak-admin-client";
+import { NetworkError } from "@mister-weeden/keycloak-admin-client";
 
 const ERROR_FIELDS = ["error", "errorMessage"];
 const ERROR_DESCRIPTION_FIELD = "error_description";

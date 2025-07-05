@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -140,7 +140,7 @@ public class AccountLinkTest extends AbstractKeycloakTest {
     }
 
     @Test
-    @Ignore // Ignore should be removed by https://github.com/keycloak/keycloak/issues/20441
+    @Ignore // Ignore should be removed by https://github.com/mister-weeden/keycloak/issues/20441
     public void testAccountLinkWithUserStorageProvider() {
 
         String childUsername = PassThroughFederatedUserStorageProvider.PASSTHROUGH_USERNAME;

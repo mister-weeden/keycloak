@@ -1,12 +1,12 @@
-import type ClientProfileRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientProfileRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import { KeycloakDataTable, useFetch } from "@keycloak/keycloak-ui-shared";
+import type ClientProfileRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientProfileRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import { KeycloakDataTable, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { Button, Label, Modal, ModalVariant } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import { translationFormatter } from "../utils/translationFormatter";
 
 type ClientProfile = ClientProfileRepresentation & {

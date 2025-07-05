@@ -108,12 +108,12 @@ ssh 51122e382d5271c5ca0000bc@keycloak-mposolda.rhcloud.com
 
 Then on the machine:
 
-1) update the version in `/var/lib/openshift/51122e382d5271c5ca0000bc/wildfly/modules/system/add-ons/keycloak/org/keycloak/keycloak-server-spi/main/modules.xml`
+1) update the version in `/var/lib/openshift/51122e382d5271c5ca0000bc/wildfly/modules/system/add-ons/keycloak/org/mister-weeden/keycloak-server-spi/main/modules.xml`
  
 2) Replace JAR and restart server:
 
 ````bash
-cp /tmp/keycloak-server-spi-2.1.0-SNAPSHOT.jar /var/lib/openshift/51122e382d5271c5ca0000bc/wildfly/modules/system/add-ons/keycloak/org/keycloak/keycloak-server-spi/main/
+cp /tmp/keycloak-server-spi-2.1.0-SNAPSHOT.jar /var/lib/openshift/51122e382d5271c5ca0000bc/wildfly/modules/system/add-ons/keycloak/org/mister-weeden/keycloak-server-spi/main/
 ps aux | grep java
 kill -9 <PID>
 cd /var/lib/openshift/51122e382d5271c5ca0000bc/wildfly/bin

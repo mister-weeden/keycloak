@@ -1,5 +1,5 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   ButtonVariant,
@@ -25,7 +25,7 @@ import {
 } from "../components/confirm-dialog/ConfirmDialog";
 import { DownloadDialog } from "../components/download-dialog/DownloadDialog";
 import type { KeyValueType } from "../components/key-value-form/key-value-convert";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { PermissionsTab } from "../components/permission-tab/PermissionTab";
 import { RolesList } from "../components/roles-list/RolesList";
 import {

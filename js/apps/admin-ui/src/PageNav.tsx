@@ -1,4 +1,4 @@
-import { label, useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { label, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   Label,
   Nav,

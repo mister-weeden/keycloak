@@ -1,5 +1,5 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import { useEnvironment } from "@keycloak/keycloak-ui-shared";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import { useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import { Tab, TabTitleText } from "@patternfly/react-core";
 import JSZip from "jszip";
 import { useTranslation } from "react-i18next";

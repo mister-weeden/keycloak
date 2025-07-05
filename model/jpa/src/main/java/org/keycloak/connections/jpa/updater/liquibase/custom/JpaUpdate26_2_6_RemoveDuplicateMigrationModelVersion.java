@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 /**
  * Cleanup script for removing duplicated migration model versions in the MIGRATION_MODEL table
- * See: <a href="https://github.com/keycloak/keycloak/issues/39866">keycloak#39866</a>
+ * See: <a href="https://github.com/mister-weeden/keycloak/issues/39866">keycloak#39866</a>
  */
 public class JpaUpdate26_2_6_RemoveDuplicateMigrationModelVersion extends CustomKeycloakTask {
 

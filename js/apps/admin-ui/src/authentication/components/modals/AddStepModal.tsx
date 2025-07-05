@@ -1,5 +1,5 @@
-import type { AuthenticationProviderRepresentation } from "@keycloak/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
-import { PaginatingTableToolbar, useFetch } from "@keycloak/keycloak-ui-shared";
+import type { AuthenticationProviderRepresentation } from "@mister-weeden/keycloak-admin-client/lib/defs/authenticatorConfigRepresentation";
+import { PaginatingTableToolbar, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

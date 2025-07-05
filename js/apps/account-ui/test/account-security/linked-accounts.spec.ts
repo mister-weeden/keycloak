@@ -1,5 +1,5 @@
-import ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
 import { Page, expect, test } from "@playwright/test";
 
 import {

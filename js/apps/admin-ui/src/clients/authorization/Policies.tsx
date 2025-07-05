@@ -1,11 +1,11 @@
-import type PolicyProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyProviderRepresentation";
-import type PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
+import type PolicyProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyProviderRepresentation";
+import type PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
 import {
   ListEmptyState,
   PaginatingTableToolbar,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Alert,
   AlertVariant,
@@ -28,7 +28,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import { toUpperCase } from "../../util";
 import useToggle from "../../utils/useToggle";

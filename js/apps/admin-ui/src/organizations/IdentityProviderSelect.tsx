@@ -1,10 +1,10 @@
-import IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
-import { IdentityProvidersQuery } from "@keycloak/keycloak-admin-client/lib/resources/identityProviders";
+import IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import { IdentityProvidersQuery } from "@mister-weeden/keycloak-admin-client/lib/resources/identityProviders";
 import {
   FormErrorText,
   HelpItem,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Chip,
@@ -25,7 +25,7 @@ import { Controller, useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
 import { ComponentProps } from "../components/dynamic/components";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import useToggle from "../utils/useToggle";
 
 type IdentityProviderSelectProps = Omit<ComponentProps, "convertToName"> & {

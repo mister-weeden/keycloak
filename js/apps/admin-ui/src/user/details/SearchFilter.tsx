@@ -1,4 +1,4 @@
-import { KeycloakSelect } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSelect } from "@mister-weeden/keycloak-ui-shared";
 import {
   Dropdown,
   DropdownItem,

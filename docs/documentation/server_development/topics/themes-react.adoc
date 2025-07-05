@@ -5,8 +5,8 @@ The admin console and account console are based on React.
 To fully customize these you can use the React based npm packages.
 There are two packages:
 
-* `@keycloak/keycloak-admin-ui`: This is the base theme for the admin console.
-* `@keycloak/keycloak-account-ui`: This is the base theme for the account console.
+* `@mister-weeden/keycloak-admin-ui`: This is the base theme for the admin console.
+* `@mister-weeden/keycloak-account-ui`: This is the base theme for the account console.
 
 Both packages are available on npm.
 
@@ -16,7 +16,7 @@ To install the packages, run the following command:
 
 [source,bash]
 ----
-pnpm install @keycloak/keycloak-account-ui
+pnpm install @mister-weeden/keycloak-account-ui
 ----
 
 === Using the packages
@@ -25,7 +25,7 @@ To use these pages you'll need to add KeycloakProvider in your component hierarc
 
 [source,javascript]
 ----
-import { KeycloakProvider } from "@keycloak/keycloak-ui-shared";
+import { KeycloakProvider } from "@mister-weeden/keycloak-ui-shared";
 
 //...
 
@@ -61,5 +61,5 @@ backend: {
 === Using the pages
 
 All "pages" are React components that can be used in your application.
-To see what components are available, see the https://github.com/keycloak/keycloak/blob/main/js/apps/account-ui/src/index.ts[source].
-Or have a look at the https://github.com/keycloak/keycloak-quickstarts/tree/main/extension/extend-account-console-node[quick start] to see how to use them.
+To see what components are available, see the https://github.com/mister-weeden/keycloak/blob/main/js/apps/account-ui/src/index.ts[source].
+Or have a look at the https://github.com/mister-weeden/keycloak-quickstarts/tree/main/extension/extend-account-console-node[quick start] to see how to use them.

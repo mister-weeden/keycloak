@@ -1,9 +1,9 @@
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
-import ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
-import RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
+import ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 
 import { DEFAULT_REALM, SERVER_URL } from "./constants";
 

@@ -1,5 +1,5 @@
-import type { ManagementPermissionReference } from "@keycloak/keycloak-admin-client/lib/defs/managementPermissionReference";
-import { HelpItem, useFetch } from "@keycloak/keycloak-ui-shared";
+import type { ManagementPermissionReference } from "@mister-weeden/keycloak-admin-client/lib/defs/managementPermissionReference";
+import { HelpItem, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   Card,
   CardBody,
@@ -23,7 +23,7 @@ import { Trans, useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { toPermissionDetails } from "../../clients/routes/PermissionDetails";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../../context/realm-context/RealmContext";
 import useLocaleSort from "../../utils/useLocaleSort";
 import { useConfirmDialog } from "../confirm-dialog/ConfirmDialog";

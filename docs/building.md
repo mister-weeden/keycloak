@@ -17,7 +17,7 @@ This will use the Maven version which is supported by this project.
 ---    
 First clone the Keycloak repository:
     
-    git clone https://github.com/keycloak/keycloak.git
+    git clone https://github.com/mister-weeden/keycloak.git
     cd keycloak
     
 To build Keycloak run:

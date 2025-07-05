@@ -1,5 +1,5 @@
-import type PolicyRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import { DecisionStrategy } from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
+import type PolicyRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import { DecisionStrategy } from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
 import {
   FormErrorText,
   HelpItem,
@@ -8,7 +8,7 @@ import {
   TextControl,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   AlertVariant,
@@ -27,7 +27,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
 import { useConfirmDialog } from "../../components/confirm-dialog/ConfirmDialog";
 import { FormAccess } from "../../components/form/FormAccess";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../../components/view-header/ViewHeader";
 import { useAccess } from "../../context/access/Access";
 import { toUpperCase } from "../../util";

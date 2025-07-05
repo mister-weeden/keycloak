@@ -1,5 +1,5 @@
-import { NetworkError } from "@keycloak/keycloak-admin-client";
-import { KeycloakDataTable, useAlerts } from "@keycloak/keycloak-ui-shared";
+import { NetworkError } from "@mister-weeden/keycloak-admin-client";
+import { KeycloakDataTable, useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Badge,

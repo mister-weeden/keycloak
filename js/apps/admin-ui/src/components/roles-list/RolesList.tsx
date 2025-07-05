@@ -1,5 +1,5 @@
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import { HelpItem, useAlerts } from "@keycloak/keycloak-ui-shared";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import { HelpItem, useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { AlertVariant, Button, ButtonVariant } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -11,8 +11,8 @@ import { toRealmSettings } from "../../realm-settings/routes/RealmSettings";
 import { emptyFormatter, upperCaseFormatter } from "../../util";
 import { translationFormatter } from "../../utils/translationFormatter";
 import { useConfirmDialog } from "../confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 
 import "./RolesList.css";
 

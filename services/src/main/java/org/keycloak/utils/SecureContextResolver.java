@@ -44,7 +44,7 @@ public class SecureContextResolver {
         // Safari has a bug where even a secure context is not able to set cookies with the 'Secure' directive.
         // Hence, we need to assume the worst case scenario and downgrade to an insecure context.
         // See:
-        // - https://github.com/keycloak/keycloak/issues/33557
+        // - https://github.com/mister-weeden/keycloak/issues/33557
         // - https://webcompat.com/issues/142566
         // - https://bugs.webkit.org/show_bug.cgi?id=232088
         // - https://bugs.webkit.org/show_bug.cgi?id=276313

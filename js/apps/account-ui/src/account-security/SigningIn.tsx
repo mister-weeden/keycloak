@@ -22,7 +22,7 @@ import {
 } from "@patternfly/react-icons";
 import { CSSProperties, Fragment, useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
-import { useEnvironment } from "@keycloak/keycloak-ui-shared";
+import { useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import { getCredentials } from "../api/methods";
 import {
   CredentialContainer,

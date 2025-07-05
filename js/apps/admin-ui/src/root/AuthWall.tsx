@@ -1,10 +1,10 @@
-import { AccessType } from "@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation";
+import { AccessType } from "@mister-weeden/keycloak-admin-client/lib/defs/whoAmIRepresentation";
 import { useMatches } from "react-router-dom";
 
 import { ForbiddenSection } from "../ForbiddenSection";
 import { useAccess } from "../context/access/Access";
 import { useWhoAmI } from "../context/whoami/WhoAmI";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 
 function hasProp<K extends PropertyKey>(
   data: object,

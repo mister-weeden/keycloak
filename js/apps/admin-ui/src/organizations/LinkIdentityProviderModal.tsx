@@ -1,5 +1,5 @@
-import IdentityProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/identityProviderRepresentation";
-import { FormSubmitButton, SelectControl } from "@keycloak/keycloak-ui-shared";
+import IdentityProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/identityProviderRepresentation";
+import { FormSubmitButton, SelectControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,
@@ -12,7 +12,7 @@ import { FormProvider, useForm, useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
 import { DefaultSwitchControl } from "../components/SwitchControl";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   convertAttributeNameToForm,
   convertFormValuesToObject,

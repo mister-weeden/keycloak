@@ -1,4 +1,4 @@
-import type UserConsentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userConsentRepresentation";
+import type UserConsentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userConsentRepresentation";
 import {
   AlertVariant,
   ButtonVariant,
@@ -11,10 +11,10 @@ import { sortBy } from "lodash-es";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { emptyFormatter } from "../util";
 import useFormatDate from "../utils/useFormatDate";
 import { useParams } from "../utils/useParams";

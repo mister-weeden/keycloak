@@ -1,6 +1,6 @@
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
-import type CertificateRepresentation from "@keycloak/keycloak-admin-client/lib/defs/certificateRepresentation";
-import type KeyStoreConfig from "@keycloak/keycloak-admin-client/lib/defs/keystoreConfig";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
+import type CertificateRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/certificateRepresentation";
+import type KeyStoreConfig from "@mister-weeden/keycloak-admin-client/lib/defs/keystoreConfig";
 import {
   AlertVariant,
   Button,
@@ -22,9 +22,9 @@ import { saveAs } from "file-saver";
 import { useState } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { Certificate } from "./Certificate";
 import { KeyForm } from "./GenerateKeyDialog";
 import type { KeyTypes } from "./SamlKeys";

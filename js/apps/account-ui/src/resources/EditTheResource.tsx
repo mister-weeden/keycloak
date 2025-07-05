@@ -2,7 +2,7 @@ import {
   SelectControl,
   TextControl,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Button, Form, Modal } from "@patternfly/react-core";
 import { Fragment, useEffect } from "react";
 import { FormProvider, useFieldArray, useForm } from "react-hook-form";

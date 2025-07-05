@@ -1,4 +1,4 @@
-import type { AccessType } from "@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation";
+import type { AccessType } from "@mister-weeden/keycloak-admin-client/lib/defs/whoAmIRepresentation";
 import {
   ActionGroup,
   ClipboardCopy,

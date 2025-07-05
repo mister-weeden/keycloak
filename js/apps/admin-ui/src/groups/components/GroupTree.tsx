@@ -1,4 +1,4 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 import {
   AlertVariant,
   Button,
@@ -20,14 +20,14 @@ import {
   PaginatingTableToolbar,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { AngleRightIcon, EllipsisVIcon } from "@patternfly/react-icons";
 import { unionBy } from "lodash-es";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { useAdminClient } from "../../admin-client";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import { useAccess } from "../../context/access/Access";
 import { fetchAdminUI } from "../../context/auth/admin-ui-endpoint";
 import { useRealm } from "../../context/realm-context/RealmContext";

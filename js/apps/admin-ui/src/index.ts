@@ -139,7 +139,7 @@ export { useWhoAmI, WhoAmIContextProvider } from "./context/whoami/WhoAmI";
 export {
   useErrorBoundary,
   ErrorBoundaryProvider,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 export { useRecentRealms, RecentRealmsProvider } from "./context/RecentRealms";
 export * as DashboardSection from "./dashboard/Dashboard";
 export { ProviderInfo } from "./dashboard/ProviderInfo";
@@ -311,7 +311,7 @@ export { PageNav } from "./PageNav";
 export { PageNotFoundSection } from "./PageNotFoundSection";
 export { App as AdminUi } from "./App";
 export type { Environment as AccountEnvironment } from "./environment";
-export { KeycloakProvider, useEnvironment } from "@keycloak/keycloak-ui-shared";
+export { KeycloakProvider, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 export { AdminClientContext, initAdminClient } from "./admin-client";
 export { AppContexts } from "./App";
 export * as PermissionsConfigurationSection from "./permissions-configuration/PermissionsConfigurationSection";

@@ -1,8 +1,8 @@
-import type ScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/scopeRepresentation";
+import type ScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/scopeRepresentation";
 import { Alert, AlertVariant } from "@patternfly/react-core";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { ConfirmDialogModal } from "../../components/confirm-dialog/ConfirmDialog";
 import type { PermissionScopeRepresentation } from "./Scopes";
 

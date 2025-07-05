@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--
-~ Copyright 2016 Red Hat, Inc. and/or its affiliates
+~ Copyright 2016 Scott Weeden. and/or its affiliates
 ~ and other contributors as indicated by the @author tags.
 ~
 ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -205,7 +205,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <!-- See: https://github.com/keycloak/keycloak/issues/9899 -->
+        <!-- See: https://github.com/mister-weeden/keycloak/issues/9899 -->
         <surefire.system.args>
             --add-opens=java.base/java.lang=ALL-UNNAMED
             --add-opens=java.base/java.util=ALL-UNNAMED
@@ -244,9 +244,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/keycloak/keycloak.git</connection>
-        <developerConnection>scm:git:git@github.com:keycloak/keycloak.git</developerConnection>
-        <url>https://github.com/keycloak/keycloak/tree/master/</url>
+        <connection>scm:git:git://github.com/mister-weeden/keycloak.git</connection>
+        <developerConnection>scm:git:git@github.com:mister-weeden/keycloak.git</developerConnection>
+        <url>https://github.com/mister-weeden/keycloak/tree/master/</url>
     </scm>
 
     <distributionManagement>
@@ -262,7 +262,7 @@
 
     <issueManagement>
         <system>JIRA</system>
-        <url>https://github.com/keycloak/keycloak/issues</url>
+        <url>https://github.com/mister-weeden/keycloak/issues</url>
     </issueManagement>
 
     <developers>

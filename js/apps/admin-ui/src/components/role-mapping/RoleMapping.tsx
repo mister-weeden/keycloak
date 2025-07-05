@@ -1,7 +1,7 @@
-import type KeycloakAdminClient from "@keycloak/keycloak-admin-client";
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import type KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Badge,
@@ -17,8 +17,8 @@ import { useAdminClient } from "../../admin-client";
 import { emptyFormatter, upperCaseFormatter } from "../../util";
 import { translationFormatter } from "../../utils/translationFormatter";
 import { useConfirmDialog } from "../confirm-dialog/ConfirmDialog";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import {
   AddRoleButton,
   AddRoleMappingModal,

@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import { Link } from "react-router-dom";
 import { Tooltip } from "@patternfly/react-core";
 
-import type AdminEventRepresentation from "@keycloak/keycloak-admin-client/lib/defs/adminEventRepresentation";
+import type AdminEventRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/adminEventRepresentation";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { toClient } from "../clients/routes/Client";
 import { toGroups } from "../groups/routes/Groups";

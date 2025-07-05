@@ -4,14 +4,14 @@ PR="$1"
 REPO="$2"
 
 if [ "$REPO" == "" ]; then
-    REPO="keycloak/keycloak"
+    REPO="mister-weeden/keycloak"
 fi
 
 function parse_issues() {
     echo "$1" | \
-      grep -i -P -o "(close|closes|closed|resolve|resolves|resolved|fixes|fixed):? (#|https://github.com/keycloak/keycloak/issues/)[[:digit:]]*" | \
-      sed -e 's|https://github.com/keycloak/keycloak/issues/|#|g' | \
-      sed -e 's|keycloak/keycloak/issues/|#|g' | \
+      grep -i -P -o "(close|closes|closed|resolve|resolves|resolved|fixes|fixed):? (#|https://github.com/mister-weeden/keycloak/issues/)[[:digit:]]*" | \
+      sed -e 's|https://github.com/mister-weeden/keycloak/issues/|#|g' | \
+      sed -e 's|mister-weeden/keycloak/issues/|#|g' | \
       cut -d '#' -f 2 | sort -n
 }
 

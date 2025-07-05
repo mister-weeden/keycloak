@@ -12,9 +12,9 @@ import {
   Switch,
 } from "@patternfly/react-core";
 
-import type ResourceServerRepresentation from "@keycloak/keycloak-admin-client/lib/defs/resourceServerRepresentation";
+import type ResourceServerRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceServerRepresentation";
 import { JsonFileUpload } from "../../components/json-file-upload/JsonFileUpload";
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 
 type ImportDialogProps = {
   onConfirm: (value: ResourceServerRepresentation) => void;

@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/ubi9 AS ubi-micro-build
 
 ARG KEYCLOAK_VERSION=999.0.0-SNAPSHOT
-ARG KEYCLOAK_DIST=https://github.com/keycloak/keycloak/releases/download/$KEYCLOAK_VERSION/keycloak-$KEYCLOAK_VERSION.tar.gz
+ARG KEYCLOAK_DIST=https://github.com/mister-weeden/keycloak/releases/download/$KEYCLOAK_VERSION/keycloak-$KEYCLOAK_VERSION.tar.gz
 
 RUN dnf install -y tar gzip
 
@@ -10,10 +10,10 @@ ADD $KEYCLOAK_DIST /tmp/keycloak/
 # The next step makes it uniform for local development and upstream built.
 # If it is a local tar archive then it is unpacked, if from remote is just downloaded.
 RUN (cd /tmp/keycloak && \
-    tar -xvf /tmp/keycloak/keycloak-*.tar.gz && \
-    rm /tmp/keycloak/keycloak-*.tar.gz) || true
+    tar -xvf /tmp/mister-weeden/keycloak-*.tar.gz && \
+    rm /tmp/mister-weeden/keycloak-*.tar.gz) || true
 
-RUN mv /tmp/keycloak/keycloak-* /opt/keycloak && mkdir -p /opt/keycloak/data
+RUN mv /tmp/mister-weeden/keycloak-* /opt/keycloak && mkdir -p /opt/keycloak/data
 RUN chmod -R g+rwX /opt/keycloak
 
 ADD ubi-null.sh /tmp/
@@ -69,7 +69,7 @@ LABEL name=${KEYCLOAK_SERVER_IMAGE_NAME} \
       io.k8s.description=${KEYCLOAK_SERVER_DESCRIPTION}
 
 # oci
-ARG KEYCLOAK_SOURCE="https://github.com/keycloak/keycloak"
+ARG KEYCLOAK_SOURCE="https://github.com/mister-weeden/keycloak"
 ARG KEYCLOAK_DOCS=${KEYCLOAK_URL}documentation
 
 LABEL org.opencontainers.image.title=${KEYCLOAK_SERVER_DISPLAY_NAME} \

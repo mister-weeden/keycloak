@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Discussions
-    url: https://github.com/keycloak/keycloak/discussions
+    url: https://github.com/mister-weeden/keycloak/discussions
     about: Propose new ideas, provide feedback, or ask for help here
   - name: User mailing list
     url: https://groups.google.com/forum/#!forum/keycloak-user

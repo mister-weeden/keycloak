@@ -1,9 +1,9 @@
-import type RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import type RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import { AlertVariant, Tab, Tabs, TabTitleText } from "@patternfly/react-core";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { RoleMapping } from "../components/role-mapping/RoleMapping";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { DefaultsGroupsTab } from "./DefaultGroupsTab";

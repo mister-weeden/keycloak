@@ -1,9 +1,9 @@
-import type RequiredActionProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation";
+import type RequiredActionProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation";
 import {
   SelectControl,
   SelectVariant,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { useState } from "react";
 import { FieldPathByValue, FieldValues } from "react-hook-form";
 import { useTranslation } from "react-i18next";

@@ -28,7 +28,7 @@ import=common/your-theme-name
 
 = Changes to the Account Console theme customization
 
-If you were previously extending the now deprecated version 2 of the Account Console theme, you will need to update your theme to use the new version 3 of the Account Console theme. The new version of the Account Console theme comes with some changes in regards to how it is customized. To start with a clean slate, you can follow the new https://github.com/keycloak/keycloak-quickstarts/tree/release/24.0/extension/extend-account-console[customization quickstart].
+If you were previously extending the now deprecated version 2 of the Account Console theme, you will need to update your theme to use the new version 3 of the Account Console theme. The new version of the Account Console theme comes with some changes in regards to how it is customized. To start with a clean slate, you can follow the new https://github.com/mister-weeden/keycloak-quickstarts/tree/release/24.0/extension/extend-account-console[customization quickstart].
 
 To move your custom theme start by changing the `parent` to the new theme:
 

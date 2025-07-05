@@ -1,4 +1,4 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
 import {
   Button,
   ButtonVariant,
@@ -22,7 +22,7 @@ import { sortBy } from "lodash-es";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAdminClient } from "../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 
 type ManagePriorityDialogProps = {
   components: ComponentRepresentation[];

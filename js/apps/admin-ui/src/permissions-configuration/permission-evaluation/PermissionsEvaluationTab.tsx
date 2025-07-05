@@ -1,12 +1,12 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type EvaluationResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
-import PolicyEvaluationResponse from "@keycloak/keycloak-admin-client/lib/defs/policyEvaluationResponse";
-import type ResourceEvaluation from "@keycloak/keycloak-admin-client/lib/defs/resourceEvaluation";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type EvaluationResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
+import PolicyEvaluationResponse from "@mister-weeden/keycloak-admin-client/lib/defs/policyEvaluationResponse";
+import type ResourceEvaluation from "@mister-weeden/keycloak-admin-client/lib/defs/resourceEvaluation";
 import {
   ListEmptyState,
   SelectControl,
   useAlerts,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Alert,

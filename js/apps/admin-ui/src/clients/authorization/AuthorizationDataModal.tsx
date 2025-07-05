@@ -1,4 +1,4 @@
-import type AccessTokenRepresentation from "@keycloak/keycloak-admin-client/lib/defs/accessTokenRepresentation";
+import type AccessTokenRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/accessTokenRepresentation";
 import {
   Button,
   Modal,

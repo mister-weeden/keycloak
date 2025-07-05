@@ -104,15 +104,15 @@ You can install the Operator on a vanilla Kubernetes cluster by using `kubectl` 
 +
 [source,bash,subs="attributes+"]
 ----
-kubectl apply -f https://raw.githubusercontent.com/keycloak/keycloak-k8s-resources/{version}/kubernetes/keycloaks.k8s.keycloak.org-v1.yml
-kubectl apply -f https://raw.githubusercontent.com/keycloak/keycloak-k8s-resources/{version}/kubernetes/keycloakrealmimports.k8s.keycloak.org-v1.yml
+kubectl apply -f https://raw.githubusercontent.com/mister-weeden/keycloak-k8s-resources/{version}/kubernetes/keycloaks.k8s.keycloak.org-v1.yml
+kubectl apply -f https://raw.githubusercontent.com/mister-weeden/keycloak-k8s-resources/{version}/kubernetes/keycloakrealmimports.k8s.keycloak.org-v1.yml
 ----
 
 . Install the {project_name} Operator deployment by entering the following command:
 +
 [source,bash,subs="attributes+"]
 ----
-kubectl apply -f https://raw.githubusercontent.com/keycloak/keycloak-k8s-resources/{version}/kubernetes/kubernetes.yml
+kubectl apply -f https://raw.githubusercontent.com/mister-weeden/keycloak-k8s-resources/{version}/kubernetes/kubernetes.yml
 ----
 
 The Operator will watch the namespace where it is installed. You may optionally select a namespace with the `-n` option.

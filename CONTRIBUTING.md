@@ -18,7 +18,7 @@ Issues are important for administrative purposes such as generating a changelog 
 
 Here's a quick checklist for a good PR, more details below:
 
-1. A discussion around the change (https://github.com/keycloak/keycloak/discussions/categories/ideas)
+1. A discussion around the change (https://github.com/mister-weeden/keycloak/discussions/categories/ideas)
 1. A GitHub Issue with a good description associated with the PR
 1. One feature/change per PR
 1. One commit per PR
@@ -38,17 +38,17 @@ not be able to respond to your PR immediately. The best place to ping us is on t
 
 If you would like to contribute to Keycloak, but are not sure exactly what to work on, you can find a number of open
 issues that are awaiting contributions in  
-[issues](https://github.com/keycloak/keycloak/issues).
+[issues](https://github.com/mister-weeden/keycloak/issues).
 
 ### Open a discussion on a proposed change
 
 As Keycloak is a community-driven project we require contributors to open a discussion on what they are planning to contribute.
 
-Discussions should first and foremost be done through [GitHub Discussions](https://github.com/keycloak/keycloak/discussions/categories/ideas).
+Discussions should first and foremost be done through [GitHub Discussions](https://github.com/mister-weeden/keycloak/discussions/categories/ideas).
 
 The [Keycloak Dev Mailing List](https://groups.google.com/forum/#!forum/keycloak-dev) can be used to notify the community on your new discussion, and can also be used for more low-level implementation discussions.
 
-For very large proposals it can be inefficient to capture all the information in the GitHub Discussion. In this cases a separate design proposal can be sent to the [Keycloak Community repository](https://github.com/keycloak/keycloak-community/tree/main/design), and linked to from the GitHub Discussion.
+For very large proposals it can be inefficient to capture all the information in the GitHub Discussion. In this cases a separate design proposal can be sent to the [Keycloak Community repository](https://github.com/mister-weeden/keycloak-community/tree/main/design), and linked to from the GitHub Discussion.
 
 ### Create an issue
 

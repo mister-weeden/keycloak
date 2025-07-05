@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -95,7 +95,7 @@ public class DefaultInfinispanConnectionProviderFactory implements InfinispanCon
         Workaround for Infinispan 12.1.7.Final and tested until 14.0.19.Final to prevent a deadlock while
         DefaultInfinispanConnectionProviderFactory is shutting down. Kept as a permanent solution and considered
         good enough after a lot of analysis went into this difficult to reproduce problem.
-        See https://github.com/keycloak/keycloak/issues/9871 for the discussion.
+        See https://github.com/mister-weeden/keycloak/issues/9871 for the discussion.
     */
     public static void runWithReadLockOnCacheManager(Runnable task) {
         Lock lock = DefaultInfinispanConnectionProviderFactory.READ_WRITE_LOCK.readLock();

@@ -1,4 +1,4 @@
-import type ClientInitialAccessPresentation from "@keycloak/keycloak-admin-client/lib/defs/clientInitialAccessPresentation";
+import type ClientInitialAccessPresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientInitialAccessPresentation";
 import {
   ActionGroup,
   AlertVariant,
@@ -9,9 +9,9 @@ import { useState } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
-import { NumberControl } from "@keycloak/keycloak-ui-shared";
+import { NumberControl } from "@mister-weeden/keycloak-ui-shared";
 import { useAdminClient } from "../../admin-client";
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { FormAccess } from "../../components/form/FormAccess";
 import { TimeSelectorControl } from "../../components/time-selector/TimeSelectorControl";
 import { ViewHeader } from "../../components/view-header/ViewHeader";

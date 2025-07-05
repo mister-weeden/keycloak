@@ -2,7 +2,7 @@ import { FormGroup } from "@patternfly/react-core";
 import { PropsWithChildren } from "react";
 import { useTranslation } from "react-i18next";
 
-import { HelpItem } from "@keycloak/keycloak-ui-shared";
+import { HelpItem } from "@mister-weeden/keycloak-ui-shared";
 
 export type FieldProps = { label: string; field: string; isReadOnly?: boolean };
 export type FormGroupFieldProps = { label: string };

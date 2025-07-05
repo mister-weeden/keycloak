@@ -1,8 +1,8 @@
 import PolicyRepresentation, {
   DecisionStrategy,
   Logic,
-} from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import PolicyProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyProviderRepresentation";
+} from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import PolicyProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyProviderRepresentation";
 import { useTranslation } from "react-i18next";
 import {
   Modal,
@@ -20,7 +20,7 @@ import {
   SelectControl,
   TextControl,
   useAlerts,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { FormProvider, useForm, useWatch } from "react-hook-form";
 import { useAdminClient } from "../../admin-client";
 import { useRealm } from "../../context/realm-context/RealmContext";

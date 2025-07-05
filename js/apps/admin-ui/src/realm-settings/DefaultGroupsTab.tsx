@@ -1,11 +1,11 @@
-import type GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
+import type GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
 import {
   Action,
   KeycloakDataTable,
   useAlerts,
   useFetch,
   useHelp,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -26,8 +26,8 @@ import { Link } from "react-router-dom";
 import { useAdminClient } from "../admin-client";
 import { useConfirmDialog } from "../components/confirm-dialog/ConfirmDialog";
 import { GroupPickerDialog } from "../components/group/GroupPickerDialog";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
-import { ListEmptyState } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
+import { ListEmptyState } from "@mister-weeden/keycloak-ui-shared";
 import { useRealm } from "../context/realm-context/RealmContext";
 import { toUserFederation } from "../user-federation/routes/UserFederation";
 import useToggle from "../utils/useToggle";

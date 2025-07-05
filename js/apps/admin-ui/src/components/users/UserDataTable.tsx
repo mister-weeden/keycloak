@@ -1,12 +1,12 @@
-import type { UserProfileConfig } from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
+import type { UserProfileConfig } from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
 import {
   KeycloakDataTable,
   KeycloakSpinner,
   ListEmptyState,
   useAlerts,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Button,
@@ -43,7 +43,7 @@ import { emptyFormatter } from "../../util";
 import { useConfirmDialog } from "../confirm-dialog/ConfirmDialog";
 import { BruteUser, findUsers } from "../role-mapping/resource";
 import { UserDataTableToolbarItems } from "./UserDataTableToolbarItems";
-import { NetworkError } from "@keycloak/keycloak-admin-client";
+import { NetworkError } from "@mister-weeden/keycloak-admin-client";
 
 export type UserFilter = {
   exact: boolean;

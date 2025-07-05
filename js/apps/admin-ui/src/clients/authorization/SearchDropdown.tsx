@@ -1,5 +1,5 @@
-import type PolicyProviderRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyProviderRepresentation";
-import { SelectControl, TextControl } from "@keycloak/keycloak-ui-shared";
+import type PolicyProviderRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyProviderRepresentation";
+import { SelectControl, TextControl } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

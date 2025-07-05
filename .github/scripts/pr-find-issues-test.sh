@@ -22,4 +22,4 @@ trap 'testFailed' ERR
 testParsing "Closes #123" "123"
 testParsing "Fixes #123" "123"
 testParsing "Fixes: #123" "123"
-testParsing "Fixes https://github.com/keycloak/keycloak/issues/123" "123"
+testParsing "Fixes https://github.com/mister-weeden/keycloak/issues/123" "123"

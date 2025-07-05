@@ -77,7 +77,7 @@ This deprecated feature will be removed in a future version.
 
 === Updates to the `user-profile-commons.ftl` theme template
 
-The `user-profile-commons.ftl` changed to improve support for localization. See https://github.com/keycloak/keycloak/issues/38029.
+The `user-profile-commons.ftl` changed to improve support for localization. See https://github.com/mister-weeden/keycloak/issues/38029.
 As a result, and if you are extending this template, pages might start displaying a `locale` field. To avoid that, update
 the theme template with the changes aforementioned.
 
@@ -160,7 +160,7 @@ In this release, the Instagram Identity Broker is deprecated for removal and is 
 If you are using this broker, it is recommended to use the Facebook Identity Broker instead.
 
 For more details, see
-https://github.com/keycloak/keycloak/issues/37967[Deprecate for removal the Instagram social broker].
+https://github.com/mister-weeden/keycloak/issues/37967[Deprecate for removal the Instagram social broker].
 
 If you are using the Instagram Identity Broker and want to re-enable it, you can do it by enabling the `instagram-broker`
 feature using the `features` server option:
@@ -172,7 +172,7 @@ feature using the `features` server option:
 
 It has been a while since discussions started about any activity around the Instagram Identity Broker
 and any objection from the community about deprecating it for removal. For more details, see
-https://github.com/keycloak/keycloak/issues/37967[Deprecate for removal the Instagram social broker].
+https://github.com/mister-weeden/keycloak/issues/37967[Deprecate for removal the Instagram social broker].
 
 === Local admin deprecated for removal
 

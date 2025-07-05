@@ -1,8 +1,8 @@
-import KeycloakAdminClient from "@keycloak/keycloak-admin-client";
+import KeycloakAdminClient from "@mister-weeden/keycloak-admin-client";
 import {
   mainPageContentId,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Flex, FlexItem, Page } from "@patternfly/react-core";
 import { PropsWithChildren, Suspense, useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
@@ -11,7 +11,7 @@ import {
   ErrorBoundaryFallback,
   ErrorBoundaryProvider,
   KeycloakSpinner,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { Header } from "./PageHeader";
 import { PageNav } from "./PageNav";
 import { AdminClientContext, initAdminClient } from "./admin-client";

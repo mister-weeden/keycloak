@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Red Hat, Inc. and/or its affiliates
+ * Copyright 2016 Scott Weeden. and/or its affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -71,7 +71,7 @@ public class CustomLockService extends StandardLockService {
                An existing DATABASECHANGELOG might indicate that the insertion of data was completed previously.
                Still, this isn't working with the DBLockTest which deletes only the DATABASECHANGELOGLOCK table.
 
-               See https://github.com/keycloak/keycloak/issues/15487 for more information.
+               See https://github.com/mister-weeden/keycloak/issues/15487 for more information.
              */
             Table lockTable = (Table) new Table().setName(database.getDatabaseChangeLogLockTableName()).setSchema(
                     new Schema(database.getLiquibaseCatalogName(), database.getLiquibaseSchemaName()));

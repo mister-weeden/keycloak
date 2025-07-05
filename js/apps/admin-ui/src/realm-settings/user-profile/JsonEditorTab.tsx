@@ -1,4 +1,4 @@
-import { useAlerts } from "@keycloak/keycloak-ui-shared";
+import { useAlerts } from "@mister-weeden/keycloak-ui-shared";
 import { ActionGroup, Button, Form, PageSection } from "@patternfly/react-core";
 import CodeEditor from "../../components/form/CodeEditor";
 import { useState } from "react";

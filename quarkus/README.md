@@ -85,7 +85,7 @@ For debugging the build steps right after start, you can suspend the JVM by runn
 
 When running using `quarkus:dev` you are able to do live coding whenever you change / add code in the `server` module, for example when creating a new custom provider.
 
-There are currently limitations when running in development mode that block us to use all capabilities the Quarkus development mode has to offer. For instance, hot-reload of transient dependencies from keycloak (e.g.: keycloak-* dependencies) do not work. Expect more improvements in this area, and feel free to reach out if you want to help, using our [discussions](https://github.com/keycloak/keycloak/discussions/categories/keycloak-x-quarkus-distribution) or the development mailing list.
+There are currently limitations when running in development mode that block us to use all capabilities the Quarkus development mode has to offer. For instance, hot-reload of transient dependencies from keycloak (e.g.: keycloak-* dependencies) do not work. Expect more improvements in this area, and feel free to reach out if you want to help, using our [discussions](https://github.com/mister-weeden/keycloak/discussions/categories/keycloak-x-quarkus-distribution) or the development mailing list.
 
 ## Running tests
 Keycloaks Quarkus distribution module uses a new testsuite more integrated into the quarkus platform.

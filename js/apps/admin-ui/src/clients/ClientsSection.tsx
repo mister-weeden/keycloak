@@ -1,6 +1,6 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type { ClientQuery } from "@keycloak/keycloak-admin-client/lib/resources/clients";
-import { useAlerts, useEnvironment } from "@keycloak/keycloak-ui-shared";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type { ClientQuery } from "@mister-weeden/keycloak-admin-client/lib/resources/clients";
+import { useAlerts, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   Badge,
@@ -24,7 +24,7 @@ import {
   RoutableTabs,
   useRoutableTab,
 } from "../components/routable-tabs/RoutableTabs";
-import { Action, KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import { Action, KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { ViewHeader } from "../components/view-header/ViewHeader";
 import { useAccess } from "../context/access/Access";
 import { useRealm } from "../context/realm-context/RealmContext";

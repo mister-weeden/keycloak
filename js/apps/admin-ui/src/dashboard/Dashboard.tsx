@@ -1,7 +1,7 @@
 import FeatureRepresentation, {
   FeatureType,
-} from "@keycloak/keycloak-admin-client/lib/defs/featureRepresentation";
-import { HelpItem, label, useEnvironment } from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-admin-client/lib/defs/featureRepresentation";
+import { HelpItem, label, useEnvironment } from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionList,
   ActionListItem,
@@ -33,7 +33,7 @@ import {
 } from "@patternfly/react-core";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import { KeycloakSpinner } from "@keycloak/keycloak-ui-shared";
+import { KeycloakSpinner } from "@mister-weeden/keycloak-ui-shared";
 import {
   RoutableTabs,
   useRoutableTab,

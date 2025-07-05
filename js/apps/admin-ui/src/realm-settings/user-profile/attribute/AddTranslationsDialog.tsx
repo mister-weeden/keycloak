@@ -2,7 +2,7 @@ import {
   ListEmptyState,
   PaginatingTableToolbar,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Flex,

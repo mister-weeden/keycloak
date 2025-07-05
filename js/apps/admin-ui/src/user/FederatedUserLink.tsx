@@ -1,6 +1,6 @@
-import type ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import type UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { useFetch } from "@keycloak/keycloak-ui-shared";
+import type ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import type UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { Button } from "@patternfly/react-core";
 import { useState } from "react";
 import { Link } from "react-router-dom";

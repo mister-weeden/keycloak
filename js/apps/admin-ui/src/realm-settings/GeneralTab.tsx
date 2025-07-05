@@ -1,8 +1,8 @@
-import type RealmRepresentation from "@keycloak/keycloak-admin-client/lib/defs/realmRepresentation";
+import type RealmRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/realmRepresentation";
 import {
   UnmanagedAttributePolicy,
   UserProfileConfig,
-} from "@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata";
+} from "@mister-weeden/keycloak-admin-client/lib/defs/userProfileMetadata";
 import {
   FormErrorText,
   HelpItem,
@@ -11,7 +11,7 @@ import {
   TextControl,
   useEnvironment,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ClipboardCopy,
   FormGroup,

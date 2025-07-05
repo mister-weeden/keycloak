@@ -1,7 +1,7 @@
 import {
   KeycloakSelect,
   SelectControlOption,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Grid,
   GridItem,

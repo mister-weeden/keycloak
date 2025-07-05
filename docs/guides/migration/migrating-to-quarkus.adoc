@@ -26,7 +26,7 @@ To migrate to the new Quarkus powered distribution the first step is to understa
 
 One thing to note is the new distribution is a lot more opinionated when it comes to configuration. It aims to provide better defaults, with the need to configure less yourself. However, we may not always have the balance right, and there may be use-cases not covered.
 
-If you are unable to configure something that you need to tweak in the new distribution, please open a discussion in https://github.com/keycloak/keycloak/discussions/categories/keycloak-x-quarkus-distribution[GitHub Discussions].
+If you are unable to configure something that you need to tweak in the new distribution, please open a discussion in https://github.com/mister-weeden/keycloak/discussions/categories/keycloak-x-quarkus-distribution[GitHub Discussions].
 
 Until a new release is available it is possible to configure the new distribution by directly applying Quarkus level configuration through the `conf/quarkus.properties` file. We recommend you use this sparingly as you will be applying configuration untested and unsupported by the Keycloak team.
 
@@ -78,7 +78,7 @@ Depending on what APIs your providers use you may also need to make some changes
 
 == Migrating using the Operator
 
-To use the Quarkus distribution on Kubernetes and OpenShift you need to use the new Operator, the https://github.com/keycloak/keycloak-operator[old Operator] does not support the new distribution.
+To use the Quarkus distribution on Kubernetes and OpenShift you need to use the new Operator, the https://github.com/mister-weeden/keycloak-operator[old Operator] does not support the new distribution.
 
 There is no "direct" migration path, to install Keycloak using the new Operator you need to create a new Custom Resource (CR) to end up with a new Keycloak Deployment based on the Quarkus distribution.
 

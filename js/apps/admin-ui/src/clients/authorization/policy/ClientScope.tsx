@@ -1,5 +1,5 @@
-import type ClientScopeRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientScopeRepresentation";
-import { HelpItem, useFetch } from "@keycloak/keycloak-ui-shared";
+import type ClientScopeRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientScopeRepresentation";
+import { HelpItem, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import { Button, Checkbox, FormGroup } from "@patternfly/react-core";
 import { MinusCircleIcon } from "@patternfly/react-icons";
 import { Table, Tbody, Td, Th, Thead, Tr } from "@patternfly/react-table";

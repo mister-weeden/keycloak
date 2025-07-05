@@ -1,11 +1,11 @@
-import type WhoAmIRepresentation from "@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation";
-import type { AccessType } from "@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation";
+import type WhoAmIRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/whoAmIRepresentation";
+import type { AccessType } from "@mister-weeden/keycloak-admin-client/lib/defs/whoAmIRepresentation";
 import {
   createNamedContext,
   useEnvironment,
   useFetch,
   useRequiredContext,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { PropsWithChildren, useState } from "react";
 import { useAdminClient } from "../../admin-client";
 import { DEFAULT_LOCALE, i18n } from "../../i18n/i18n";

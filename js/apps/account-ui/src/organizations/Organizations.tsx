@@ -1,11 +1,11 @@
-import OrganizationRepresentation from "@keycloak/keycloak-admin-client/lib/defs/organizationRepresentation";
+import OrganizationRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/organizationRepresentation";
 import {
   ErrorBoundaryProvider,
   KeycloakSpinner,
   ListEmptyState,
   OrganizationTable,
   useEnvironment,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { getUserOrganizations } from "../api/methods";

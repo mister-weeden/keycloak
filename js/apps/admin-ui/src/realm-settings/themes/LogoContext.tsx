@@ -1,4 +1,4 @@
-import { createNamedContext } from "@keycloak/keycloak-ui-shared";
+import { createNamedContext } from "@mister-weeden/keycloak-ui-shared";
 import { PropsWithChildren, useContext, useState } from "react";
 
 type LogoContextProps = {

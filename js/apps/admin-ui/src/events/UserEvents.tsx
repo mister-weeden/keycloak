@@ -1,5 +1,5 @@
-import type EventRepresentation from "@keycloak/keycloak-admin-client/lib/defs/eventRepresentation";
-import type EventType from "@keycloak/keycloak-admin-client/lib/defs/eventTypes";
+import type EventRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/eventRepresentation";
+import type EventType from "@mister-weeden/keycloak-admin-client/lib/defs/eventTypes";
 import {
   KeycloakDataTable,
   KeycloakSelect,
@@ -7,7 +7,7 @@ import {
   SelectVariant,
   TextControl,
   useFetch,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   ActionGroup,
   Button,

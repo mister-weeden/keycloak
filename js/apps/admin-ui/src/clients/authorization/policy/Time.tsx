@@ -10,7 +10,7 @@ import {
   TimePicker,
 } from "@patternfly/react-core";
 import { useState } from "react";
-import { FormErrorText, HelpItem } from "@keycloak/keycloak-ui-shared";
+import { FormErrorText, HelpItem } from "@mister-weeden/keycloak-ui-shared";
 import { useTranslation } from "react-i18next";
 import { Controller, useFormContext } from "react-hook-form";
 

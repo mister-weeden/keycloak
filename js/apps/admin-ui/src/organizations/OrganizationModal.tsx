@@ -1,6 +1,6 @@
-import OrganizationRepresentation from "@keycloak/keycloak-admin-client/lib/defs/organizationRepresentation";
-import UserRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userRepresentation";
-import { KeycloakDataTable } from "@keycloak/keycloak-ui-shared";
+import OrganizationRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/organizationRepresentation";
+import UserRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/userRepresentation";
+import { KeycloakDataTable } from "@mister-weeden/keycloak-ui-shared";
 import { Button, Modal, ModalVariant } from "@patternfly/react-core";
 import { TableText } from "@patternfly/react-table";
 import { differenceBy } from "lodash-es";

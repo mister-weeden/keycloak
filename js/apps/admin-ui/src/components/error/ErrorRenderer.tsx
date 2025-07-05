@@ -1,5 +1,5 @@
-import { NetworkError } from "@keycloak/keycloak-admin-client";
-import { type FallbackProps } from "@keycloak/keycloak-ui-shared";
+import { NetworkError } from "@mister-weeden/keycloak-admin-client";
+import { type FallbackProps } from "@mister-weeden/keycloak-ui-shared";
 import {
   Alert,
   AlertActionCloseButton,

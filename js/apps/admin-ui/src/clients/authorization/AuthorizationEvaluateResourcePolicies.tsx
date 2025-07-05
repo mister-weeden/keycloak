@@ -1,6 +1,6 @@
-import type EvaluationResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
-import { DecisionEffect } from "@keycloak/keycloak-admin-client/lib/defs/policyRepresentation";
-import type PolicyResultRepresentation from "@keycloak/keycloak-admin-client/lib/defs/policyResultRepresentation";
+import type EvaluationResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/evaluationResultRepresentation";
+import { DecisionEffect } from "@mister-weeden/keycloak-admin-client/lib/defs/policyRepresentation";
+import type PolicyResultRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/policyResultRepresentation";
 import {
   capitalize,
   DescriptionList,

@@ -1,5 +1,5 @@
-import GroupRepresentation from "@keycloak/keycloak-admin-client/lib/defs/groupRepresentation";
-import { useAlerts, useFetch } from "@keycloak/keycloak-ui-shared";
+import GroupRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/groupRepresentation";
+import { useAlerts, useFetch } from "@mister-weeden/keycloak-ui-shared";
 import {
   AlertVariant,
   PageSection,

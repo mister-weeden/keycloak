@@ -1,8 +1,8 @@
-import RoleRepresentation from "@keycloak/keycloak-admin-client/lib/defs/roleRepresentation";
+import RoleRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/roleRepresentation";
 import {
   KeycloakDataTable,
   ListEmptyState,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   Dropdown,

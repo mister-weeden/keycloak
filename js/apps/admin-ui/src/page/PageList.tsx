@@ -1,10 +1,10 @@
-import ComponentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/componentRepresentation";
-import type { ComponentQuery } from "@keycloak/keycloak-admin-client/lib/resources/components";
+import ComponentRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/componentRepresentation";
+import type { ComponentQuery } from "@mister-weeden/keycloak-admin-client/lib/resources/components";
 import {
   KeycloakDataTable,
   ListEmptyState,
   useAlerts,
-} from "@keycloak/keycloak-ui-shared";
+} from "@mister-weeden/keycloak-ui-shared";
 import {
   Button,
   ButtonVariant,

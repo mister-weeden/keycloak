@@ -1,11 +1,11 @@
-import type ClientRepresentation from "@keycloak/keycloak-admin-client/lib/defs/clientRepresentation";
-import type GlobalRequestResult from "@keycloak/keycloak-admin-client/lib/defs/globalRequestResult";
+import type ClientRepresentation from "@mister-weeden/keycloak-admin-client/lib/defs/clientRepresentation";
+import type GlobalRequestResult from "@mister-weeden/keycloak-admin-client/lib/defs/globalRequestResult";
 import { AlertVariant, PageSection, Text } from "@patternfly/react-core";
 import type { TFunction } from "i18next";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { ScrollForm } from "@keycloak/keycloak-ui-shared";
-import type { AddAlertFunction } from "@keycloak/keycloak-ui-shared";
+import { ScrollForm } from "@mister-weeden/keycloak-ui-shared";
+import type { AddAlertFunction } from "@mister-weeden/keycloak-ui-shared";
 import { convertAttributeNameToForm, toUpperCase } from "../util";
 import type { FormFields, SaveOptions } from "./ClientDetails";
 import { AdvancedSettings } from "./advanced/AdvancedSettings";
