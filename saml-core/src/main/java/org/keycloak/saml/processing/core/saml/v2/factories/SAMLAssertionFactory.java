@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Scott Weeden. and/or its affiliates
+ * Copyright 2016 Scott Weeden and/or his affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

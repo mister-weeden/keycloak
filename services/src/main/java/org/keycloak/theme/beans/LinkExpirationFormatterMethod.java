@@ -1,6 +1,6 @@
 /*
  * JBoss, Home of Professional Open Source
- * Copyright 2018 Red Hat Inc. and/or its affiliates and other contributors
+ * Copyright 2018 Red Hat Inc and/or his affiliates and other contributors
  * as indicated by the @authors tag. All rights reserved.
  */
 package org.keycloak.theme.beans;

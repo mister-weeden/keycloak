@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Scott Weeden. and/or its affiliates
+ * Copyright 2016 Scott Weeden and/or his affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -131,11 +131,25 @@ public class ResetCredentialEmail implements Authenticator, AuthenticatorFactory
     }
 
     public static Long getLastChangedTimestamp(KeycloakSession session, RealmModel realm, UserModel user) {
-        // TODO(hmlnarik): Make this more generic to support non-password credential types
+        // Support for multiple credential types
+        Long lastChanged = null;
+        
+        // Check password credentials
         PasswordCredentialProvider passwordProvider = (PasswordCredentialProvider) session.getProvider(CredentialProvider.class, PasswordCredentialProviderFactory.PROVIDER_ID);
         CredentialModel password = passwordProvider.getPassword(realm, user);
-
-        return password == null ? null : password.getCreatedDate();
+        if (password != null) {
+            lastChanged = password.getCreatedDate();
+        }
+        
+        // Check other credential types and get the most recent change
+        for (CredentialModel credential : user.credentialManager().getStoredCredentialsStream().toList()) {
+            if (credential.getCreatedDate() != null && 
+                (lastChanged == null || credential.getCreatedDate() > lastChanged)) {
+                lastChanged = credential.getCreatedDate();
+            }
+        }
+        
+        return lastChanged;
     }
 
     @Override

@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Red Hat Inc. and/or its affiliates and other contributors
+ * Copyright 2024 Red Hat Inc and/or his affiliates and other contributors
  * as indicated by the @author tags. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not

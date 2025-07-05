@@ -1,5 +1,5 @@
 /*
- * Copyright ${YEAR} Scott Weeden. and/or its affiliates
+ * Copyright ${YEAR} Scott Weeden and/or his affiliates
  * and other contributors as indicated by the @author tags.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
